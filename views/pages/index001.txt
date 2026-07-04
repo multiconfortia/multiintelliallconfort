@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title><%= title %></title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-light">
+
+  <!-- NAVBAR -->
+  <%- include('../partials/navbar') %>
+
+  <!-- HERO -->
+  <div class="container py-5">
+
+    <div class="p-5 bg-white rounded shadow-sm">
+
+      <h1 class="display-5 fw-bold">
+        MULTICONFORT
+      </h1>
+
+      <p class="text-muted mb-1">
+        Ingeniería Ambiental | HVACR | Automatización BMS
+      </p>
+
+      <p class="text-secondary">
+        Plataforma tecnológica industrial basada en #multiIntelliAllConfort
+      </p>
+
+      <hr>
+
+      <div class="row g-3 mt-3">
+
+        <div class="col-md-4">
+          <div class="p-3 border rounded">
+            ❄ HVACR
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="p-3 border rounded">
+            ⚙ Automatización BMS
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="p-3 border rounded">
+            🏥 Hospitales & Laboratorios
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mt-4">
+
+        <a href="/empresa" class="btn btn-outline-dark">
+          Explorar Plataforma
+        </a>
+
+        <a href="/contacto" class="btn btn-primary">
+          Solicitar Cotización
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <%- include('../partials/footer') %>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

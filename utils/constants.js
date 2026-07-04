@@ -1,0 +1,9 @@
+module.exports={
+
+VERSION:"0.2",
+
+SYSTEM:"MULTICONFORT-AI",
+
+DEFAULT_STATE:"START"
+
+};

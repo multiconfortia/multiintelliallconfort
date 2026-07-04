@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title><%= title %></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background: #f4f6f9;
+    }
+
+    .card-system {
+      transition: 0.2s;
+      border: 1px solid #e5e5e5;
+    }
+
+    .card-system:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    }
+
+    .dashboard-title {
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+
+    .badge-status {
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <%- include('../partials/navbar') %>
+
+  <div class="container py-4">
+
+    <!-- HEADER -->
+    <div class="mb-4">
+      <h2 class="dashboard-title">Centro de Control MULTICONFORT</h2>
+      <p class="text-muted mb-0">
+        HVACR • BMS • Automatización • IoT • #multiIntelliAllConfort
+      </p>
+    </div>
+
+    <!-- STATUS ROW -->
+    <div class="row g-3 mb-4">
+
+      <div class="col-md-3">
+        <div class="card card-body card-system">
+          <small class="text-muted">Sistema</small>
+          <h5>HVACR</h5>
+          <span class="badge bg-success badge-status">Activo</span>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card card-body card-system">
+          <small class="text-muted">BMS</small>
+          <h5>Automatización</h5>
+          <span class="badge bg-success badge-status">Online</span>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card card-body card-system">
+          <small class="text-muted">IoT</small>
+          <h5>Conectividad</h5>
+          <span class="badge bg-warning text-dark badge-status">En prueba</span>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card card-body card-system">
+          <small class="text-muted">IA</small>
+          <h5>multiIntelliAllConfort</h5>
+          <span class="badge bg-primary badge-status">Activo</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- MODULES -->
+    <div class="row g-3">
+
+      <div class="col-md-4">
+        <div class="card card-body card-system">
+          <h6>HVACR</h6>
+          <p class="text-muted mb-0">
+            Gestión de sistemas de aire acondicionado, ventilación y refrigeración industrial.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card card-body card-system">
+          <h6>BMS / Automatización</h6>
+          <p class="text-muted mb-0">
+            Control centralizado de edificios inteligentes y sistemas industriales.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card card-body card-system">
+          <h6>IoT Industrial</h6>
+          <p class="text-muted mb-0">
+            Integración de sensores, controladores y sistemas en tiempo real.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- FOOTER INFO -->
+    <div class="mt-5 text-center text-muted">
+      Plataforma MULTICONFORT IA • Versión 1.0 • Sistema Industrial Activo
+    </div>
+
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

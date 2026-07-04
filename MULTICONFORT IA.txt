@@ -1,0 +1,50 @@
+MULTICONFORT-AI/
+
+│
+├── app.js
+├── package.json
+├── package-lock.json
+├── .env
+├── .env.example
+├── README.md
+│
+├── config/
+│      config.js
+│      database.js
+│      logger.js
+│
+├── src/
+│      bootstrap.js
+│
+├── controllers/
+│
+├── routes/
+│
+├── middlewares/
+│
+├── services/
+│
+├── models/
+│
+├── states/
+│
+├── prompts/
+│
+├── rag/
+│      documents/
+│      embeddings/
+│
+├── database/
+│      schema.sql
+│      migrations/
+│
+├── dashboard/
+│
+├── public/
+│
+├── logs/
+│
+├── uploads/
+│
+└── legacy/
+       bot005.js

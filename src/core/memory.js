@@ -1,0 +1,23 @@
+class Memory{
+
+    constructor(){
+
+        this.cache={};
+
+    }
+
+    set(key,value){
+
+        this.cache[key]=value;
+
+    }
+
+    get(key){
+
+        return this.cache[key];
+
+    }
+
+}
+
+module.exports=new Memory();
