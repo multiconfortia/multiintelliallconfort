@@ -1,0 +1,3 @@
+C:\HRL\USB 64 GB\HRL0001\MIA\MIAC\MULTICONFORT IA>git config --global user.name "MULTICONFORT IA"
+
+C:\HRL\USB 64 GB\HRL0001\MIA\MIAC\MULTICONFORT IA>git config --global user.email "multiconfortia@gmail.com"
