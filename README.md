@@ -1,123 +1,73 @@
-# MULTICONFORT-AI
+# MULTICONFORT IA
 
-Sistema Inteligente HVACR
-
-## Ejecutar
-
-npm install
-
-npm start
-
-## Desarrollo
-
-npm run dev
-
-
-# MULTICONFORT-AI Enterprise
-
-## Descripción
-
-MULTICONFORT-AI Enterprise es una plataforma inteligente para el sector HVACR que integra:
-
-- WhatsApp
-- CRM
-- Dashboard Web
-- IA híbrida
-- RAG
-- SQLite
-- Ollama
-- Sistema de tickets
-- Cotizaciones
-- Seguimiento de clientes
+> Plataforma inteligente para el sector HVACR + BMS + IoT + IA  
+> Powered by #multiIntelliAllConfort
 
 ---
 
-## Objetivo
+## 🏭 Descripción
 
-Desarrollar un Ingeniero HVACR Virtual capaz de asistir en:
+MULTICONFORT IA es una plataforma de ingeniería que integra:
 
-- Diagnóstico técnico
-- Atención a clientes
-- Venta de refacciones
-- Generación de cotizaciones
-- Gestión de servicios
-- Consulta de manuales
+- HVACR industrial
+- Automatización BMS
+- IoT y sensores
+- Inteligencia Artificial
+- RAG (búsqueda de conocimiento)
+- Sistemas de cotización y servicios
+- Gestión técnica y operativa
+
+---
+
+## 🎯 Objetivo
+
+Crear un ecosistema digital para ingenieros HVACR capaz de:
+
+- Diagnóstico técnico inteligente
 - Automatización de procesos
+- Soporte a clientes
+- Gestión de proyectos
+- Integración con sistemas industriales
 
 ---
 
-## Tecnologías
+## ⚙️ Tecnologías
 
-- Node.js 22+
+- Node.js
 - Express
+- EJS
+- Bootstrap
 - SQLite
-- whatsapp-web.js
-- Ollama
-- JavaScript
+- IA (Ollama / modelos locales)
 - Arquitectura MVC
 
 ---
 
-## Estructura
-
-MULTICONFORT-AI/
+## 📁 Estructura
 
 config/
 controllers/
 database/
-docs/
 models/
 routes/
 services/
 src/
-states/
+views/
 utils/
 
 ---
 
-## Documentación
+## 🚀 Estado del proyecto
 
-La documentación técnica se encuentra en:
-
-docs/
-
-- ARQUITECTURA.md
-- ROADMAP.md
-- DATABASE.md
-- STATES.md
-- API.md
-- RAG.md
-- INSTALL.md
-- CHANGELOG.md
+Versión: v1.1  
+Estado: Plataforma base funcional
 
 ---
 
-## Estado del proyecto
+## 🌐 Visión
 
-Versión actual:
-
-v0.2
-
-Estado:
-
-✅ En desarrollo
+Integrar HVACR + BMS + IA + IoT en una sola plataforma industrial escalable.
 
 ---
 
-## Roadmap
-
-- ✅ Arquitectura
-- ✅ Core Engine
-- ⏳ WhatsApp Engine
-- ⏳ CRM
-- ⏳ Dashboard
-- ⏳ IA híbrida
-- ⏳ RAG
-- ⏳ Automatización
-- ⏳ Producción
-
----
-
-## Licencia
-
-Proyecto desarrollado por MULTICONFORT Ingeniería Ambiental.
+© MULTICONFORT INGENIERÍA AMBIENTAL
