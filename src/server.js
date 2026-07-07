@@ -42,6 +42,57 @@ module.exports = function () {
     app.get("/empresa", (req, res) => {
 
         res.render("empresa");
+    app.get("/plataforma", (req, res) => {
+    res.render("pages/plataforma", {
+        title: "Plataforma MULTICONFORT IA"
+    });
+});
+
+
+app.get("/hvacr", (req, res) => {
+    res.render("pages/hvacr", {
+        title: "HVACR MULTICONFORT IA"
+    });
+});
+
+
+app.get("/bms", (req, res) => {
+    res.render("pages/bms", {
+        title: "BMS Automatización"
+    });
+});
+
+
+app.get("/iot", (req, res) => {
+    res.render("pages/iot", {
+        title: "IoT Industrial"
+    });
+});
+
+
+app.get("/tienda", (req, res) => {
+    res.render("pages/tienda", {
+        title: "Tienda MULTICONFORT IA"
+    });
+});
+
+
+app.get("/productos", (req, res) => {
+    res.render("pages/productos", {
+        title: "Productos MULTICONFORT IA"
+    });
+});
+
+
+app.get("/embajadores", (req, res) => {
+    res.render("pages/embajadores", {
+        title: "Embajadores MULTICONFORT IA"
+    });
+});
+
+
+
+
 
     });
 

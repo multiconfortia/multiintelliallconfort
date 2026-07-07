@@ -1,0 +1,238 @@
+/* ==========================================
+   MULTICONFORT IA
+   #multiIntelliAllConfort
+   HVACR + BMS + IoT + AI
+========================================== */
+
+
+/* RESET GENERAL */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+
+    font-family:
+    "Segoe UI",
+    Arial,
+    sans-serif;
+
+    background:#ffffff;
+
+    color:#1a1a1a;
+
+    line-height:1.6;
+
+}
+
+
+/* CONTENEDOR GENERAL */
+
+.container{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+
+/* NAVBAR */
+
+.navbar{
+
+    width:100%;
+
+    padding:20px 0;
+
+    background:#ffffff;
+
+    position:sticky;
+
+    top:0;
+
+    z-index:1000;
+
+}
+
+
+/* HERO */
+
+.hero{
+
+    min-height:90vh;
+
+    display:flex;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:60px 20px;
+
+}
+
+
+.hero h1{
+
+    font-size:clamp(40px,6vw,72px);
+
+    font-weight:800;
+
+}
+
+
+.hero h2{
+
+    margin-top:20px;
+
+    font-size:clamp(22px,3vw,36px);
+
+}
+
+
+.hero p{
+
+    max-width:800px;
+
+    margin:30px auto;
+
+    font-size:20px;
+
+}
+
+
+/* BOTONES */
+
+.btn{
+
+    display:inline-block;
+
+    padding:15px 35px;
+
+    border-radius:40px;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+
+.btn:hover{
+
+    transform:translateY(-3px);
+
+}
+
+
+/* SECCIONES */
+
+section{
+
+    padding:80px 0;
+
+}
+
+
+/* TARJETAS */
+
+.card{
+
+    padding:30px;
+
+    border-radius:20px;
+
+    background:#ffffff;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+/* GRID */
+
+.grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(280px,1fr));
+
+    gap:30px;
+
+}
+
+/* WHATSAPP FLOAT BUTTON */
+
+.whatsapp-float{
+
+    position:fixed;
+
+    right:25px;
+
+    bottom:25px;
+
+    width:60px;
+
+    height:60px;
+
+    border-radius:50%;
+
+    background:#25D366;
+
+    color:white;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:32px;
+
+    text-decoration:none;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+
+    z-index:9999;
+
+    transition:.3s;
+
+}
+
+
+.whatsapp-float:hover{
+
+    transform:scale(1.1);
+
+}
+
+
+/* FOOTER */
+
+footer{
+
+    padding:40px 20px;
+
+    text-align:center;
+
+}
