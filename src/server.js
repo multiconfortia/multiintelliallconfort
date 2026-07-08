@@ -148,8 +148,62 @@ app.get("/cotizacion", (req, res) => {
     res.render("pages/cotizacion", {
         title: "Solicitar Cotización MULTICONFORT IA"
     });
+});   // <-- ESTE faltaba
+
+app.post("/cotizacion", (req, res) => {
+
+    const {
+        nombre,
+        telefono,
+        correo,
+        mensaje
+    } = req.body;
+
+
+    console.log("================================");
+    console.log("NUEVA SOLICITUD DE COTIZACIÓN");
+    console.log("================================");
+
+    console.log("Nombre:", nombre);
+    console.log("Teléfono:", telefono);
+    console.log("Correo:", correo);
+    console.log("Mensaje:", mensaje);
+
+
+    res.send(`
+    
+    <html>
+    <head>
+        <title>Solicitud recibida</title>
+    </head>
+
+    <body style="font-family:Arial;text-align:center;padding:50px">
+
+        <h1>Gracias ${nombre}</h1>
+
+        <p>
+        Hemos recibido tu solicitud de cotización.
+        </p>
+
+        <p>
+        El equipo MULTICONFORT IA se pondrá en contacto contigo.
+        </p>
+
+        <br>
+
+        <a href="/">
+        Regresar a MULTICONFORT IA
+        </a>
+
+    </body>
+    </html>
+
+    `);
 
 });
+
+
+
 
     // =========================
     // API EXISTENTE (NO TOCAR)
