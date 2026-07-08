@@ -23,59 +23,16 @@ body{
 }
 
 
-.hero-box{
-
-    padding:80px 20px;
-
-    text-align:center;
-
-    background:white;
-
-    border-radius:20px;
-
-    margin-bottom:40px;
-
-}
-
-
-.hero-box h1{
-
-    font-size:60px;
-
-    font-weight:800;
-
-}
-
-
-.hero-box h2{
-
-    margin-top:20px;
-
-}
-
-
-.card{
-
-    border-radius:15px;
-
-}
-
-
 </style>
 
 
 </head>
 
 
-<%- include('../partials/footer') %>
-
-<%- include('../partials/whatsapp') %>
-
-</body>
-
-
 <body>
 
+
+<!-- NAVBAR -->
 
 <%- include('../partials/navbar') %>
 
@@ -84,97 +41,45 @@ body{
 <div class="container py-5">
 
 
+    <!-- HERO -->
 
-<!-- HERO -->
-
-<section class="hero-box">
-
-
-<h1>
-MULTICONFORT IA
-</h1>
-
-
-<h2>
-Ecosistema Inteligente para
-<br>
-Heating | Refrigeration | Air Conditioning Industries
-</h2>
-
-
-<p class="lead mt-4">
-
-Ingeniería avanzada en
-<strong>HVACR</strong>,
-<strong>BMS</strong>,
-<strong>IoT Industrial</strong>
-e
-<strong>Inteligencia Artificial</strong>.
-
-
-<br><br>
-
-
-Arquitectura exclusiva:
-
-<br>
-
-<strong>#multiIntelliAllConfort</strong>
-
-
-</p>
-
-
-<a class="btn btn-primary btn-lg mt-3">
-
-Solicitar Ingeniería
-
-</a>
-
-
-</section>
+    <%- include('../landing/hero') %>
 
 
 
+    <!-- VALUE -->
 
-<!-- VALUE -->
-
-<%- include('../landing/value') %>
-
+    <%- include('../landing/value') %>
 
 
 
-<!-- SOLUTIONS -->
+    <!-- SOLUTIONS -->
 
-<%- include('../landing/solutions') %>
-
-
-
-
-<!-- SECTORS -->
-
-<%- include('../landing/sectors') %>
+    <%- include('../landing/solutions') %>
 
 
 
+    <!-- SECTORS -->
 
-<!-- PLATFORM -->
-
-<%- include('../landing/platform') %>
-
+    <%- include('../landing/sectors') %>
 
 
 
-<!-- PROCESS -->
+    <!-- PLATFORM -->
 
-<%- include('../landing/process') %>
-
-
+    <%- include('../landing/platform') %>
 
 
-<!-- CTA -->
 
-<%- include('../landing/cta') %>
+    <!-- PROCESS -->
+
+    <%- include('../landing/process') %>
+
+
+
+    <!-- CTA -->
+
+    <%- include('../landing/cta') %>
 
 
 
@@ -182,9 +87,16 @@ Solicitar Ingeniería
 
 
 
-
+<!-- FOOTER -->
 
 <%- include('../partials/footer') %>
+
+
+
+<!-- WHATSAPP -->
+
+<%- include('../partials/whatsapp') %>
+
 
 
 

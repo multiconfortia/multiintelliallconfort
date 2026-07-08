@@ -31,76 +31,125 @@ module.exports = function () {
     // =========================
     // PLATAFORMA MULTICONFORT
     // =========================
-    app.get("/", (req, res) => {
+    // =========================
+// PLATAFORMA MULTICONFORT
+// =========================
 
-        res.render("pages/index", {
-            title: "MULTICONFORT Plataforma"
-        });
+app.get("/", (req, res) => {
 
+    res.render("pages/index", {
+        title: "MULTICONFORT Plataforma"
     });
 
-    app.get("/empresa", (req, res) => {
+});
 
-        res.render("empresa");
-    app.get("/plataforma", (req, res) => {
+
+app.get("/empresa", (req, res) => {
+
+    res.render("pages/empresa", {
+        title: "Empresa MULTICONFORT IA"
+    });
+
+});
+
+
+app.get("/plataforma", (req, res) => {
+
     res.render("pages/plataforma", {
         title: "Plataforma MULTICONFORT IA"
     });
+
 });
 
 
 app.get("/hvacr", (req, res) => {
+
     res.render("pages/hvacr", {
         title: "HVACR MULTICONFORT IA"
     });
+
 });
 
 
 app.get("/bms", (req, res) => {
+
     res.render("pages/bms", {
         title: "BMS Automatización"
     });
+
 });
 
 
 app.get("/iot", (req, res) => {
+
     res.render("pages/iot", {
         title: "IoT Industrial"
     });
+
 });
 
 
 app.get("/tienda", (req, res) => {
+
     res.render("pages/tienda", {
         title: "Tienda MULTICONFORT IA"
     });
+
 });
 
 
 app.get("/productos", (req, res) => {
+
     res.render("pages/productos", {
         title: "Productos MULTICONFORT IA"
     });
+
+});
+
+
+app.get("/soluciones", (req, res) => {
+
+    res.render("pages/soluciones", {
+        title: "Soluciones MULTICONFORT IA"
+    });
+
+});
+
+
+app.get("/tecnologia", (req, res) => {
+
+    res.render("pages/tecnologia", {
+        title: "Tecnología MULTICONFORT IA"
+    });
+
 });
 
 
 app.get("/embajadores", (req, res) => {
+
     res.render("pages/embajadores", {
         title: "Embajadores MULTICONFORT IA"
     });
+
 });
 
 
+app.get("/contacto", (req, res) => {
 
-
-
+    res.render("pages/contacto", {
+        title: "Contacto MULTICONFORT IA"
     });
 
-    app.get("/contacto", (req, res) => {
+});
 
-        res.render("contacto");
 
+app.get("/cotizacion", (req, res) => {
+
+    res.render("pages/cotizacion", {
+        title: "Solicitar Cotización MULTICONFORT IA"
     });
+
+});
 
     // =========================
     // API EXISTENTE (NO TOCAR)
