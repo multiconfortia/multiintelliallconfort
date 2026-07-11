@@ -4,77 +4,120 @@
 <head>
 
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Cotiza tu Proyecto | MULTICONFORT IA</title>
+<title>Solicitar Cotización | MULTICONFORT Ingeniería Ambiental</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <link rel="stylesheet" href="/css/style.css">
 
 </head>
 
-
 <body>
-
 
 <%- include('../partials/navbar') %>
 
+<!-- HERO -->
 
-<section class="container py-5">
+<section class="page-hero">
 
+<div class="container">
 
-<div class="row justify-content-center">
+<h1>Solicitar Cotización</h1>
 
+<p>
 
-<div class="col-lg-8">
-
-
-<div class="card shadow-lg p-4">
-
-
-<h1 class="text-center mb-4">
-
-Cotiza tu Proyecto de Climatización
-
-</h1>
-
-
-<p class="text-center">
-
-Cuéntanos sobre tu proyecto HVACR,
-BMS, IoT o automatización industrial.
+Desarrollamos soluciones especializadas para HVACR,
+Automatización, BMS, IoT Industrial y plataformas inteligentes
+basadas en #multiIntelliAllConfort.
 
 </p>
 
+</div>
 
+</section>
+
+<!-- INTRODUCCION -->
+
+<section class="section-light">
+
+<div class="container">
+
+<h2 class="section-title">
+
+Cuéntenos sobre su proyecto
+
+</h2>
+
+<p class="section-subtitle">
+
+Nuestro equipo de ingeniería analizará sus requerimientos
+para proponer la mejor solución técnica y económica
+adaptada a sus necesidades.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- FORMULARIO -->
+
+<section class="section-gray">
+
+<div class="container">
+
+<div class="row justify-content-center">
+
+<div class="col-lg-8">
+
+<div class="feature-card">
+
+<h2 class="section-title mb-4">
+
+Formulario de Solicitud
+
+</h2>
 
 <form action="/cotizacion" method="POST">
 
-
 <div class="mb-3">
 
-<label class="form-label">
-Nombre
+<label class="form-label fw-semibold">
+Nombre completo
 </label>
 
-<input 
+<input
 type="text"
 name="nombre"
 class="form-control"
-placeholder="Nombre completo"
+placeholder="Ingrese su nombre"
 required>
 
 </div>
 
+<div class="mb-3">
 
+<label class="form-label fw-semibold">
+Empresa
+</label>
+
+<input
+type="text"
+name="empresa"
+class="form-control"
+placeholder="Nombre de la empresa">
+
+</div>
 
 <div class="mb-3">
 
-<label class="form-label">
+<label class="form-label fw-semibold">
 Teléfono / WhatsApp
 </label>
 
-<input 
+<input
 type="tel"
 name="telefono"
 class="form-control"
@@ -83,15 +126,13 @@ required>
 
 </div>
 
-
-
 <div class="mb-3">
 
-<label class="form-label">
+<label class="form-label fw-semibold">
 Correo electrónico
 </label>
 
-<input 
+<input
 type="email"
 name="correo"
 class="form-control"
@@ -100,30 +141,49 @@ required>
 
 </div>
 
+<div class="mb-3">
 
+<label class="form-label fw-semibold">
+Tipo de Proyecto
+</label>
+
+<select
+name="proyecto"
+class="form-select">
+
+<option>HVACR</option>
+<option>BMS / Automatización</option>
+<option>IoT Industrial</option>
+<option>Monitoreo Ambiental</option>
+<option>Data Center</option>
+<option>Hospitalario</option>
+<option>Refrigeración Industrial</option>
+<option>Otro</option>
+
+</select>
+
+</div>
 
 <div class="mb-3">
 
-<label class="form-label">
-Mensaje
+<label class="form-label fw-semibold">
+Descripción del Proyecto
 </label>
 
 <textarea
 name="mensaje"
 class="form-control"
-rows="5"
-placeholder="Describe tu proyecto: tipo de equipo, capacidad, ubicación, necesidades..."
+rows="6"
+placeholder="Describa los equipos, capacidades, ubicación, necesidades operativas o cualquier información relevante."
 required></textarea>
 
 </div>
 
+<div class="text-center mt-4">
 
-
-<div class="text-center">
-
-<button 
+<button
 type="submit"
-class="btn btn-info btn-lg">
+class="btn-primary">
 
 Enviar Solicitud
 
@@ -131,27 +191,112 @@ Enviar Solicitud
 
 </div>
 
-
 </form>
 
+</div>
 
 </div>
 
-
 </div>
 
-
 </div>
-
 
 </section>
 
+<!-- BENEFICIOS -->
+
+<section class="section-light">
+
+<div class="container">
+
+<h2 class="section-title">
+
+¿Por qué trabajar con MULTICONFORT?
+
+</h2>
+
+<div class="grid">
+
+<div class="feature-card">
+
+<h3>Experiencia HVACR</h3>
+
+<p>
+
+Más de tres décadas de experiencia en climatización,
+ventilación y refrigeración industrial.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<h3>Automatización Inteligente</h3>
+
+<p>
+
+Integración de PLC, BMS, BACnet, Modbus,
+IoT Industrial e Inteligencia Aplicada.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<h3>Ingeniería Integral</h3>
+
+<p>
+
+Diseño, implementación, puesta en marcha,
+optimización y soporte especializado.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="container">
+
+<div class="cta">
+
+<h2>
+
+Su proyecto merece una solución profesional
+
+</h2>
+
+<p>
+
+Desde sistemas HVACR convencionales hasta plataformas
+avanzadas de monitoreo y automatización industrial,
+estamos preparados para acompañarlo en cada etapa.
+
+</p>
+
+<a href="/contacto" class="btn-primary">
+
+Hablar con Ingeniería
+
+</a>
+
+</div>
+
+</section>
 
 <%- include('../partials/footer') %>
 
-
 <%- include('../partials/whatsapp') %>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
