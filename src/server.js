@@ -7,7 +7,13 @@ const config = require("../config/config");
 const logger = require("../config/logger");
 
 // Rutas API
+
+const publicacionesRoute = require("../routes/publicaciones");
+
 const systemRoute = require("../routes/system");
+
+// se agrega para tren
+const railsenseRoute = require("../routes/railsense");
 
 module.exports = function () {
 
@@ -18,6 +24,8 @@ module.exports = function () {
     // =========================
     app.use(express.json());
     app.use(express.urlencoded({ extended: true }));
+
+    
 
     // =========================
     // FRONTEND (PLATAFORMA)
@@ -208,7 +216,23 @@ app.post("/cotizacion", (req, res) => {
     // =========================
     // API EXISTENTE (NO TOCAR)
     // =========================
+    // =========================
+    // API EXISTENTE
+    // =========================
     app.use("/system", systemRoute);
+
+
+    // =========================
+    // PUBLICACIONES MULTICONFORT
+    // =========================
+
+    app.use("/publicaciones", publicacionesRoute);
+
+
+    // =========================
+    // MULTICONFORT RAILSENSE
+    // =========================
+    app.use("/railsense", railsenseRoute);
 
     // =========================
     // SERVER START
