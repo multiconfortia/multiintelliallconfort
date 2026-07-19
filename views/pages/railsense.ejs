@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>
+<%= title %>
+</title>
+
+
+<link rel="stylesheet" 
+href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+<style>
+
+#map{
+height:500px;
+width:70%;
+float:left;
+}
+
+
+.panel{
+
+width:25%;
+float:right;
+padding:20px;
+font-family:Arial;
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<h1>
+MULTICONFORT RailSense EDGE™
+</h1>
+
+<h2>
+Simulación Inteligente de Transporte Ferroviario
+</h2>
+
+
+
+<div id="map"></div>
+
+
+<div class="panel">
+
+<h3>
+🚆 Tren 001
+</h3>
+
+
+<p>
+Línea:
+MX-01 Experimental
+</p>
+
+
+<p>
+Estación:
+<span id="station">
+Horizonte
+</span>
+</p>
+
+
+<p>
+Velocidad:
+<span id="speed">
+0
+</span>
+km/h
+</p>
+
+
+<p>
+Curvatura:
+<span id="curve">
+---
+</span>
+</p>
+
+
+<p>
+Estado:
+<span id="status">
+Preparado
+</span>
+</p>
+
+
+</div>
+
+
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script src="/js/railsense.js"></script>
+
+
+</body>
+
+</html>
