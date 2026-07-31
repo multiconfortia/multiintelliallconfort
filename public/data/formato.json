@@ -1,0 +1,64 @@
+{
+  "id": 1,
+  "codigo": "HVAC-001",
+  "titulo": "Equipos de Aire Acondicionado HVAC",
+  "categoria": "HVAC",
+  "tipo": "Familia",
+
+  "sinonimos": [],
+  "palabras": [],
+  "subfamilias": [],
+  "marcas": [],
+  "modelos": [],
+
+  "intenciones": [
+  "comprar",
+  "cotizar",
+  "reparar",
+  "mantenimiento",
+  "diagnostico",
+  "refaccion",
+  "automatizacion",
+  "monitoreo"
+  ],
+
+  "descripcion": "",
+
+  "aplicaciones": [],
+
+  "servicios_multiconfort": [],
+
+  "compatibilidades": [],
+
+  "preguntas_frecuentes": [],
+
+  "keywords_seo": [],
+
+  "vectores_busqueda": [],
+
+  "productos": [],
+
+  "casos_uso": [],
+
+  "normativas": [],
+
+  "indicadores_kpi": [],
+
+  "protocolos_comunicacion": [],
+
+  "variables_controladas": [],
+
+  "integracion_ia": {
+  "motor_busqueda": true,
+    "cotizacion_automatica": true,
+    "soporte_whatsapp": true,
+    "recomendacion_equipo": true,
+    "diagnostico_predictivo": true
+}
+
+  "metadata": {
+  "version": "1.0",
+  "ultima_actualizacion": "",
+  "activo": true
+}
+}

@@ -1,0 +1,260 @@
+{
+  "id": 7,
+  "codigo": "AUT-001",
+  "titulo": "Control y Automatizacion HVACR",
+  "categoria": "Automatizacion",
+  "tipo": "Familia",
+
+  "sinonimos": [
+    "automatizacion hvac",
+    "control hvac",
+    "building automation",
+    "bms",
+    "building management system",
+    "control inteligente",
+    "control industrial",
+    "smart building",
+    "automatizacion de edificios",
+    "gestion tecnica centralizada"
+  ],
+
+  "palabras": [
+    "bms",
+    "plc",
+    "bacnet",
+    "modbus",
+    "vfd",
+    "termostato",
+    "humidostato",
+    "controlador",
+    "relevador",
+    "contactador",
+    "temporizador",
+    "transformador",
+    "variador",
+    "automatizacion",
+    "iot"
+  ],
+
+  "marcas": [
+    "Siemens",
+    "Schneider Electric",
+    "Johnson Controls",
+    "Honeywell",
+    "Delta Controls",
+    "Distech",
+    "Carel",
+    "Danfoss",
+    "ABB",
+    "Yaskawa",
+    "Mitsubishi Electric",
+    "Delta Electronics",
+    "Belimo",
+    "Tridium",
+    "EasyIO"
+  ],
+
+  "modelos": [
+    "Siemens Desigo",
+    "Johnson Controls Metasys",
+    "Honeywell WEBS",
+    "Carel pCO",
+    "ABB ACS550",
+    "Yaskawa V1000",
+    "Delta DVP",
+    "Siemens S7-1200",
+    "Schneider M221",
+    "Belimo Energy Valve"
+  ],
+
+  "intenciones": [
+    "comprar",
+    "cotizar",
+    "automatizacion",
+    "programacion",
+    "integracion",
+    "monitoreo",
+    "diagnostico",
+    "mantenimiento"
+  ],
+
+  "descripcion": "Sistemas de control y automatización HVACR para monitoreo, supervisión, optimización energética y control inteligente de instalaciones comerciales, industriales y hospitalarias.",
+
+  "aplicaciones": [
+    "Hospitales",
+    "Laboratorios",
+    "Industria",
+    "Hoteles",
+    "Centros comerciales",
+    "Edificios inteligentes",
+    "Data Centers",
+    "Farmacéutica",
+    "Cadena fría"
+  ],
+
+  "servicios_multiconfort": [
+    "Ingeniería de automatización",
+    "Diseño BMS",
+    "Programación PLC",
+    "Integración BACnet",
+    "Integración Modbus",
+    "Integración MQTT",
+    "Desarrollo SCADA",
+    "Monitoreo remoto",
+    "Integración IoT",
+    "Puesta en marcha",
+    "Comisionamiento",
+    "Validación hospitalaria",
+    "multiIntelliAllConfort",
+    "multiconfortControllerEdge"
+  ],
+
+  "compatibilidades": [
+    "BACnet",
+    "BACnet IP",
+    "BACnet MSTP",
+    "Modbus RTU",
+    "Modbus TCP",
+    "MQTT",
+    "OPC",
+    "SNMP",
+    "SCADA",
+    "BMS",
+    "PLC Siemens",
+    "PLC Delta",
+    "PLC Schneider",
+    "multiIntelliAllConfort"
+  ],
+
+  "preguntas_frecuentes": [
+    {
+      "pregunta": "¿Qué es un sistema BMS?",
+      "respuesta": "Es una plataforma que supervisa y controla sistemas HVAC, energía, iluminación y servicios críticos de un edificio."
+    },
+    {
+      "pregunta": "¿Qué diferencia existe entre BACnet y Modbus?",
+      "respuesta": "BACnet está orientado a automatización de edificios, mientras que Modbus es un protocolo industrial ampliamente utilizado."
+    },
+    {
+      "pregunta": "¿MULTICONFORT IA puede integrarse con PLC y BMS existentes?",
+      "respuesta": "Sí, mediante BACnet, Modbus, MQTT y otras arquitecturas abiertas."
+    }
+  ],
+
+  "keywords_seo": [
+    "automatizacion HVAC",
+    "BMS hospitalario",
+    "BACnet Mexico",
+    "Modbus HVAC",
+    "PLC HVAC",
+    "SCADA HVAC",
+    "control inteligente edificios",
+    "variadores de frecuencia HVAC",
+    "integracion IoT HVAC",
+    "automatizacion industrial HVAC"
+  ],
+
+  "vectores_busqueda": [
+    "automatizacion de aire acondicionado",
+    "integracion bacnet",
+    "integracion modbus",
+    "control de temperatura y humedad",
+    "bms para hospital",
+    "plc para hvac",
+    "variador de frecuencia para ventilador",
+    "monitoreo remoto hvac",
+    "control de presion diferencial",
+    "sistema inteligente para edificio"
+  ],
+
+  "productos": [
+    "Termostatos",
+    "Termostatos digitales",
+    "Termostatos inteligentes",
+    "Humidostatos",
+    "Controles de ventiladores",
+    "Controladores electrónicos",
+    "Temporizadores",
+    "Relevadores",
+    "Contactores",
+    "Transformadores",
+    "Variadores de velocidad",
+    "Variadores de frecuencia (VFD)",
+    "PLC HVAC",
+    "Sistemas BMS",
+    "Control BACnet",
+    "Control Modbus"
+  ],
+
+  "casos_uso": [
+    {
+      "sector": "Hospital",
+      "descripcion": "Control de presión diferencial, temperatura y humedad en áreas críticas."
+    },
+    {
+      "sector": "Laboratorio",
+      "descripcion": "Monitoreo continuo y trazabilidad de variables ambientales."
+    },
+    {
+      "sector": "Industria",
+      "descripcion": "Automatización de sistemas HVAC, bombeo y procesos térmicos."
+    }
+  ],
+
+  "normativas": [
+    "ASHRAE",
+    "ISO 14644",
+    "FDA 21 CFR Part 11",
+    "COFEPRIS",
+    "NOM",
+    "IEC 61131",
+    "BACnet ANSI/ASHRAE 135"
+  ],
+
+  "indicadores_kpi": [
+    "Consumo energético",
+    "Disponibilidad",
+    "Alarmas activas",
+    "Tiempo de respuesta",
+    "Eficiencia operativa",
+    "Temperatura promedio",
+    "Humedad promedio",
+    "Presión diferencial"
+  ],
+
+  "protocolos_comunicacion": [
+    "BACnet IP",
+    "BACnet MSTP",
+    "Modbus RTU",
+    "Modbus TCP",
+    "MQTT",
+    "OPC UA",
+    "SNMP",
+    "Ethernet/IP"
+  ],
+
+  "variables_controladas": [
+    "Temperatura",
+    "Humedad",
+    "Presión diferencial",
+    "CO2",
+    "Caudal de aire",
+    "Velocidad de ventiladores",
+    "Estado de compresores",
+    "Estado de bombas",
+    "Consumo energético",
+    "Alarmas"
+  ],
+
+  "integracion_ia": {
+    "motor_busqueda": true,
+    "cotizacion_automatica": true,
+    "soporte_whatsapp": true
+  },
+
+  "metadata": {
+    "version": "1.0",
+    "ultima_actualizacion": "2026-07-22",
+    "activo": true
+  }
+}

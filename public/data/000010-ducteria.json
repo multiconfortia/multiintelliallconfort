@@ -1,0 +1,567 @@
+{
+  "id": 10,
+  "codigo": "HVAC-DUCT-001",
+  "titulo": "Ductería y Distribución de Aire",
+  "categoria": "HVAC",
+  "tipo": "Familia",
+
+
+  "sinonimos": [
+    "ducteria HVAC",
+    "sistema de ductos",
+    "distribucion de aire",
+    "red de aire acondicionado",
+    "conduccion de aire",
+    "air distribution",
+    "air duct system"
+  ],
+
+
+  "palabras": [
+
+    "ducto",
+
+    "ducteria",
+
+    "espiroducto",
+
+    "ducto metalico",
+
+    "ducto galvanizado",
+
+    "ducto aluminio",
+
+    "ducto sintetico",
+
+    "ducto flexible",
+
+    "ducto aislado",
+
+    "ducto textil",
+
+    "aislamiento termico",
+
+    "aislamiento acustico",
+
+    "cinta aluminio",
+
+    "cinta plastificada",
+
+    "sellador ductos",
+
+    "difusor",
+
+    "rejilla",
+
+    "compuerta",
+
+    "distribucion aire",
+
+    "inyeccion aire",
+
+    "retorno aire",
+
+    "extraccion aire"
+
+  ],
+
+
+  "subfamilias": [
+
+    "Ductos metálicos",
+
+    "Espiroductos galvanizados",
+
+    "Ductos rectangulares",
+
+    "Ductos de aluminio",
+
+    "Ductos sintéticos",
+
+    "Ductos flexibles",
+
+    "Ductos aislados",
+
+    "Ductos textiles",
+
+    "Accesorios para ductería",
+
+    "Distribución terminal de aire",
+
+    "Aislamiento térmico",
+
+    "Aislamiento acústico"
+
+  ],
+
+
+  "marcas_relacionadas": [
+
+    "DuctSox",
+
+    "Thermaflex",
+
+    "Armacell",
+
+    "Owens Corning",
+
+    "Knauf",
+
+    "NADCA"
+
+  ],
+
+
+  "intenciones": [
+
+    "comprar",
+
+    "cotizar",
+
+    "diseñar",
+
+    "instalar",
+
+    "modificar",
+
+    "balancear",
+
+    "mantenimiento",
+
+    "diagnostico",
+
+    "automatizacion",
+
+    "monitoreo"
+
+  ],
+
+
+  "descripcion": "Familia especializada en diseño, fabricación, suministro e instalación de sistemas de ductería HVAC para transporte y distribución eficiente de aire acondicionado, ventilación y extracción, incluyendo ductos metálicos, flexibles, aislados, accesorios terminales y soluciones para aplicaciones comerciales, industriales y críticas.",
+
+
+  "aplicaciones": [
+
+    "Hospitales",
+
+    "Laboratorios",
+
+    "Industria farmacéutica",
+
+    "Hoteles",
+
+    "Centros comerciales",
+
+    "Edificios inteligentes",
+
+    "Industria alimentaria",
+
+    "Procesos industriales",
+
+    "Centros de datos",
+
+    "Oficinas",
+
+    "Salas limpias"
+
+  ],
+
+
+  "servicios_multiconfort": [
+
+    "Diseño de sistemas de ductería",
+
+    "Cálculo de distribución de aire",
+
+    "Selección de dimensiones",
+
+    "Fabricación de ductos",
+
+    "Instalación HVAC",
+
+    "Modificación de redes existentes",
+
+    "Balanceo de aire TAB",
+
+    "Diagnóstico de pérdidas de presión",
+
+    "Optimización energética",
+
+    "Integración con BMS",
+
+    "Monitoreo de variables HVAC"
+
+  ],
+
+
+  "productos": [
+
+    "Espiroductos galvanizados",
+
+    "Ductos rectangulares metálicos",
+
+    "Ductos de lámina galvanizada",
+
+    "Ductos de aluminio",
+
+    "Ductos sintéticos",
+
+    "Ductos flexibles tipo acordeón",
+
+    "Ductos con aislamiento integrado",
+
+    "Ductos textiles",
+
+    "Difusores",
+
+    "Rejillas de suministro",
+
+    "Rejillas de retorno",
+
+    "Rejillas de extracción",
+
+    "Louvers",
+
+    "Plenums",
+
+    "Cajas VAV",
+
+    "Compuertas manuales",
+
+    "Compuertas motorizadas"
+
+  ],
+
+
+  "componentes": [
+
+    "Codos",
+
+    "Transiciones",
+
+    "Reducciones",
+
+    "Derivaciones Y",
+
+    "Derivaciones T",
+
+    "Bridas",
+
+    "Collares",
+
+    "Soportería",
+
+    "Selladores",
+
+    "Cintas de aluminio",
+
+    "Cintas plastificadas"
+
+  ],
+
+
+  "aislamiento": [
+
+    "Aislante térmico elastomérico",
+
+    "Fibra de vidrio",
+
+    "Espuma elastomérica",
+
+    "Barreras de vapor",
+
+    "Aislamiento acústico",
+
+    "Panel acústico HVAC"
+
+  ],
+
+
+  "equipos_relacionados": [
+
+    "Unidad manejadora AHU",
+
+    "Fan Coil",
+
+    "Chiller",
+
+    "Rooftop",
+
+    "Sistema dividido",
+
+    "Sistema VRF",
+
+    "Extractores",
+
+    "Ventiladores HVAC"
+
+  ],
+
+
+  "casos_uso": [
+
+    {
+      "sector": "Hospitales",
+      "descripcion": "Distribución controlada de aire para áreas críticas, quirófanos, aislamiento y laboratorios."
+    },
+
+    {
+      "sector": "Industria farmacéutica",
+      "descripcion": "Sistemas de aire con control de presión diferencial, filtración y clasificación ambiental."
+    },
+
+    {
+      "sector": "Edificios inteligentes",
+      "descripcion": "Distribución eficiente de aire integrada con automatización HVAC."
+    },
+
+    {
+      "sector": "Industria",
+      "descripcion": "Extracción, ventilación y control térmico de procesos."
+    }
+
+  ],
+
+
+  "variables_controladas": [
+
+    "Caudal de aire",
+
+    "Presión estática",
+
+    "Temperatura",
+
+    "Humedad",
+
+    "Presión diferencial",
+
+    "Velocidad de aire",
+
+    "Posición compuertas",
+
+    "Consumo ventiladores"
+
+  ],
+
+
+  "normativas": [
+
+    "ASHRAE",
+
+    "SMACNA",
+
+    "NOM",
+
+    "ISO 14644",
+
+    "Buenas Prácticas HVAC"
+
+  ],
+
+
+  "protocolos_comunicacion": [
+
+    "BACnet",
+
+    "Modbus RTU",
+
+    "Modbus TCP",
+
+    "MQTT",
+
+    "SCADA",
+
+    "BMS"
+
+  ],
+
+
+  "compatibilidades": [
+
+    "multiIntelliAllConfort",
+
+    "BMS",
+
+    "PLC",
+
+    "Sensores presión diferencial",
+
+    "Sensores temperatura",
+
+    "Sensores humedad",
+
+    "Actuadores de compuertas"
+
+  ],
+
+
+  "preguntas_frecuentes": [
+
+    {
+      "pregunta": "¿Qué tipo de ducto es recomendable para HVAC?",
+      "respuesta": "Depende del caudal, presión, aplicación, espacio disponible y requerimientos térmicos o acústicos."
+    },
+
+    {
+      "pregunta": "¿Los ductos pueden monitorearse?",
+      "respuesta": "Sí. Se pueden integrar sensores de presión, temperatura, flujo y posición de compuertas a sistemas inteligentes."
+    },
+
+    {
+      "pregunta": "¿Qué importancia tiene el aislamiento del ducto?",
+      "respuesta": "Reduce pérdidas térmicas, condensación, ruido y mejora la eficiencia energética del sistema."
+
+    }
+
+  ],
+
+
+  "keywords_seo": [
+
+    "ducteria HVAC México",
+
+    "fabricación ductos aire acondicionado",
+
+    "espiroductos galvanizados",
+
+    "ductos industriales",
+
+    "instalación HVAC",
+
+    "distribución de aire",
+
+    "balanceo aire acondicionado",
+
+    "ductos hospitales"
+
+  ],
+
+
+  "vectores_busqueda": [
+
+    "fabricar ducto aire acondicionado",
+
+    "ducto para hospital",
+
+    "espiroducto galvanizado",
+
+    "ducto flexible aislado",
+
+    "difusor HVAC",
+
+    "rejilla retorno aire",
+
+    "caja VAV",
+
+    "balanceo sistema HVAC"
+
+  ],
+
+
+  "indicadores_kpi": [
+
+    "Caudal aire",
+
+    "Presión estática",
+
+    "Pérdidas de carga",
+
+    "Eficiencia distribución",
+
+    "Consumo ventiladores",
+
+    "Ruido HVAC",
+
+    "Temperatura suministro",
+
+    "Disponibilidad sistema"
+
+  ],
+
+
+  "atributos_tecnicos": {
+
+    "material": "",
+
+    "espesor_lamina": "",
+
+    "tipo_ducto": "",
+
+    "dimensiones": "",
+
+    "caudal_aire": "",
+
+    "presion_operacion": "",
+
+    "aislamiento": "",
+
+    "nivel_acustico": "",
+
+    "tipo_terminal": ""
+
+  },
+
+
+  "relaciones": [
+
+    {
+      "tipo": "transporta",
+      "elemento": "Aire acondicionado y ventilación"
+    },
+
+    {
+      "tipo": "integra_con",
+      "elemento": "Unidades manejadoras AHU"
+    },
+
+    {
+      "tipo": "controla_variable",
+      "elemento": "Caudal de aire"
+    },
+
+    {
+      "tipo": "requiere_monitoreo",
+      "elemento": "Presión diferencial y flujo"
+    },
+
+    {
+      "tipo": "monitoreado_por",
+      "elemento": "multiIntelliAllConfort"
+    },
+
+    {
+      "tipo": "aplica_en",
+      "elemento": "Hospitales y áreas críticas"
+    }
+
+  ],
+
+
+  "integracion_ia": {
+
+    "calculo_automatico_diseño": true,
+
+    "diagnostico_perdidas_aire": true,
+
+    "balanceo_inteligente": true,
+
+    "monitoreo_eficiencia": true,
+
+    "mantenimiento_predictivo": true,
+
+    "optimizacion_energetica": true
+
+  },
+
+
+  "metadata": {
+
+    "version": "1.1",
+
+    "ultima_actualizacion": "2026-07-22",
+
+    "activo": true
+
+  }
+
+}

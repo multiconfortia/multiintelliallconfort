@@ -1,0 +1,244 @@
+{
+  "id": 6,
+  "codigo": "REFGAS-001",
+  "titulo": "Refrigerantes y Químicos HVACR",
+  "categoria": "Consumibles",
+  "tipo": "Familia",
+
+  "sinonimos": [
+    "refrigerantes",
+    "gas refrigerante",
+    "gases refrigerantes",
+    "fluido refrigerante",
+    "refrigerante ecológico",
+    "aceite refrigeración",
+    "químicos HVACR",
+    "coil cleaner",
+    "limpiador de serpentines",
+    "productos químicos HVAC"
+  ],
+
+  "palabras": [
+    "r22",
+    "r134a",
+    "r404a",
+    "r407c",
+    "r410a",
+    "r507",
+    "r32",
+    "r290",
+    "aceite poe",
+    "aceite pag",
+    "aceite mineral",
+    "coil cleaner",
+    "foam cleaner",
+    "desincrustante",
+    "sellador",
+    "detector de fugas"
+  ],
+
+  "marcas": [
+    "Chemours",
+    "Honeywell",
+    "Arkema",
+    "Forane",
+    "DuPont",
+    "Freon",
+    "Emkarate",
+    "Castrol",
+    "Mobil",
+    "Nu-Calgon"
+  ],
+
+  "modelos": [
+    "R22",
+    "R134a",
+    "R404A",
+    "R407C",
+    "R410A",
+    "R507",
+    "R32",
+    "R290",
+    "Aceite POE",
+    "Aceite PAG"
+  ],
+
+  "intenciones": [
+    "comprar",
+    "cotizar",
+    "recargar",
+    "reemplazar",
+    "mantenimiento",
+    "limpieza",
+    "diagnostico",
+    "deteccion_fugas"
+  ],
+
+  "descripcion": "Refrigerantes, aceites y productos químicos para sistemas HVACR utilizados en aire acondicionado, refrigeración comercial, industrial y aplicaciones críticas.",
+
+  "aplicaciones": [
+    "Aire acondicionado",
+    "Refrigeración comercial",
+    "Refrigeración industrial",
+    "Hospitales",
+    "Laboratorios",
+    "Cadena fría",
+    "Industria alimentaria",
+    "Farmacéutica"
+  ],
+
+  "servicios_multiconfort": [
+    "Suministro de refrigerantes",
+    "Recuperación de refrigerantes",
+    "Cambio de refrigerante",
+    "Detección de fugas",
+    "Limpieza química de serpentines",
+    "Desincrustación de intercambiadores",
+    "Análisis de aceite",
+    "Mantenimiento HVACR",
+    "Diagnóstico de sistemas",
+    "Optimización energética"
+  ],
+
+  "compatibilidades": [
+    "Chillers",
+    "Minisplits",
+    "Multisplits",
+    "AHU",
+    "Fan Coil",
+    "Cuartos fríos",
+    "Compresores scroll",
+    "Compresores reciprocantes",
+    "Compresores semiherméticos",
+    "multiIntelliAllConfort"
+  ],
+
+  "preguntas_frecuentes": [
+    {
+      "pregunta": "¿Qué refrigerante sustituye al R22?",
+      "respuesta": "Depende del equipo y aplicación; existen alternativas como R407C y otros refrigerantes de retrofit."
+    },
+    {
+      "pregunta": "¿Qué aceite debo utilizar con R410A?",
+      "respuesta": "Normalmente se utilizan aceites POE compatibles con el fabricante del compresor."
+    },
+    {
+      "pregunta": "¿Cómo detectar fugas de refrigerante?",
+      "respuesta": "Mediante detectores electrónicos, reactivos, pruebas de presión y procedimientos especializados."
+    }
+  ],
+
+  "keywords_seo": [
+    "gas refrigerante",
+    "refrigerantes HVACR",
+    "R410A",
+    "R134a",
+    "R404A",
+    "R22",
+    "aceite POE",
+    "coil cleaner",
+    "detector de fugas refrigerante",
+    "químicos HVAC"
+  ],
+
+  "vectores_busqueda": [
+    "comprar refrigerante r410a",
+    "gas refrigerante r22",
+    "aceite poe para compresor",
+    "refrigerante para minisplit",
+    "quimicos limpieza evaporador",
+    "coil cleaner condensador",
+    "detector fugas refrigerante",
+    "sustituto del r22",
+    "refrigerante ecologico",
+    "mantenimiento quimico hvac"
+  ],
+
+  "productos": [
+    "Refrigerantes",
+    "Gas refrigerante",
+    "R22",
+    "R134a",
+    "R404A",
+    "R407C",
+    "R410A",
+    "R507",
+    "R32",
+    "R290",
+    "Refrigerantes ecológicos",
+    "Aceites sintéticos",
+    "Aceites minerales",
+    "Aceite POE",
+    "Aceite PAG",
+    "Coil Cleaners",
+    "Foam Cleaners",
+    "Químicos limpiadores",
+    "Desincrustantes",
+    "Reactivos detectores de fugas",
+    "Selladores",
+    "Tratamientos anticorrosivos"
+  ],
+
+  "casos_uso": [
+    {
+      "sector": "HVAC",
+      "descripcion": "Carga, recuperación y sustitución de refrigerantes en sistemas de climatización."
+    },
+    {
+      "sector": "Refrigeración",
+      "descripcion": "Operación y mantenimiento de sistemas de conservación y congelación."
+    },
+    {
+      "sector": "Industria",
+      "descripcion": "Limpieza química y protección de intercambiadores y serpentines."
+    }
+  ],
+
+  "normativas": [
+    "ASHRAE 34",
+    "ASHRAE 15",
+    "EPA",
+    "NOM",
+    "COFEPRIS",
+    "ISO 14001"
+  ],
+
+  "indicadores_kpi": [
+    "Consumo de refrigerante",
+    "Tasa de fugas",
+    "Presión de operación",
+    "Temperatura de evaporación",
+    "Temperatura de condensación",
+    "Eficiencia energética",
+    "Costo de mantenimiento"
+  ],
+
+  "protocolos_comunicacion": [
+    "BACnet",
+    "Modbus RTU",
+    "Modbus TCP",
+    "MQTT"
+  ],
+
+  "variables_controladas": [
+    "Temperatura",
+    "Presión de alta",
+    "Presión de baja",
+    "Superheat",
+    "Subcooling",
+    "Concentración química",
+    "Nivel de refrigerante"
+  ],
+
+  "integracion_ia": {
+    "motor_busqueda": true,
+    "cotizacion_automatica": true,
+    "soporte_whatsapp": true
+  },
+
+  "metadata": {
+    "version": "1.0",
+    "ultima_actualizacion": "2026-07-22",
+    "activo": true
+  }
+}

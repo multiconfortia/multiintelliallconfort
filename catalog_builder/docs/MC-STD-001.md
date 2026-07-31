@@ -1,0 +1,1 @@
+Diccionario Maestro HVACR MultiConfort

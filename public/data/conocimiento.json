@@ -1,0 +1,376 @@
+[
+  {
+    "id": 1,
+    "titulo": "Chillers HVACR",
+    "categoria": "HVACR",
+    "tipo": "Solución",
+    "palabras": [
+      "chiller",
+      "agua helada",
+      "enfriadora",
+      "planta de agua helada",
+      "carrier",
+      "trane",
+      "york",
+      "daikin"
+    ],
+    "descripcion": "Diseño, instalación, mantenimiento, diagnóstico y optimización de sistemas de agua helada HVACR.",
+    "aplicaciones": [
+      "Hospitales",
+      "Hoteles",
+      "Industria",
+      "Centros comerciales"
+    ]
+  },
+
+  {
+    "id": 2,
+    "titulo": "BMS Automatización",
+    "categoria": "Automatización",
+    "tipo": "Tecnología",
+    "palabras": [
+      "bms",
+      "building management system",
+      "bacnet",
+      "modbus",
+      "control",
+      "automatización",
+      "scada"
+    ],
+    "descripcion": "Integración y supervisión centralizada de sistemas HVAC, energía, sensores y equipos mediante plataformas abiertas.",
+    "aplicaciones": [
+      "Edificios inteligentes",
+      "Hospitales",
+      "Industria"
+    ]
+  },
+
+  {
+    "id": 3,
+    "titulo": "Monitoreo Ambiental Hospitalario",
+    "categoria": "Hospitales",
+    "tipo": "Solución crítica",
+    "palabras": [
+      "hospital",
+      "laboratorio",
+      "quirófano",
+      "presión diferencial",
+      "temperatura",
+      "humedad",
+      "áreas limpias"
+    ],
+    "descripcion": "Monitoreo continuo de variables ambientales críticas para instalaciones hospitalarias y laboratorios especializados.",
+    "aplicaciones": [
+      "Hospitales",
+      "Laboratorios",
+      "Farmacéutica"
+    ]
+  },
+
+  {
+    "id": 4,
+    "titulo": "Compresores HVACR",
+    "categoria": "Equipos",
+    "tipo": "Componente",
+    "palabras": [
+      "compresor",
+      "scroll",
+      "tornillo",
+      "reciprocante",
+      "semihermético",
+      "hermético"
+    ],
+    "descripcion": "Selección, diagnóstico, mantenimiento y reemplazo de compresores para sistemas de refrigeración y aire acondicionado.",
+    "aplicaciones": [
+      "Chillers",
+      "Refrigeración comercial",
+      "Refrigeración industrial",
+      "Aire acondicionado"
+    ]
+  },
+
+  {
+    "id": 5,
+    "titulo": "IoT Industrial HVACR",
+    "categoria": "Tecnología",
+    "tipo": "Digital",
+    "palabras": [
+      "iot",
+      "sensor",
+      "mqtt",
+      "gateway",
+      "modbus",
+      "monitoreo remoto"
+    ],
+    "descripcion": "Aplicación de sensores, comunicación industrial y plataformas inteligentes para monitoreo remoto.",
+    "aplicaciones": [
+      "Industria",
+      "Hospitales",
+      "Edificios inteligentes"
+    ]
+  },
+
+  {
+    "id": 6,
+    "titulo": "Mantenimiento HVACR",
+    "categoria": "Servicios",
+    "tipo": "Servicio técnico",
+    "palabras": [
+      "mantenimiento",
+      "preventivo",
+      "correctivo",
+      "predictivo",
+      "diagnóstico",
+      "eficiencia energética"
+    ],
+    "descripcion": "Servicios especializados para conservar disponibilidad, eficiencia y confiabilidad de sistemas HVACR.",
+    "aplicaciones": [
+      "Hospitales",
+      "Industria",
+      "Hoteles",
+      "Edificios comerciales"
+    ]
+  },
+
+  {
+    "id": 7,
+    "titulo": "Refrigeración Industrial",
+    "categoria": "Refrigeración",
+    "tipo": "Solución",
+    "palabras": [
+      "refrigeración",
+      "cuarto frío",
+      "cadena fría",
+      "congelación",
+      "conservación"
+    ],
+    "descripcion": "Soluciones de refrigeración para procesos industriales, alimentos, farmacéutica y cadena fría.",
+    "aplicaciones": [
+      "Alimentos",
+      "Farmacéutica",
+      "Cadena fría",
+      "Industria"
+    ]
+  },
+
+  {
+    "id": 8,
+    "titulo": "Automatización Industrial",
+    "categoria": "Control",
+    "tipo": "Tecnología",
+    "palabras": [
+      "plc",
+      "variador",
+      "vfd",
+      "delta",
+      "abb",
+      "danfoss",
+      "control automático"
+    ],
+    "descripcion": "Automatización de equipos HVACR mediante PLC, variadores de frecuencia y sistemas de control.",
+    "aplicaciones": [
+      "HVACR",
+      "Industria",
+      "Procesos automáticos",
+      "Edificios inteligentes"
+    ]
+  },
+
+  {
+    "id": 9,
+    "titulo": "Fabricación de Serpentines HVACR",
+    "categoria": "Fabricación",
+    "tipo": "Ingeniería y manufactura",
+    "palabras": [
+      "serpentín",
+      "serpentines",
+      "coil",
+      "evaporador",
+      "condensador",
+      "intercambiador",
+      "cobre",
+      "aluminio",
+      "acero inoxidable",
+      "reparación de serpentines"
+    ],
+    "descripcion": "Diseño, fabricación, reparación y sustitución de serpentines HVACR para sistemas de aire acondicionado, refrigeración y procesos industriales. Desarrollo de soluciones bajo requerimientos específicos de capacidad térmica, materiales, dimensiones y condiciones de operación.",
+    "aplicaciones": [
+      "HVAC",
+      "Refrigeración",
+      "Industria",
+      "Hospitales",
+      "Procesos especiales"
+    ]
+  },
+
+  {
+    "id": 10,
+    "titulo": "Fabricación de Intercambiadores de Calor",
+    "categoria": "Fabricación",
+    "tipo": "Ingeniería térmica",
+    "palabras": [
+      "intercambiador de calor",
+      "heat exchanger",
+      "placas",
+      "tubular",
+      "agua caliente",
+      "agua helada",
+      "recuperación térmica"
+    ],
+    "descripcion": "Diseño y fabricación de intercambiadores de calor para transferencia térmica eficiente en aplicaciones HVACR, industriales y energéticas. Desarrollo de soluciones personalizadas para calentamiento, enfriamiento y recuperación de energía.",
+    "aplicaciones": [
+      "Industria",
+      "HVACR",
+      "Energía",
+      "Procesos industriales"
+    ]
+  },
+
+  {
+    "id": 11,
+    "titulo": "Fabricación e Integración de Tarjetas Electrónicas",
+    "categoria": "Electrónica",
+    "tipo": "Desarrollo tecnológico",
+    "palabras": [
+      "tarjeta electrónica",
+      "pcb",
+      "control electrónico",
+      "microcontrolador",
+      "automatización",
+      "firmware"
+    ],
+    "descripcion": "Diseño, fabricación, programación e integración de tarjetas electrónicas para control, monitoreo y automatización de equipos HVACR e industriales. Desarrollo de soluciones electrónicas adaptadas a necesidades específicas.",
+    "aplicaciones": [
+      "Control HVACR",
+      "IoT",
+      "Automatización",
+      "Monitoreo inteligente"
+    ]
+  },
+
+  {
+    "id": 12,
+    "titulo": "Integración y Ensamble de Equipos HVACR",
+    "categoria": "Fabricación",
+    "tipo": "Integración tecnológica",
+    "palabras": [
+      "ensamble",
+      "integración",
+      "retrofit",
+      "equipos HVAC",
+      "tableros",
+      "sistemas completos",
+      "ingeniería"
+    ],
+    "descripcion": "Integración, ensamble y modernización de equipos HVACR mediante la combinación de componentes mecánicos, eléctricos, electrónicos y sistemas inteligentes de control.",
+    "aplicaciones": [
+      "Hospitales",
+      "Industria",
+      "Edificios inteligentes"
+    ]
+  },
+
+  {
+    "id": 13,
+    "titulo": "Fabricación de Ventiladores, Álabes e Impulsores",
+    "categoria": "Fabricación",
+    "tipo": "Diseño mecánico",
+    "palabras": [
+      "ventilador",
+      "abanico",
+      "aspas",
+      "álabes",
+      "impulsor",
+      "turbina",
+      "centrífugo",
+      "axial"
+    ],
+    "descripcion": "Diseño, fabricación y reconstrucción de ventiladores industriales, impulsores, turbinas, álabes y componentes rotativos para aplicaciones HVACR y procesos industriales. Desarrollo de piezas optimizadas para flujo de aire, eficiencia energética y condiciones específicas de operación.",
+    "aplicaciones": [
+      "Manejadoras de aire",
+      "Torres de enfriamiento",
+      "Ventilación industrial",
+      "Equipos especiales"
+    ]
+  },
+
+  {
+    "id": 14,
+    "titulo": "Refacciones HVACR y Continuidad Operativa",
+    "categoria": "Refacciones",
+    "tipo": "Solución técnica",
+    "palabras": [
+      "refacción",
+      "refacciones",
+      "repuesto",
+      "repuestos",
+      "pieza",
+      "componente",
+      "chiller",
+      "paquete",
+      "minisplit",
+      "refrigeración",
+      "equipo antiguo",
+      "equipo descontinuado"
+    ],
+    "descripcion": "¿No encuentra refacciones para su chiller, unidad paquete, equipo de aire acondicionado o sistema de refrigeración? MULTICONFORT ofrece alternativas técnicas para recuperar, mantener y extender la vida útil de sus equipos mediante suministro de componentes, sustituciones compatibles, ingeniería de adaptación y soluciones especiales.",
+    "aplicaciones": [
+      "Chillers",
+      "Unidades paquete",
+      "Equipos HVACR",
+      "Refrigeración comercial",
+      "Refrigeración industrial"
+    ]
+  },
+
+  {
+    "id": 15,
+    "titulo": "Equipos Fuera de Línea y Retrofit HVACR",
+    "categoria": "Modernización",
+    "tipo": "Ingeniería aplicada",
+    "palabras": [
+      "equipo obsoleto",
+      "equipo antiguo",
+      "retrofit",
+      "modernización",
+      "actualización",
+      "reemplazo",
+      "mejora energética",
+      "adaptación"
+    ],
+    "descripcion": "Cuando un fabricante deja de suministrar componentes o un equipo llega al final de su vida comercial, MULTICONFORT desarrolla alternativas mediante retrofit, adaptación tecnológica, sustitución de componentes mecánicos, eléctricos y electrónicos, conservando la mayor parte de la infraestructura existente.",
+    "aplicaciones": [
+      "Hospitales",
+      "Industria",
+      "Hoteles",
+      "Edificios comerciales"
+    ]
+  },
+
+  {
+    "id": 16,
+    "titulo": "Soporte Técnico Multimarca HVACR",
+    "categoria": "Servicio",
+    "tipo": "Especialización técnica",
+    "palabras": [
+      "carrier",
+      "trane",
+      "york",
+      "daikin",
+      "copeland",
+      "danfoss",
+      "multimarca",
+      "diagnóstico",
+      "mantenimiento"
+      "multiconfort"
+    ],
+    "descripcion": "Atención técnica para equipos HVACR de múltiples fabricantes. Diagnóstico, análisis de falla, búsqueda de componentes, ingeniería de sustitución y soluciones para mantener operativos sistemas críticos.",
+    "aplicaciones": [
+      "Hospitales",
+      "Industria",
+      "Hoteles",
+      "Centros comerciales"
+    ]
+  }
+]
+

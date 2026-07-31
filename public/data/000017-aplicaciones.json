@@ -1,0 +1,491 @@
+{
+  "id": 17,
+  "codigo": "APP-001",
+  "titulo": "Aplicaciones Especializadas MULTICONFORT",
+  "categoria": "Aplicaciones",
+  "tipo": "Especializacion",
+
+
+  "sinonimos": [
+    "aplicaciones hvacr",
+    "soluciones hvacr",
+    "sistemas críticos",
+    "control ambiental especializado",
+    "ingeniería hvacr especializada",
+    "monitoreo ambiental",
+    "infraestructura crítica",
+    "edificio inteligente"
+  ],
+
+
+  "palabras": [
+    "hospital",
+    "laboratorio",
+    "farmaceutica",
+    "sala limpia",
+    "cadena fria",
+    "data center",
+    "edificio inteligente",
+    "bms",
+    "iot hvacr",
+    "control critico",
+    "monitoreo ambiental"
+  ],
+
+
+  "subfamilias": [
+
+    "Hospitales y sector salud",
+
+    "Laboratorios y áreas limpias",
+
+    "Industria farmacéutica",
+
+    "Hoteles y hospitalidad",
+
+    "Centros comerciales",
+
+    "Industria alimentaria",
+
+    "Cadena fría",
+
+    "Procesos industriales",
+
+    "Centros de datos",
+
+    "Edificios inteligentes",
+
+    "Manufactura avanzada"
+
+  ],
+
+
+  "marcas": [],
+
+
+  "modelos": [],
+
+
+
+  "intenciones": [
+
+    "diseñar",
+
+    "ingenieria",
+
+    "cotizar",
+
+    "implementar",
+
+    "automatizar",
+
+    "monitorear",
+
+    "validar",
+
+    "mantener",
+
+    "diagnosticar",
+
+    "optimizar"
+
+  ],
+
+
+
+  "descripcion": "Capa especializada del ecosistema MULTICONFORT orientada a aplicaciones HVACR críticas donde la precisión ambiental, continuidad operativa, trazabilidad de datos e integración inteligente son fundamentales.",
+
+
+
+  "aplicaciones": [
+
+    "Hospitales",
+
+    "Laboratorios",
+
+    "Industria Farmacéutica",
+
+    "Hoteles",
+
+    "Centros Comerciales",
+
+    "Industria Alimentaria",
+
+    "Cadena Fría",
+
+    "Procesos Industriales",
+
+    "Centros de Datos",
+
+    "Edificios Inteligentes",
+
+    "Manufactura Avanzada"
+
+  ],
+
+
+
+  "servicios_multiconfort": [
+
+    "Ingeniería HVACR especializada",
+
+    "Diseño de sistemas críticos",
+
+    "Automatización HVAC",
+
+    "Integración BMS",
+
+    "Monitoreo ambiental",
+
+    "Validación de condiciones ambientales",
+
+    "Diagnóstico predictivo",
+
+    "Análisis energético",
+
+    "Integración IoT",
+
+    "Históricos y trazabilidad de datos",
+
+    "Alarmas inteligentes",
+
+    "Optimización operativa"
+
+  ],
+
+
+
+  "compatibilidades": [
+
+    "BACnet",
+
+    "Modbus RTU",
+
+    "Modbus TCP",
+
+    "MQTT",
+
+    "SCADA",
+
+    "BMS",
+
+    "Niagara",
+
+    "PLC Delta",
+
+    "PLC Siemens",
+
+    "multiIntelliAllConfort"
+
+  ],
+
+
+
+  "preguntas_frecuentes": [
+
+    {
+      "pregunta": "¿Qué aplicaciones atiende MULTICONFORT?",
+      "respuesta": "Aplicaciones críticas HVACR como hospitales, laboratorios, farmacéutica, cadena fría, centros de datos y edificios inteligentes."
+    },
+
+    {
+      "pregunta": "¿Se pueden monitorear variables ambientales críticas?",
+      "respuesta": "Sí. Temperatura, humedad, presión diferencial, alarmas, energía y variables definidas por proceso pueden integrarse mediante sistemas inteligentes."
+    },
+
+    {
+      "pregunta": "¿MULTICONFORT puede integrarse con BMS?",
+      "respuesta": "Sí. Mediante protocolos industriales como BACnet, Modbus y MQTT."
+    }
+
+  ],
+
+
+
+  "keywords_seo": [
+
+    "ingeniería HVAC hospitales México",
+
+    "monitoreo ambiental crítico",
+
+    "automatización HVAC industrial",
+
+    "BMS hospitales",
+
+    "control presión diferencial",
+
+    "laboratorios farmacéuticos HVAC",
+
+    "cadena fría farmacéutica",
+
+    "edificio inteligente HVAC",
+
+    "IoT HVACR",
+
+    "MULTICONFORT IA"
+
+  ],
+
+
+
+  "vectores_busqueda": [
+
+    "control HVAC hospital",
+
+    "monitoreo presión diferencial laboratorio",
+
+    "sistema HVAC farmacia",
+
+    "CAR-T laboratorio HVAC",
+
+    "cultivo celular temperatura humedad",
+
+    "cadena fría farmacéutica",
+
+    "data center climatización",
+
+    "automatización edificio inteligente",
+
+    "BMS HVAC",
+
+    "monitoreo ambiental IoT"
+
+  ],
+
+
+
+  "productos": [
+
+    "Sistemas HVAC críticos",
+
+    "Sistemas de monitoreo ambiental",
+
+    "Sensores industriales",
+
+    "Controladores",
+
+    "BMS",
+
+    "SCADA",
+
+    "Sistemas IoT",
+
+    "Plataforma MULTICONFORT IA"
+
+  ],
+
+
+
+  "casos_uso": [
+
+    {
+      "sector": "Hospitales y sector salud",
+      "descripcion": "Control de áreas críticas como quirófanos, terapia intensiva, aislamiento respiratorio, CAR-T, cultivo celular y farmacia hospitalaria."
+    },
+
+    {
+      "sector": "Laboratorios y áreas limpias",
+      "descripcion": "Monitoreo de temperatura, humedad, partículas, CO₂, VOC y presión diferencial con trazabilidad."
+    },
+
+    {
+      "sector": "Industria farmacéutica",
+      "descripcion": "Control ambiental, históricos, auditoría electrónica, alarmas y cumplimiento operativo."
+    },
+
+    {
+      "sector": "Cadena fría",
+      "descripcion": "Supervisión de cámaras frigoríficas, almacenes refrigerados y transporte controlado."
+    },
+
+    {
+      "sector": "Centros de datos",
+      "descripcion": "Control de temperatura rack, humedad, energía y disponibilidad HVAC."
+    },
+
+    {
+      "sector": "Edificios inteligentes",
+      "descripcion": "Integración BMS, automatización HVAC, eficiencia energética e inteligencia artificial."
+    }
+
+  ],
+
+
+
+  "normativas": [
+
+    "ASHRAE",
+
+    "FDA 21 CFR Part 11",
+
+    "GAMP5",
+
+    "COFEPRIS",
+
+    "NOM",
+
+    "Buenas Prácticas de Manufactura",
+
+    "Buenas Prácticas de Almacenamiento"
+
+  ],
+
+
+
+  "indicadores_kpi": [
+
+    "Temperatura",
+
+    "Humedad relativa",
+
+    "Presión diferencial",
+
+    "Renovaciones por hora",
+
+    "Estado de filtros",
+
+    "Alarmas HVAC",
+
+    "Consumo energético",
+
+    "Disponibilidad del sistema",
+
+    "Tiempo fuera de rango",
+
+    "Trazabilidad de datos"
+
+  ],
+
+
+
+  "protocolos_comunicacion": [
+
+    "BACnet",
+
+    "Modbus RTU",
+
+    "Modbus TCP",
+
+    "MQTT",
+
+    "SNMP",
+
+    "OPC UA"
+
+  ],
+
+
+
+  "variables_controladas": [
+
+    "Temperatura",
+
+    "Humedad relativa",
+
+    "Presión diferencial",
+
+    "CO₂",
+
+    "VOC",
+
+    "Partículas",
+
+    "Renovaciones de aire",
+
+    "Estado de filtros",
+
+    "Energía",
+
+    "Alarmas"
+
+  ],
+
+
+
+  "atributos_tecnicos": {
+
+    "tipo_aplicacion": "Sistema crítico HVACR",
+
+    "nivel_control": "Alta precisión",
+
+    "trazabilidad": "Histórico y auditoría",
+
+    "integracion": "BMS / SCADA / IoT",
+
+    "inteligencia": "Analítica IA"
+
+  },
+
+
+
+  "relaciones": [
+
+    {
+      "tipo": "aplica_en",
+      "elemento": "Hospitales"
+    },
+
+    {
+      "tipo": "aplica_en",
+      "elemento": "Laboratorios"
+    },
+
+    {
+      "tipo": "aplica_en",
+      "elemento": "Industria Farmacéutica"
+    },
+
+    {
+      "tipo": "integra_con",
+      "elemento": "BMS"
+    },
+
+    {
+      "tipo": "monitoreado_por",
+      "elemento": "multiIntelliAllConfort"
+    },
+
+    {
+      "tipo": "utiliza",
+      "elemento": "Sensores industriales"
+    },
+
+    {
+      "tipo": "requiere",
+      "elemento": "Trazabilidad de datos"
+
+    }
+
+  ],
+
+
+
+  "integracion_ia": {
+
+    "motor_busqueda": true,
+
+    "cotizacion_automatica": true,
+
+    "soporte_whatsapp": true,
+
+    "recomendacion_equipo": true,
+
+    "diagnostico_predictivo": true,
+
+    "analisis_normativo": true
+
+  },
+
+
+
+  "metadata": {
+
+    "version": "1.0",
+
+    "ultima_actualizacion": "2026-07-22",
+
+    "activo": true
+
+  }
+
+}

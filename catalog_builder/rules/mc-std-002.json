@@ -1,0 +1,113 @@
+{
+  "HER": {
+    "categoria": "Herramientas HVACR",
+    "familia": "Herramientas"
+  },
+
+  "RFR": {
+    "categoria": "Refrigeración",
+    "familia": "Refrigerantes"
+  },
+
+  "COB": {
+    "categoria": "Tubería y Conducción",
+    "familia": "Cobre"
+  }
+}
+
+{
+  "ACE": {
+    "categoria": "Lubricantes",
+    "familia": "Aceites"
+  },
+
+  "AIS": {
+    "categoria": "Aislamiento y Sellado",
+    "familia": "Selladores"
+  },
+
+  "ASP": {
+    "categoria": "Ventilación",
+    "familia": "Aspas"
+  },
+
+  "BRO": {
+    "categoria": "Conexiones y Válvulas",
+    "familia": "Bronce"
+  },
+
+  "CIN": {
+    "categoria": "Aislamiento y Sellado",
+    "familia": "Cintas"
+  },
+
+  "CNT": {
+    "categoria": "Control y Automatización",
+    "familia": "Controles"
+  },
+
+  "COB": {
+    "categoria": "Tubería y Conducción",
+    "familia": "Cobre"
+  },
+
+  "CON": {
+    "categoria": "Control y Automatización",
+    "familia": "Controles"
+  },
+
+  "EMP": {
+    "categoria": "Sellado",
+    "familia": "Empaques"
+  },
+
+  "FIL": {
+    "categoria": "Refrigeración",
+    "familia": "Filtros Deshidratadores"
+  },
+
+  "FOA": {
+    "categoria": "Limpieza y Mantenimiento",
+    "familia": "Limpiadores"
+  },
+
+  "HER": {
+    "categoria": "Herramientas HVACR",
+    "familia": "Herramientas"
+  },
+
+  "INS": {
+    "categoria": "Aislamiento",
+    "familia": "Insulación"
+  },
+
+  "MOT": {
+    "categoria": "Motores y Bombas",
+    "familia": "Motobombas"
+  },
+
+  "REL": {
+    "categoria": "Componentes Eléctricos",
+    "familia": "Relés"
+  },
+
+  "RES": {
+    "categoria": "Calefacción Eléctrica",
+    "familia": "Resistencias"
+  },
+
+  "RFR": {
+    "categoria": "Refrigeración",
+    "familia": "Refrigerantes"
+  },
+
+  "VEX": {
+    "categoria": "Conexiones y Válvulas",
+    "familia": "Válvulas de Expansión y Accesorios"
+  },
+
+  "VSE": {
+    "categoria": "Conexiones y Válvulas",
+    "familia": "Válvulas de Servicio"
+  }
+}

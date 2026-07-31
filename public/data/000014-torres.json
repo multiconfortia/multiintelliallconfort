@@ -1,0 +1,493 @@
+{
+  "id": 14,
+  "codigo": "HVACR-014",
+  "titulo": "Torres de Enfriamiento",
+  "categoria": "HVACR",
+  "tipo": "Familia",
+
+
+  "sinonimos": [
+    "torre de enfriamiento",
+    "torre de refrigeración",
+    "torre evaporativa",
+    "sistema de rechazo de calor",
+    "enfriamiento evaporativo",
+    "cooling tower",
+    "sistema evaporativo industrial"
+  ],
+
+
+  "palabras": [
+    "torre enfriamiento",
+    "torre refrigeracion",
+    "torre evaporativa",
+    "cooling tower",
+    "celdek",
+    "aspen",
+    "relleno evaporativo",
+    "media evaporativa",
+    "fill media",
+    "separador gotas",
+    "eliminador gotas",
+    "deriva",
+    "motor torre",
+    "ventilador torre",
+    "abanico torre",
+    "bomba torre",
+    "tratamiento agua",
+    "rechazo calor",
+    "condensador evaporativo"
+  ],
+
+
+  "subfamilias": [
+
+    "Torres de enfriamiento evaporativas",
+
+    "Torres abiertas",
+
+    "Torres cerradas",
+
+    "Torres híbridas",
+
+    "Fibras Celdek",
+
+    "Fibras Aspen",
+
+    "Rellenos evaporativos",
+
+    "Separadores de gotas",
+
+    "Eliminadores de deriva",
+
+    "Sistemas de distribución de agua",
+
+    "Motores para torres",
+
+    "Ventiladores para torres",
+
+    "Componentes hidráulicos",
+
+    "Sistemas de tratamiento de agua"
+
+  ],
+
+
+  "marcas": [
+    "Baltimore Aircoil",
+    "Marley",
+    "Evapco",
+    "BAC",
+    "Celdek",
+    "Aspen"
+  ],
+
+
+  "modelos": [],
+
+
+  "intenciones": [
+
+    "comprar",
+
+    "cotizar",
+
+    "reparar",
+
+    "mantenimiento",
+
+    "diagnostico",
+
+    "refaccion",
+
+    "automatizacion",
+
+    "monitoreo",
+
+    "modernizacion"
+
+  ],
+
+
+  "descripcion": "Sistemas de rechazo de calor utilizados en aplicaciones HVACR industriales y comerciales mediante transferencia térmica evaporativa. Incluyen componentes mecánicos, hidráulicos y de tratamiento de agua para mantener la eficiencia de chillers, procesos industriales y sistemas centralizados.",
+
+
+  "aplicaciones": [
+
+    "Plantas industriales",
+
+    "Hospitales",
+
+    "Hoteles",
+
+    "Centros comerciales",
+
+    "Edificios inteligentes",
+
+    "Procesos industriales",
+
+    "Sistemas con chillers",
+
+    "Plantas de manufactura",
+
+    "Centros de datos"
+
+  ],
+
+
+  "servicios_multiconfort": [
+
+    "Ingeniería de sistemas de rechazo térmico",
+
+    "Diseño y selección de torres",
+
+    "Mantenimiento preventivo",
+
+    "Mantenimiento correctivo",
+
+    "Limpieza química",
+
+    "Cambio de rellenos evaporativos",
+
+    "Cambio de eliminadores de deriva",
+
+    "Reparación de ventiladores",
+
+    "Cambio de motores",
+
+    "Balance hidráulico",
+
+    "Optimización energética",
+
+    "Automatización del sistema",
+
+    "Monitoreo remoto",
+
+    "Análisis de desempeño térmico"
+
+  ],
+
+
+  "compatibilidades": [
+
+    "Chillers",
+
+    "Condensadores enfriados por agua",
+
+    "Bombas de recirculación",
+
+    "BMS",
+
+    "SCADA",
+
+    "PLC Delta",
+
+    "Modbus RTU",
+
+    "Modbus TCP",
+
+    "BACnet",
+
+    "multiIntelliAllConfort"
+
+  ],
+
+
+  "preguntas_frecuentes": [
+
+    {
+      "pregunta": "¿Cada cuánto requiere mantenimiento una torre de enfriamiento?",
+      "respuesta": "Depende de la calidad del agua y condiciones de operación. Se recomienda inspección periódica, limpieza, revisión mecánica y control químico."
+    },
+
+    {
+      "pregunta": "¿Qué función tiene el relleno evaporativo?",
+      "respuesta": "Incrementa el área de contacto entre aire y agua permitiendo una mayor transferencia térmica por evaporación."
+    },
+
+    {
+      "pregunta": "¿Qué problemas provoca una torre sucia?",
+      "respuesta": "Reduce la capacidad de rechazo de calor, aumenta consumo energético y puede provocar fallas en chillers o compresores."
+    },
+
+    {
+      "pregunta": "¿Se puede automatizar una torre de enfriamiento?",
+      "respuesta": "Sí. Puede integrarse control de ventiladores, bombas, temperatura, conductividad, nivel de agua y alarmas mediante PLC o BMS."
+    }
+
+  ],
+
+
+  "keywords_seo": [
+
+    "torres de enfriamiento México",
+
+    "mantenimiento torres de enfriamiento",
+
+    "relleno evaporativo Celdek",
+
+    "fibra Aspen torre enfriamiento",
+
+    "torres evaporativas industriales",
+
+    "tratamiento agua torre enfriamiento",
+
+    "sistemas rechazo calor",
+
+    "mantenimiento chiller torre"
+
+  ],
+
+
+  "vectores_busqueda": [
+
+    "cambio relleno torre enfriamiento",
+
+    "fibra celdek precio",
+
+    "fibra aspen torre",
+
+    "motor ventilador torre",
+
+    "mantenimiento torre evaporativa",
+
+    "limpieza torre enfriamiento",
+
+    "bomba recirculacion torre",
+
+    "control conductividad torre",
+
+    "automatizacion torre enfriamiento"
+
+  ],
+
+
+  "productos": [
+
+    "Torres de enfriamiento",
+
+    "Relleno evaporativo Fill Media",
+
+    "Fibras Celdek",
+
+    "Fibras Aspen",
+
+    "Separadores de gotas",
+
+    "Eliminadores de deriva",
+
+    "Motores eléctricos",
+
+    "Ventiladores axiales",
+
+    "Aspas",
+
+    "Flechas",
+
+    "Reductores",
+
+    "Bombas de recirculación",
+
+    "Boquillas de aspersión",
+
+    "Válvulas de control",
+
+    "Filtros hidráulicos"
+
+  ],
+
+
+  "casos_uso": [
+
+    {
+      "sector": "Hospitales",
+      "descripcion": "Rechazo térmico para sistemas centrales de agua helada mediante chillers."
+    },
+
+    {
+      "sector": "Industria",
+      "descripcion": "Control térmico de procesos industriales que requieren disipación continua de calor."
+    },
+
+    {
+      "sector": "Hoteles y edificios",
+      "descripcion": "Sistemas HVAC centralizados de alta capacidad."
+    }
+
+  ],
+
+
+  "normativas": [
+
+    "ASHRAE",
+
+    "CTI Cooling Technology Institute",
+
+    "NOM",
+
+    "Buenas prácticas de tratamiento de agua"
+
+  ],
+
+
+  "indicadores_kpi": [
+
+    "Temperatura entrada agua",
+
+    "Temperatura salida agua",
+
+    "Aproach térmico",
+
+    "Caudal agua",
+
+    "Consumo ventiladores",
+
+    "Conductividad agua",
+
+    "Nivel de purga",
+
+    "Eficiencia de rechazo térmico",
+
+    "Horas operación"
+
+  ],
+
+
+  "protocolos_comunicacion": [
+
+    "BACnet",
+
+    "Modbus RTU",
+
+    "Modbus TCP",
+
+    "MQTT",
+
+    "SCADA"
+
+  ],
+
+
+  "variables_controladas": [
+
+    "Temperatura agua entrada",
+
+    "Temperatura agua salida",
+
+    "Presión hidráulica",
+
+    "Caudal",
+
+    "Nivel de agua",
+
+    "Conductividad",
+
+    "Estado ventiladores",
+
+    "Estado bombas",
+
+    "Consumo energético",
+
+    "Alarmas"
+
+  ],
+
+
+  "atributos_tecnicos": {
+
+    "capacidad": "",
+
+    "unidad_capacidad": "TR",
+
+    "tipo_torre": "",
+
+    "caudal_agua": "",
+
+    "temperatura_entrada": "",
+
+    "temperatura_salida": "",
+
+    "material_construccion": "",
+
+    "tipo_ventilador": "",
+
+    "potencia_motor": "",
+
+    "tipo_control": ""
+
+  },
+
+
+  "relaciones": [
+
+    {
+      "tipo": "trabaja_con",
+      "elemento": "Chillers"
+    },
+
+    {
+      "tipo": "rechaza_calor_de",
+      "elemento": "Sistema de refrigeración"
+    },
+
+    {
+      "tipo": "requiere",
+      "elemento": "Tratamiento químico de agua"
+    },
+
+    {
+      "tipo": "requiere_mantenimiento",
+      "elemento": "Relleno evaporativo"
+    },
+
+    {
+      "tipo": "controla_variable",
+      "elemento": "Temperatura agua"
+    },
+
+    {
+      "tipo": "controla_variable",
+      "elemento": "Conductividad"
+    },
+
+    {
+      "tipo": "integra_con",
+      "elemento": "BMS"
+    },
+
+    {
+      "tipo": "monitoreado_por",
+      "elemento": "multiIntelliAllConfort"
+    }
+
+  ],
+
+
+  "integracion_ia": {
+
+    "motor_busqueda": true,
+
+    "cotizacion_automatica": true,
+
+    "soporte_whatsapp": true,
+
+    "recomendacion_equipo": true,
+
+    "diagnostico_predictivo": true,
+
+    "analisis_eficiencia_termica": true
+
+  },
+
+
+  "metadata": {
+
+    "version": "1.0",
+
+    "ultima_actualizacion": "2026-07-22",
+
+    "activo": true
+
+  }
+
+}

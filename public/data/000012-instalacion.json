@@ -1,0 +1,559 @@
+{
+  "id": 12,
+  "codigo": "HER-001",
+  "titulo": "Instalación, Herramientas e Instrumentación HVACR",
+  "categoria": "Herramientas",
+  "tipo": "Familia",
+
+
+  "sinonimos": [
+    "herramienta hvacr",
+    "herramientas refrigeracion",
+    "herramientas aire acondicionado",
+    "instrumentacion hvacr",
+    "equipo de servicio",
+    "equipo de instalacion",
+    "equipo de diagnostico",
+    "instrumentos de medicion HVACR"
+  ],
+
+
+  "palabras": [
+
+    "herramienta hvacr",
+
+    "instalacion hvacr",
+
+    "bomba vacio",
+
+    "micronometro",
+
+    "vacio refrigeracion",
+
+    "detector fugas",
+
+    "detector refrigerante",
+
+    "manometro",
+
+    "manifold",
+
+    "manifold digital",
+
+    "termometro",
+
+    "termohigrometro",
+
+    "pirómetro",
+
+    "instrumento hvacr",
+
+    "equipo prueba",
+
+    "analizador electrico",
+
+    "kit arranque",
+
+    "capacitor",
+
+    "fusible",
+
+    "contactor",
+
+    "cable termostato",
+
+    "tuberia cobre",
+
+    "conexion cobre",
+
+    "conexion bronce",
+
+    "valvula hvacr",
+
+    "tuberia aislada"
+
+  ],
+
+
+  "subfamilias": [
+
+    "Bombas de vacío",
+
+    "Micronómetros",
+
+    "Detectores de fugas",
+
+    "Instrumentación HVACR",
+
+    "Equipos de medición",
+
+    "Herramientas de instalación",
+
+    "Equipos de recuperación refrigerante",
+
+    "Kits de arranque eléctrico",
+
+    "Componentes eléctricos HVACR",
+
+    "Tubería y conexiones de cobre",
+
+    "Válvulas y accesorios refrigeración",
+
+    "Materiales de instalación"
+
+  ],
+
+
+  "tipos_herramientas": [
+
+    "Bombas de vacío",
+
+    "Micronómetros",
+
+    "Detectores electrónicos de fugas",
+
+    "Detectores de refrigerante",
+
+    "Detectores ultrasónicos",
+
+    "Manifold analógico",
+
+    "Manifold digital",
+
+    "Balanza refrigerante",
+
+    "Recuperadora de refrigerante",
+
+    "Cilindros de recuperación",
+
+    "Herramienta de abocardado",
+
+    "Herramienta de expansión",
+
+    "Dobladores de tubo",
+
+    "Cortadores de cobre"
+
+  ],
+
+
+  "instrumentacion_hvacr": {
+
+    "instrumento": "Instrumentos de medición HVACR",
+
+    "variables": [
+
+      "Presión de succión",
+
+      "Presión de descarga",
+
+      "Temperatura saturación",
+
+      "Sobrecalentamiento",
+
+      "Subenfriamiento",
+
+      "Temperatura ambiente",
+
+      "Humedad relativa",
+
+      "Presión diferencial",
+
+      "Flujo de aire",
+
+      "Consumo eléctrico"
+
+    ],
+
+    "equipos": [
+
+      "Manómetros digitales",
+
+      "Termómetros digitales",
+
+      "Termopares tipo K",
+
+      "Termohigrómetros",
+
+      "Pirómetros infrarrojos",
+
+      "Anemómetros",
+
+      "Medidores de flujo de aire",
+
+      "Analizadores eléctricos"
+
+    ],
+
+    "integracion": [
+
+      "Bluetooth",
+
+      "Modbus",
+
+      "IoT",
+
+      "Aplicaciones móviles",
+
+      "MULTICONFORT IA"
+
+    ]
+
+  },
+
+
+  "componentes_electricos": [
+
+    "Capacitores de marcha",
+
+    "Capacitores de arranque",
+
+    "Kits de arranque",
+
+    "Relevadores potenciales",
+
+    "Protectores térmicos",
+
+    "Fusibles",
+
+    "Interruptores",
+
+    "Contactores",
+
+    "Cables para termostato",
+
+    "Cableado de control"
+
+  ],
+
+
+  "materiales_instalacion": [
+
+    "Tubería de cobre rígido",
+
+    "Tubería de cobre flexible",
+
+    "Tubería aislada",
+
+    "Conexiones cobre",
+
+    "Codos",
+
+    "Coples",
+
+    "Reducciones",
+
+    "Tees",
+
+    "Conexiones de bronce",
+
+    "Adaptadores",
+
+    "Uniones flare"
+
+  ],
+
+
+  "valvulas_hvacr": [
+
+    "Válvulas de servicio",
+
+    "Válvulas solenoides",
+
+    "Válvulas de expansión TXV",
+
+    "Válvulas check",
+
+    "Válvulas reguladoras",
+
+    "Válvulas de control"
+
+  ],
+
+
+  "marcas_relacionadas": [
+
+    "Fieldpiece",
+
+    "Testo",
+
+    "Yellow Jacket",
+
+    "Bacharach",
+
+    "Fluke",
+
+    "Dwyer",
+
+    "Danfoss",
+
+    "Sporlan",
+
+    "Parker",
+
+    "Emerson"
+
+  ],
+
+
+  "intenciones": [
+
+    "comprar",
+
+    "cotizar",
+
+    "seleccionar herramienta",
+
+    "diagnosticar",
+
+    "instalar",
+
+    "medir",
+
+    "calibrar",
+
+    "mantener",
+
+    "reparar",
+
+    "monitorear"
+
+  ],
+
+
+  "servicios_multiconfort": [
+
+    "Selección de herramienta adecuada",
+
+    "Diagnóstico HVACR",
+
+    "Medición y análisis operativo",
+
+    "Pruebas de desempeño",
+
+    "Puesta en marcha",
+
+    "Calibración de instrumentos",
+
+    "Análisis energético",
+
+    "Integración de medición IoT"
+
+  ],
+
+
+  "aplicaciones": [
+
+    "Aire acondicionado residencial",
+
+    "HVAC comercial",
+
+    "Refrigeración industrial",
+
+    "Hospitales",
+
+    "Laboratorios",
+
+    "Cadena fría",
+
+    "Industria farmacéutica",
+
+    "Procesos industriales"
+
+  ],
+
+
+  "compatibilidades": [
+
+    "Modbus",
+
+    "BACnet",
+
+    "MQTT",
+
+    "SCADA",
+
+    "BMS",
+
+    "multiIntelliAllConfort"
+
+  ],
+
+
+  "preguntas_frecuentes": [
+
+    {
+      "pregunta": "¿Qué herramienta necesito para diagnosticar un sistema HVACR?",
+      "respuesta": "Depende de la falla. Puede requerirse medición de presión, temperatura, vacío, flujo de aire o variables eléctricas."
+    },
+
+    {
+      "pregunta": "¿Un manifold digital puede integrarse con sistemas inteligentes?",
+      "respuesta": "Sí. Algunos instrumentos permiten comunicación Bluetooth, registro de datos e integración IoT."
+    },
+
+    {
+      "pregunta": "¿Qué instrumentos son necesarios para puesta en marcha HVACR?",
+      "respuesta": "Manómetros, termómetros, micronómetro, analizador eléctrico, detector de fugas y herramientas de vacío."
+    }
+
+  ],
+
+
+  "keywords_seo": [
+
+    "herramientas HVACR México",
+
+    "instrumentos refrigeración",
+
+    "manifold digital",
+
+    "bomba vacío refrigeración",
+
+    "detector fugas refrigerante",
+
+    "termómetro HVAC",
+
+    "micronómetro HVACR",
+
+    "herramienta instalación aire acondicionado"
+
+  ],
+
+
+  "vectores_busqueda": [
+
+    "comprar bomba vacío refrigeración",
+
+    "manómetro digital HVAC",
+
+    "detector fuga refrigerante",
+
+    "termómetro industrial HVAC",
+
+    "herramienta instalación minisplit",
+
+    "equipo diagnóstico aire acondicionado",
+
+    "instrumento presión diferencial"
+
+  ],
+
+
+  "productos": [
+
+    "Bombas de vacío",
+
+    "Manómetros",
+
+    "Manifold digital",
+
+    "Detectores de fugas",
+
+    "Termómetros",
+
+    "Termohigrómetros",
+
+    "Micronómetros",
+
+    "Anemómetros",
+
+    "Capacitores",
+
+    "Fusibles",
+
+    "Contactores",
+
+    "Tubería cobre",
+
+    "Válvulas HVACR",
+
+    "Accesorios instalación"
+
+  ],
+
+
+  "relaciones": [
+
+    {
+      "tipo": "utilizado_para",
+      "elemento": "Diagnóstico HVACR"
+    },
+
+    {
+      "tipo": "requiere",
+      "elemento": "Mantenimiento preventivo"
+    },
+
+    {
+      "tipo": "mide_variable",
+      "elemento": "Temperatura, presión y humedad"
+    },
+
+    {
+      "tipo": "integra_con",
+      "elemento": "IoT/BMS/SCADA"
+    },
+
+    {
+      "tipo": "genera_datos_para",
+      "elemento": "Diagnóstico predictivo IA"
+    },
+
+    {
+      "tipo": "monitoreado_por",
+      "elemento": "multiIntelliAllConfort"
+    }
+
+  ],
+
+
+  "atributos_tecnicos": {
+
+    "tipo_equipo": "",
+
+    "marca": "",
+
+    "modelo": "",
+
+    "rango_medicion": "",
+
+    "unidad_medicion": "",
+
+    "precision": "",
+
+    "comunicacion": "",
+
+    "aplicacion": ""
+
+  },
+
+
+  "integracion_ia": {
+
+    "recomendacion_herramienta": true,
+
+    "seleccion_por_aplicacion": true,
+
+    "diagnostico_asistido": true,
+
+    "registro_historico": true,
+
+    "integracion_iot": true,
+
+    "mantenimiento_predictivo": true
+
+  },
+
+
+  "metadata": {
+
+    "version": "1.2",
+
+    "ultima_actualizacion": "2026-07-22",
+
+    "activo": true
+
+  }
+
+}

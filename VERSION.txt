@@ -1,0 +1,22 @@
+MULTICONFORT IA
+
+Versión:
+v0.4 Technical Answer
+
+Fecha:
+31 Julio 2026
+
+Funciones:
+
+- Catálogo HVACR
+- Motor de búsqueda
+- Recommendation Engine
+- Knowledge Answer Engine
+- Technical Answer Engine
+
+Próximo objetivo:
+
+- Integración Web
+- Asistente desde plataforma
+- Registro de consultas
+- WhatsApp API

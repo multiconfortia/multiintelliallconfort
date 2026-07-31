@@ -1,0 +1,496 @@
+{
+  "id": 11,
+  "codigo": "IAQ-001",
+  "titulo": "Filtración, Humedad y Calidad del Aire",
+  "categoria": "Calidad Aire",
+  "tipo": "Familia",
+
+
+  "sinonimos": [
+    "filtracion aire",
+    "calidad de aire interior",
+    "IAQ",
+    "air quality",
+    "control humedad",
+    "tratamiento de aire",
+    "purificacion de aire",
+    "acondicionamiento ambiental"
+  ],
+
+
+  "palabras": [
+
+    "filtro",
+    "filtracion",
+    "filtro aire",
+    "filtro industrial",
+    "filtro HEPA",
+    "filtro ULPA",
+    "filtro bolsa",
+    "filtro plisado",
+    "filtro panel",
+    "filtro fibra vidrio",
+    "filtro carbon activado",
+
+    "filtro secador",
+    "nucleo secador",
+    "secador refrigerante",
+    "secador aire",
+
+    "humidificador",
+    "deshumidificador",
+    "control humedad",
+    "humedad relativa",
+
+    "calidad aire interior",
+    "IAQ",
+    "particulas",
+    "contaminantes",
+    "CO2",
+    "VOC",
+    "PM2.5",
+    "PM10"
+  ],
+
+
+  "subfamilias": [
+
+    "Filtros de aire HVAC",
+
+    "Filtros industriales",
+
+    "Filtros de alta eficiencia HEPA ULPA",
+
+    "Filtros secadores de refrigeración",
+
+    "Núcleos secadores reemplazables",
+
+    "Sistemas de humidificación",
+
+    "Sistemas de deshumidificación",
+
+    "Control de humedad",
+
+    "Monitoreo de calidad del aire",
+
+    "Sensores ambientales IAQ"
+
+  ],
+
+
+  "marcas_relacionadas": [
+    "Camfil",
+    "AAF",
+    "3M",
+    "Honeywell",
+    "Danfoss",
+    "Emerson",
+    "Johnson Controls",
+    "Schneider Electric"
+  ],
+
+
+  "intenciones": [
+
+    "comprar",
+
+    "cotizar",
+
+    "reemplazar filtro",
+
+    "mantenimiento",
+
+    "mejorar calidad aire",
+
+    "controlar humedad",
+
+    "diagnosticar contaminación",
+
+    "automatizacion",
+
+    "monitoreo"
+
+  ],
+
+
+  "descripcion": "Familia especializada en filtración HVAC, control de humedad y monitoreo de calidad del aire interior para aplicaciones residenciales, comerciales, industriales y ambientes críticos donde se requiere control de partículas, contaminantes, humedad y condiciones ambientales.",
+
+
+  "aplicaciones": [
+
+    "Hospitales",
+
+    "Laboratorios",
+
+    "Industria farmacéutica",
+
+    "Salas limpias",
+
+    "CAR-T",
+
+    "Cultivo celular",
+
+    "Industria alimentaria",
+
+    "Centros de datos",
+
+    "Edificios inteligentes",
+
+    "Procesos industriales",
+
+    "Oficinas",
+
+    "Hoteles"
+
+  ],
+
+
+  "servicios_multiconfort": [
+
+    "Selección de filtros HVAC",
+
+    "Diseño de sistemas de filtración",
+
+    "Evaluación de calidad del aire",
+
+    "Control de humedad ambiental",
+
+    "Integración de sensores IAQ",
+
+    "Monitoreo remoto",
+
+    "Automatización HVAC",
+
+    "Integración BMS",
+
+    "Diagnóstico ambiental",
+
+    "Validación de condiciones ambientales"
+
+  ],
+
+
+  "productos": [
+
+    "Filtros fibra de vidrio",
+
+    "Filtros plisados",
+
+    "Filtros tipo panel",
+
+    "Filtros bolsa",
+
+    "Filtros metálicos lavables",
+
+    "Filtros HEPA",
+
+    "Filtros ULPA",
+
+    "Filtros carbón activado",
+
+    "Filtros secadores refrigeración",
+
+    "Núcleos secadores",
+
+    "Humidificadores",
+
+    "Deshumidificadores",
+
+    "Sensores CO2",
+
+    "Sensores VOC",
+
+    "Sensores partículas"
+
+  ],
+
+
+  "equipos_relacionados": [
+
+    "Unidad manejadora AHU",
+
+    "Fan Coil",
+
+    "Chiller",
+
+    "Sistema agua helada",
+
+    "Rooftop",
+
+    "Sistema dividido",
+
+    "Cuartos limpios",
+
+    "Cámaras ambientales"
+
+  ],
+
+
+  "casos_uso": [
+
+    {
+      "sector": "Hospitales",
+      "descripcion": "Control de partículas, presión diferencial, humedad y condiciones ambientales en áreas críticas."
+    },
+
+    {
+      "sector": "Laboratorios",
+      "descripcion": "Monitoreo de ambientes controlados para investigación, biotecnología y procesos sensibles."
+    },
+
+    {
+      "sector": "Industria farmacéutica",
+      "descripcion": "Control ambiental bajo requerimientos GMP, trazabilidad y validación."
+    },
+
+    {
+      "sector": "Edificios inteligentes",
+      "descripcion": "Optimización IAQ mediante sensores, automatización y analítica."
+    }
+
+  ],
+
+
+  "variables_controladas": [
+
+    "Temperatura",
+
+    "Humedad relativa",
+
+    "Presión diferencial",
+
+    "Partículas",
+
+    "CO2",
+
+    "VOC",
+
+    "PM2.5",
+
+    "PM10",
+
+    "Estado filtros",
+
+    "Horas operación",
+
+    "Alarmas ambientales"
+
+  ],
+
+
+  "normativas": [
+
+    "ASHRAE",
+
+    "ISO 14644",
+
+    "NOM",
+
+    "COFEPRIS",
+
+    "FDA 21 CFR Part 11",
+
+    "Buenas Prácticas de Manufactura"
+
+  ],
+
+
+  "protocolos_comunicacion": [
+
+    "Modbus RTU",
+
+    "Modbus TCP",
+
+    "BACnet",
+
+    "MQTT",
+
+    "SCADA",
+
+    "BMS"
+
+  ],
+
+
+  "compatibilidades": [
+
+    "multiIntelliAllConfort",
+
+    "BMS",
+
+    "SCADA",
+
+    "PLC",
+
+    "IoT HVAC",
+
+    "Sistemas de monitoreo ambiental"
+
+  ],
+
+
+  "preguntas_frecuentes": [
+
+    {
+      "pregunta": "¿Qué filtro requiere un hospital?",
+      "respuesta": "Depende del área. Puede requerir filtros convencionales, bolsa, HEPA o ULPA según clasificación y nivel de criticidad."
+    },
+
+    {
+      "pregunta": "¿Se puede monitorear la calidad del aire en tiempo real?",
+      "respuesta": "Sí. Mediante sensores IAQ, IoT, protocolos industriales y plataformas como multiIntelliAllConfort."
+    },
+
+    {
+      "pregunta": "¿Por qué controlar la humedad?",
+      "respuesta": "La humedad afecta confort, conservación de materiales, procesos industriales y control microbiológico."
+    }
+
+  ],
+
+
+  "keywords_seo": [
+
+    "filtros HVAC México",
+
+    "filtros HEPA hospitales",
+
+    "calidad aire interior IAQ",
+
+    "control humedad HVAC",
+
+    "monitoreo CO2 industrial",
+
+    "sistemas filtración industrial",
+
+    "deshumidificación HVAC",
+
+    "salas limpias HVAC"
+
+  ],
+
+
+  "vectores_busqueda": [
+
+    "filtro HEPA hospital",
+
+    "control humedad laboratorio",
+
+    "sensor CO2 HVAC",
+
+    "monitoreo calidad aire",
+
+    "presion diferencial sala limpia",
+
+    "filtro aire industrial",
+
+    "sistema humidificador industrial"
+
+  ],
+
+
+  "indicadores_kpi": [
+
+    "Eficiencia filtración",
+
+    "Caída de presión filtro",
+
+    "Tiempo operación filtro",
+
+    "Nivel partículas",
+
+    "CO2 ppm",
+
+    "Humedad relativa",
+
+    "Disponibilidad sistema",
+
+    "Alarmas ambientales"
+
+  ],
+
+
+  "atributos_tecnicos": {
+
+    "tipo_filtro": "",
+
+    "eficiencia": "",
+
+    "clasificacion": "",
+
+    "caudal_aire": "",
+
+    "perdida_presion": "",
+
+    "humedad_control": "",
+
+    "rango_medicion": "",
+
+    "protocolo_comunicacion": ""
+
+  },
+
+
+  "relaciones": [
+
+    {
+      "tipo": "aplica_en",
+      "elemento": "Hospitales y áreas críticas"
+    },
+
+    {
+      "tipo": "requiere_monitoreo",
+      "elemento": "Temperatura, humedad y partículas"
+    },
+
+    {
+      "tipo": "integra_con",
+      "elemento": "BMS y SCADA"
+    },
+
+    {
+      "tipo": "monitoreado_por",
+      "elemento": "multiIntelliAllConfort"
+    },
+
+    {
+      "tipo": "cumple_con",
+      "elemento": "ISO 14644 y FDA 21 CFR Part 11"
+    },
+
+    {
+      "tipo": "controla_variable",
+      "elemento": "Calidad del aire interior"
+    }
+
+  ],
+
+
+  "integracion_ia": {
+
+    "diagnostico_predictivo": true,
+
+    "monitoreo_ambiental": true,
+
+    "deteccion_contaminacion": true,
+
+    "alertas_automaticas": true,
+
+    "analisis_historico": true,
+
+    "optimizacion_energetica": true
+
+  },
+
+
+  "metadata": {
+
+    "version": "1.1",
+
+    "ultima_actualizacion": "2026-07-22",
+
+    "activo": true
+
+  }
+
+}

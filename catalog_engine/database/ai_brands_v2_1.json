@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "motor": "MULTICONFORT_IA_BRAND_LEARNING",
+    "version": "2.1",
+    "fecha": "2026-07-26T23:17:37.672Z"
+  },
+  "marcas": {
+    "FULL GAUGE": {
+      "apariciones": 9,
+      "fuentes": {
+        "marca": 3,
+        "descripcion": 6
+      },
+      "confianza": 1
+    },
+    "KASON": {
+      "apariciones": 2,
+      "fuentes": {
+        "marca": 1,
+        "descripcion": 1
+      },
+      "confianza": 0.4
+    },
+    "SIKA": {
+      "apariciones": 4,
+      "fuentes": {
+        "marca": 2,
+        "descripcion": 2
+      },
+      "confianza": 0.8
+    },
+    "COPELAND": {
+      "apariciones": 2,
+      "fuentes": {
+        "marca": 0,
+        "descripcion": 2
+      },
+      "confianza": 0.2
+    },
+    "EMERSON": {
+      "apariciones": 10,
+      "fuentes": {
+        "marca": 0,
+        "descripcion": 10
+      },
+      "confianza": 1
+    },
+    "HONEYWELL": {
+      "apariciones": 3,
+      "fuentes": {
+        "marca": 0,
+        "descripcion": 3
+      },
+      "confianza": 0.3
+    }
+  }
+}

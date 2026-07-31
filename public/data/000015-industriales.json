@@ -1,0 +1,551 @@
+{
+  "id": 15,
+  "codigo": "IND-001",
+  "titulo": "Equipos Industriales Especiales",
+  "categoria": "Industrial",
+  "tipo": "Familia",
+
+
+  "sinonimos": [
+    "equipos industriales",
+    "maquinaria industrial",
+    "sistemas industriales",
+    "equipos especiales de proceso",
+    "automatización industrial",
+    "enfriamiento industrial",
+    "equipos auxiliares industriales"
+  ],
+
+
+  "palabras": [
+    "equipo industrial",
+    "maquina industrial",
+    "proceso industrial",
+    "artes graficas",
+    "impresion industrial",
+    "heidelberg",
+    "technotrans",
+    "kba",
+    "baldwin",
+    "hoffman",
+    "rittal",
+    "donaldson",
+    "dec",
+    "sterlco",
+    "giori",
+    "bauer und kutzi",
+    "sperr lechner",
+    "jaggenberg",
+    "busch",
+    "chief",
+    "hamada",
+    "manroland",
+    "ryobi",
+    "davidson",
+    "multilith",
+    "ab dick",
+    "gestetner",
+    "single",
+    "kaeser",
+    "atlas copco"
+  ],
+
+
+  "subfamilias": [
+
+    "Equipos de artes gráficas e impresión industrial",
+
+    "Sistemas Technotrans",
+
+    "Sistemas Baldwin",
+
+    "Equipos Heidelberg",
+
+    "Equipos KBA",
+
+    "Equipos Manroland",
+
+    "Equipos Ryobi",
+
+    "Equipos auxiliares de proceso",
+
+    "Sistemas de refrigeración industrial",
+
+    "Intercambiadores de calor",
+
+    "Bombas de circulación",
+
+    "Controladores industriales",
+
+    "Sistemas hidráulicos auxiliares",
+
+    "Aire comprimido industrial",
+
+    "Sistemas Kaeser",
+
+    "Sistemas Atlas Copco",
+
+    "Filtración industrial",
+
+    "Gabinetes industriales climatizados"
+
+  ],
+
+
+
+  "marcas": [
+
+    "Heidelberg",
+
+    "Technotrans",
+
+    "KBA",
+
+    "Baldwin",
+
+    "Hoffman",
+
+    "Rittal",
+
+    "Donaldson",
+
+    "DEC",
+
+    "Sterlco",
+
+    "Giori",
+
+    "Bauer und Kutzi",
+
+    "Sperr & Lechner",
+
+    "Jaggenberg",
+
+    "Busch",
+
+    "Chief",
+
+    "Hamada",
+
+    "Manroland",
+
+    "Ryobi",
+
+    "Davidson",
+
+    "Multilith",
+
+    "A.B. Dick",
+
+    "Gestetner",
+
+    "Single",
+
+    "Kaeser",
+
+    "Atlas Copco"
+
+  ],
+
+
+
+  "modelos": [],
+
+
+
+  "intenciones": [
+
+    "comprar",
+
+    "cotizar",
+
+    "integrar",
+
+    "reparar",
+
+    "mantenimiento",
+
+    "diagnostico",
+
+    "automatizacion",
+
+    "modernizacion",
+
+    "retrofit"
+
+  ],
+
+
+
+  "descripcion": "Familia especializada en equipos industriales de proceso, artes gráficas, impresión industrial, sistemas auxiliares, enfriamiento, aire comprimido y soluciones especiales donde la continuidad operativa y el control térmico son críticos.",
+
+
+
+  "aplicaciones": [
+
+    "Industria gráfica",
+
+    "Impresión offset",
+
+    "Manufactura industrial",
+
+    "Procesos continuos",
+
+    "Aire comprimido industrial",
+
+    "Enfriamiento de maquinaria",
+
+    "Control térmico industrial",
+
+    "Electrónica industrial",
+
+    "Sistemas auxiliares de producción"
+
+  ],
+
+
+
+  "servicios_multiconfort": [
+
+    "Ingeniería de aplicación",
+
+    "Diagnóstico especializado",
+
+    "Mantenimiento preventivo",
+
+    "Mantenimiento correctivo",
+
+    "Reparación de sistemas industriales",
+
+    "Optimización térmica",
+
+    "Automatización industrial",
+
+    "Integración de sensores",
+
+    "Monitoreo remoto",
+
+    "Retrofit de controles",
+
+    "Puesta en marcha",
+
+    "Análisis energético"
+
+  ],
+
+
+
+  "compatibilidades": [
+
+    "PLC",
+
+    "BMS",
+
+    "SCADA",
+
+    "Modbus RTU",
+
+    "Modbus TCP",
+
+    "BACnet",
+
+    "MQTT",
+
+    "multiIntelliAllConfort"
+
+  ],
+
+
+
+  "preguntas_frecuentes": [
+
+    {
+      "pregunta": "¿MULTICONFORT atiende equipos industriales especiales?",
+      "respuesta": "Sí. Se desarrollan soluciones de ingeniería, mantenimiento, control térmico y automatización para equipos industriales específicos."
+    },
+
+    {
+      "pregunta": "¿Qué relación tiene HVACR con equipos industriales?",
+      "respuesta": "Muchos procesos industriales requieren control de temperatura, humedad, enfriamiento, filtración y estabilidad térmica."
+    },
+
+    {
+      "pregunta": "¿Se pueden integrar equipos industriales existentes?",
+      "respuesta": "Sí. Mediante sensores, protocolos industriales, PLC, SCADA, BMS o plataformas IoT."
+    }
+
+  ],
+
+
+
+  "keywords_seo": [
+
+    "equipos industriales México",
+
+    "enfriamiento industrial",
+
+    "mantenimiento maquinaria industrial",
+
+    "Technotrans México",
+
+    "Heidelberg mantenimiento",
+
+    "sistemas aire comprimido industrial",
+
+    "Kaeser México",
+
+    "Atlas Copco industrial",
+
+    "automatización industrial HVACR"
+
+  ],
+
+
+
+  "vectores_busqueda": [
+
+    "enfriador technotrans",
+
+    "prensa Heidelberg mantenimiento",
+
+    "sistema Baldwin impresión",
+
+    "compresor Kaeser industrial",
+
+    "compresor Atlas Copco",
+
+    "gabinete climatizado Rittal",
+
+    "filtración Donaldson",
+
+    "control temperatura industrial",
+
+    "refrigeración maquinaria industrial"
+
+  ],
+
+
+
+  "productos": [
+
+    "Prensas offset",
+
+    "Sistemas de impresión industrial",
+
+    "Unidades Technotrans",
+
+    "Sistemas Baldwin",
+
+    "Sistemas de enfriamiento",
+
+    "Intercambiadores de calor",
+
+    "Bombas de circulación",
+
+    "Controladores de temperatura",
+
+    "Compresores industriales",
+
+    "Secadores de aire",
+
+    "Filtros industriales",
+
+    "Gabinetes climatizados"
+
+  ],
+
+
+
+  "casos_uso": [
+
+    {
+      "sector": "Artes gráficas",
+      "descripcion": "Control térmico de prensas, solución de fuente, rodillos y sistemas de circulación."
+    },
+
+    {
+      "sector": "Manufactura industrial",
+      "descripcion": "Sistemas auxiliares de enfriamiento, aire comprimido y control ambiental."
+    },
+
+    {
+      "sector": "Industria electrónica",
+      "descripcion": "Climatización de gabinetes y protección térmica de componentes."
+    }
+
+  ],
+
+
+
+  "normativas": [
+
+    "ASHRAE",
+
+    "ISO 9001",
+
+    "ISO 14001",
+
+    "IEC",
+
+    "NOM"
+
+  ],
+
+
+
+  "indicadores_kpi": [
+
+    "Temperatura de proceso",
+
+    "Presión de operación",
+
+    "Caudal",
+
+    "Consumo energético",
+
+    "Disponibilidad del equipo",
+
+    "Horas operación",
+
+    "Alarmas",
+
+    "Eficiencia del sistema"
+
+  ],
+
+
+
+  "protocolos_comunicacion": [
+
+    "Modbus RTU",
+
+    "Modbus TCP",
+
+    "BACnet",
+
+    "MQTT",
+
+    "OPC UA",
+
+    "SCADA"
+
+  ],
+
+
+
+  "variables_controladas": [
+
+    "Temperatura",
+
+    "Presión",
+
+    "Caudal",
+
+    "Nivel",
+
+    "Humedad",
+
+    "Estado de bombas",
+
+    "Estado de compresores",
+
+    "Consumo energético",
+
+    "Alarmas"
+
+  ],
+
+
+
+  "atributos_tecnicos": {
+
+    "tipo_equipo": "Industrial especial",
+
+    "proceso_asociado": "",
+
+    "capacidad": "",
+
+    "voltaje": "",
+
+    "fluido_proceso": "",
+
+    "temperatura_operacion": "",
+
+    "tipo_control": "",
+
+    "comunicacion": ""
+
+  },
+
+
+
+  "relaciones": [
+
+    {
+      "tipo": "aplica_en",
+      "elemento": "Procesos industriales"
+    },
+
+    {
+      "tipo": "aplica_en",
+      "elemento": "Artes gráficas"
+    },
+
+    {
+      "tipo": "requiere",
+      "elemento": "Control térmico"
+    },
+
+    {
+      "tipo": "requiere",
+      "elemento": "Mantenimiento especializado"
+    },
+
+    {
+      "tipo": "integra_con",
+      "elemento": "PLC industrial"
+    },
+
+    {
+      "tipo": "monitoreado_por",
+      "elemento": "multiIntelliAllConfort"
+    },
+
+    {
+      "tipo": "compatible_con",
+      "elemento": "Sistemas HVACR industriales"
+    }
+
+  ],
+
+
+
+  "integracion_ia": {
+
+    "motor_busqueda": true,
+
+    "cotizacion_automatica": true,
+
+    "soporte_whatsapp": true,
+
+    "recomendacion_equipo": true,
+
+    "diagnostico_predictivo": true,
+
+    "analisis_proceso": true
+
+  },
+
+
+
+  "metadata": {
+
+    "version": "1.0",
+
+    "ultima_actualizacion": "2026-07-22",
+
+    "activo": true
+
+  }
+
+}

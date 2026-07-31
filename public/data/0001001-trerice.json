@@ -1,0 +1,326 @@
+{
+  "id": 1,
+
+  "codigo": "RigidStemSeries",
+
+  "titulo": "Familia de Termómetros Industriales de Vástago Rígido",
+
+  "categoria": "Instrumentación Industrial",
+
+  "tipo": "Familia",
+
+  "sinonimos": [
+    "Rigid Stem Thermometer",
+    "Industrial Thermometer",
+    "Liquid Filled Thermometer",
+    "Spirit Filled Thermometer",
+    "Glass Thermometer",
+    "Industrial Glass Thermometer",
+    "Process Thermometer",
+    "Termómetro Industrial",
+    "Termómetro de Proceso",
+    "Termómetro Analógico",
+    "Termómetro de Vástago Rígido"
+  ],
+
+  "palabras": [
+    "temperatura",
+    "termómetro",
+    "glicerina",
+    "aire",
+    "instrumentación",
+    "proceso",
+    "industrial",
+    "TRERICE",
+    "rigid stem",
+    "spirit filled",
+    "glass thermometer",
+    "HVAC",
+    "caldera",
+    "vapor",
+    "agua",
+    "aceite",
+    "gas",
+    "tubería",
+    "tanque",
+    "intercambiador",
+    "proceso químico"
+  ],
+
+  "subfamilias": [
+    "Rigid Straight",
+    "Rigid 90° Angle"
+  ],
+
+  "marcas": [
+    "TRERICE"
+  ],
+
+  "modelos": [
+    "AX1",
+    "BX1",
+    "CX1",
+    "AX2",
+    "BX2",
+    "CX2"
+  ],
+
+  "intenciones": [
+    "comprar",
+    "cotizar",
+    "seleccionar",
+    "calibrar",
+    "reemplazar",
+    "mantenimiento",
+    "diagnostico",
+    "monitoreo"
+  ],
+
+  "descripcion": "Familia de termómetros industriales de expansión de líquido para medición local de temperatura en procesos industriales. Disponibles en configuración recta y angular de 90°, con caja de aluminio fundido y diferentes materiales de vástago.",
+
+  "aplicaciones": [
+    "HVAC",
+    "Procesos Industriales",
+    "Calderas",
+    "Chillers",
+    "Agua Helada",
+    "Agua Caliente",
+    "Líneas de Vapor",
+    "Tanques",
+    "Tuberías",
+    "Intercambiadores de Calor",
+    "Industria Química",
+    "Industria Alimenticia",
+    "Industria Farmacéutica"
+  ],
+
+  "servicios_multiconfort": [
+    "Venta",
+    "Cotización",
+    "Ingeniería",
+    "Instalación",
+    "Calibración",
+    "Mantenimiento Preventivo",
+    "Mantenimiento Correctivo",
+    "Diagnóstico",
+    "Integración con BMS",
+    "Monitoreo"
+  ],
+
+  "compatibilidades": [
+    "Thermowell",
+    "Pozo Termométrico",
+    "Tuberías",
+    "Tanques",
+    "Sistemas HVAC"
+  ],
+
+  "preguntas_frecuentes": [
+    "¿Qué longitud de vástago necesito?",
+    "¿Qué material de vástago debo seleccionar?",
+    "¿Cuál es el rango de temperatura adecuado?",
+    "¿Requiere Thermowell?",
+    "¿Cuál es la precisión?",
+    "¿Existe versión recta?",
+    "¿Existe versión a 90 grados?",
+    "¿Puede instalarse en vapor?"
+  ],
+
+  "keywords_seo": [
+    "Rigid Stem Thermometer",
+    "Industrial Thermometer",
+    "Liquid Filled Thermometer",
+    "Glass Thermometer",
+    "Industrial Glass Thermometer",
+    "Process Thermometer",
+    "TRERICE Thermometer",
+    "HVAC Thermometer",
+    "Temperature Indicator",
+    "Analog Thermometer"
+  ],
+
+  "vectores_busqueda": [
+    "termómetro industrial",
+    "termómetro para proceso",
+    "termómetro para tubería",
+    "termómetro para tanque",
+    "termómetro para caldera",
+    "termómetro para agua",
+    "termómetro para vapor",
+    "instrumentación de temperatura",
+    "rigid stem thermometer",
+    "liquid filled thermometer"
+  ],
+
+  "productos": [
+    "AX1",
+    "BX1",
+    "CX1",
+    "AX2",
+    "BX2",
+    "CX2"
+  ],
+
+  "casos_uso": [
+    "Medición de temperatura en tuberías",
+    "Medición de temperatura en tanques",
+    "Monitoreo de agua helada",
+    "Monitoreo de agua caliente",
+    "Monitoreo de vapor",
+    "Procesos industriales",
+    "Sistemas HVAC"
+  ],
+
+  "normativas": [
+    "ASME",
+    "ANSI"
+  ],
+
+  "indicadores_kpi": [
+    "Temperatura del proceso",
+    "Exactitud de medición",
+    "Disponibilidad del instrumento",
+    "Tiempo de respuesta"
+  ],
+
+  "protocolos_comunicacion": [
+    "No aplica"
+  ],
+
+  "variables_controladas": [
+    "Temperatura"
+  ],
+
+  "atributos_tecnicos": {
+
+    "capacidad": "500",
+
+    "unidad_capacidad": "°F",
+
+    "voltaje": "No aplica",
+
+    "fases": "No aplica",
+
+    "frecuencia": "No aplica",
+
+    "refrigerante": "No aplica",
+
+    "eficiencia": "No aplica",
+
+    "SEER": "No aplica",
+
+    "EER": "No aplica",
+
+    "temperatura_operacion": "-40°F a 500°F",
+
+    "humedad_operacion": "No especificada",
+
+    "caudal_aire": "No aplica",
+
+    "presion_estatica": "Depende del Thermowell",
+
+    "tipo_compresor": "No aplica",
+
+    "tipo_control": "Lectura Local",
+
+    "precision": "±1 división de escala",
+
+    "tipo_llenado": "Spirit (líquido orgánico azul)",
+
+    "material_carcasa": "Aluminio fundido",
+
+    "acabado": "Epóxico azul",
+
+    "material_vastago": [
+      "Aluminio",
+      "Latón",
+      "Acero Inoxidable 304"
+    ],
+
+    "diametro_caratula": [
+      "7 in",
+      "9 in",
+      "12 in"
+    ],
+
+    "longitud_vastago": [
+      "3.5 in",
+      "6 in",
+      "8 in",
+      "12 in"
+    ],
+
+    "configuracion": [
+      "Recta",
+      "90°"
+    ],
+
+    "conexion": "1-1/4-18 UNEF-2A"
+  },
+
+  "relaciones": [
+    {
+      "tipo": "fabricado_por",
+      "elemento": "TRERICE"
+    },
+    {
+      "tipo": "requiere",
+      "elemento": "Thermowell"
+    },
+    {
+      "tipo": "mide_variable",
+      "elemento": "Temperatura"
+    },
+    {
+      "tipo": "instalado_en",
+      "elemento": "Tuberías"
+    },
+    {
+      "tipo": "instalado_en",
+      "elemento": "Tanques"
+    },
+    {
+      "tipo": "utilizado_en",
+      "elemento": "HVAC"
+    },
+    {
+      "tipo": "utilizado_en",
+      "elemento": "Procesos Industriales"
+    },
+    {
+      "tipo": "monitoreado_por",
+      "elemento": "multiIntelliAllConfort"
+    }
+  ],
+
+  "integracion_ia": {
+
+    "motor_busqueda": true,
+
+    "cotizacion_automatica": true,
+
+    "soporte_whatsapp": true,
+
+    "recomendacion_equipo": true,
+
+    "diagnostico_predictivo": false
+
+  },
+
+  "metadata": {
+
+    "fabricante": "TRERICE",
+
+    "serie": "Rigid Stem Industrial Thermometer",
+
+    "catalogo": "Páginas 98-99",
+
+    "version": "1.0",
+
+    "ultima_actualizacion": "2026-07-22",
+
+    "activo": true
+
+  }
+
+}

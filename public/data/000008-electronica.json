@@ -1,0 +1,241 @@
+{
+  "id": 8,
+  "codigo": "ELE-001",
+  "titulo": "Electronica HVACR",
+  "categoria": "Electronica",
+  "tipo": "Familia",
+
+  "sinonimos": [
+    "electronica hvac",
+    "electrónica hvacr",
+    "control electronico",
+    "controlador electronico",
+    "tarjeta electrónica",
+    "pcb hvac",
+    "electronic control board",
+    "electronic controller",
+    "automation electronics",
+    "electrónica industrial HVACR"
+  ],
+
+  "palabras": [
+    "pcb",
+    "tarjeta",
+    "microcontrolador",
+    "controlador",
+    "display",
+    "sensor",
+    "potencia",
+    "interface",
+    "electrónica",
+    "firmware",
+    "modulo"
+  ],
+
+  "marcas": [
+    "Carel",
+    "Dixell",
+    "Eliwell",
+    "Honeywell",
+    "Johnson Controls",
+    "Siemens",
+    "Schneider Electric",
+    "Carrier",
+    "Trane",
+    "York",
+    "Daikin",
+    "LG",
+    "Mitsubishi Electric"
+    
+  ],
+
+  "modelos": [
+    "Carel pCO",
+    "Carel pGD",
+    "Dixell XR",
+    "Eliwell IDPlus",
+    "Siemens Climatix",
+    "Honeywell Spyder",
+    "Johnson Controls FX"
+  ],
+
+  "intenciones": [
+    "comprar",
+    "cotizar",
+    "reparar",
+    "diagnostico",
+    "programacion",
+    "automatizacion",
+    "monitoreo",
+    "integracion"
+  ],
+
+  "descripcion": "Tarjetas electrónicas, controladores, sensores, módulos de potencia e interfaces digitales para sistemas HVACR, automatización industrial y monitoreo inteligente.",
+
+  "aplicaciones": [
+    "Hospitales",
+    "Laboratorios",
+    "Industria",
+    "Refrigeración comercial",
+    "Refrigeración industrial",
+    "Centros comerciales",
+    "Hoteles",
+    "Data Centers",
+    "Edificios inteligentes"
+  ],
+
+  "servicios_multiconfort": [
+    "Diagnóstico electrónico",
+    "Reparación de tarjetas electrónicas",
+    "Programación de controladores",
+    "Desarrollo de firmware",
+    "Diseño PCB",
+    "Integración IoT",
+    "Automatización HVACR",
+    "Desarrollo Bacnet",
+    "Desarrollo Modbus",
+    "Monitoreo remoto",
+    "Ingeniería electrónica",
+    "Retrofit tecnológico"
+  ],
+
+  "compatibilidades": [
+    "BACnet",
+    "Modbus RTU",
+    "Modbus TCP",
+    "MQTT",
+    "SCADA",
+    "BMS",
+    "PLC Siemens",
+    "PLC Delta",
+    "multiIntelliAllConfort",
+    "multiconfortControllerEdge"
+  ],
+
+  "preguntas_frecuentes": [
+    {
+      "pregunta": "¿Reparan tarjetas electrónicas HVACR?",
+      "respuesta": "Sí, realizamos diagnóstico, reparación y pruebas funcionales de tarjetas electrónicas."
+    },
+    {
+      "pregunta": "¿Pueden desarrollar controladores personalizados?",
+      "respuesta": "Sí, utilizando microcontroladores industriales y protocolos abiertos."
+    },
+    {
+      "pregunta": "¿Es posible integrar una tarjeta electrónica a MULTICONFORT IA?",
+      "respuesta": "Sí, mediante BACnet, Modbus, MQTT y otras tecnologías de comunicación."
+    }
+  ],
+
+  "keywords_seo": [
+    "tarjetas electrónicas HVAC",
+    "reparación de tarjetas HVACR",
+    "controladores electrónicos",
+    "PCB HVACR",
+    "multiIntelliAllConfort",
+    "automatización HVAC",
+    "electrónica industrial",
+    "programación de controles",
+    "desarrollo IoT HVAC",
+    "sensores HVACR"
+  ],
+
+  "vectores_busqueda": [
+    "reparar tarjeta carrier",
+    "pcb para aire acondicionado",
+    "controlador electrónico hvac",
+    "modbus",
+    "automatización",
+    "bacnet",
+    "programación de controladores",
+    "sensor electrónico hvac",
+    "display para controlador",
+    "interfaz digital hvac",
+    "tarjeta electrónica dañada"
+  ],
+
+  "productos": [
+    "Tarjetas electrónicas",
+    "PCB HVACR",
+    "Controladores electrónicos",
+    "Microcontroladores",
+    "Módulos de potencia",
+    "Sensores electrónicos",
+    "Displays",
+    "Interfaces digitales",
+    "Reparación de tarjetas electrónicas",
+    "Programación de controles"
+  ],
+
+  "casos_uso": [
+    {
+      "sector": "Hospital",
+      "descripcion": "Monitoreo ambiental y control de áreas críticas mediante electrónica especializada."
+    },
+    {
+      "sector": "Industria",
+      "descripcion": "Automatización de equipos HVACR y procesos industriales."
+    },
+    {
+      "sector": "IoT",
+      "descripcion": "Adquisición de datos y monitoreo remoto mediante plataformas inteligentes."
+    }
+  ],
+
+  "normativas": [
+    "IEC 61131",
+    "IEC 61010",
+    "ASHRAE",
+    "ISO 14644",
+    "FDA 21 CFR Part 11",
+    "COFEPRIS",
+    "NOM"
+  ],
+
+  "indicadores_kpi": [
+    "Disponibilidad",
+    "Tiempo de respuesta",
+    "Tiempo medio entre fallas",
+    "Consumo energético",
+    "Integridad de comunicaciones",
+    "Tiempo de reparación",
+    "Precisión de medición"
+  ],
+
+  "protocolos_comunicacion": [
+    "BACnet",
+    "Modbus RTU",
+    "Modbus TCP",
+    "MQTT",
+    "SNMP",
+    "CAN Bus",
+    "RS485",
+    "WiFi",
+    "Ethernet"
+  ],
+
+  "variables_controladas": [
+    "Temperatura",
+    "Humedad",
+    "Presión diferencial",
+    "CO2",
+    "Voltaje",
+    "Corriente",
+    "Estado digital",
+    "Velocidad",
+    "Potencia",
+    "Alarmas"
+  ],
+
+  "integracion_ia": {
+    "motor_busqueda": true,
+    "cotizacion_automatica": true,
+    "soporte_whatsapp": true
+  },
+
+  "metadata": {
+    "version": "1.0",
+    "ultima_actualizacion": "2026-07-22",
+    "activo": true
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "id": 1,
+  "codigo": "HVAC-001",
+  "titulo": "Equipos de Aire Acondicionado HVAC",
+  "categoria": "HVAC",
+  "tipo": "Familia",
+
+  "sinonimos": [
+    "aire acondicionado",
+    "climatizacion",
+    "climate control",
+    "aire acondicionado industrial",
+    "aire acondicionado comercial",
+    "sistema HVAC",
+    "sistema de confort",
+    "enfriamiento ambiental",
+    "air conditioning",
+    "hvac equipment",
+    "tratamiento de aire"
+  
+
+  ],
+
+  "palabras": [
+    "aire acondicionado",
+    "split",
+    "minisplit",
+    "multisplit",
+    "vrf",
+    "vrv",
+    "rooftop",
+    "rtu",
+    "unidad condensadora",
+    "unidad evaporadora",
+    "unidad manejadora",
+    "uma",
+    "ahu",
+    "fan coil",
+    "chiller",
+    "crac",
+    "crah",
+    "agua helada",
+    "paquete",
+    "chiller"
+],
+
+
+  "subfamilias": [
+    "Sistemas divididos Split",
+    "Minisplits",
+    "Multisplits",
+    "Sistemas VRF VRV",
+    "Unidades paquete Rooftop",
+    "Unidades condensadoras",
+    "Unidades evaporadoras",
+    "Unidades manejadoras AHU UMA",
+    "Fan Coil Units",
+    "Lavadoras de aire",
+    "Unidades ventana",
+    "Chillers",
+    "Sistemas agua helada",
+    "Equipos especiales HVAC"
+  ],
+
+
+  "marcas": [
+    "Carrier",
+    "Trane",
+    "York",
+    "Daikin",
+    "Mitsubishi Electric",
+    "Mitsubishi Heavy Industries",
+    "LG",
+    "Samsung",
+    "Hitachi",
+    "McQuay",
+    "Lennox",
+    "Goodman",
+    "Rheem",
+    "Mirage",
+    "Master Cool",
+    "Johnson Controls",
+    "Fujitsu",
+    "Toshiba",
+    "Midea"
+
+
+  ],
+
+  "modelos": [
+    "Carrier 30XA",
+    "Carrier 30RB",
+    "Trane RTAA",
+    "Trane CGAM",
+    "York YCAL",
+    "York YVAA",
+    "Daikin EWAD",
+    "McQuay AGZ",
+    "LG Multi V",
+    "Mitsubishi City Multi"
+
+
+    
+  ],
+
+  "intenciones": [
+    "comprar",
+    "cotizar",
+    "seleccionar",
+    "instalar",
+    "reparar",
+    "mantenimiento",
+    "diagnostico",
+    "refaccion",
+    "automatizacion",
+    "monitoreo"
+     
+
+   
+    ],
+
+  "descripcion": "Equipos HVAC para confort humano, procesos industriales, hospitales, edificios inteligentes y aplicaciones críticas de climatización.",
+
+  "aplicaciones": [
+    "Hospitales",
+    "Laboratorios",
+    "Hoteles",
+    "Industria",
+    "Industria farmacéutica",
+    "Centros comerciales",
+    "Data Centers",
+    "Edificios inteligentes",
+    "Farmacéutica",
+    "Cadena fría", 
+    "Industria alimentaria",
+    "Manufactura avanzada"
+
+
+  ],
+
+  "servicios_multiconfort": [
+    "Ingeniería HVAC",
+    "Diseño HVAC",
+    "Diagnóstico especializado",
+    "Mantenimiento preventivo",
+    "Mantenimiento correctivo",
+    "Retrofit HVAC",
+    "Automatización BMS",
+    "Monitoreo remoto",
+    "Análisis energético",
+    "Integración IoT",
+    "Comisionamiento",
+    "Validación hospitalaria"
+  ],
+
+  "compatibilidades": [
+    "BACnet",
+    "Modbus RTU",
+    "Modbus TCP",
+    "MQTT",
+    "SCADA",
+    "BMS",
+    "PLC Delta",
+    "PLC Siemens",
+    "multiIntelliAllConfort"
+  ],
+
+  "preguntas_frecuentes": [
+    {
+      "pregunta": "¿Qué equipo HVAC necesito para un hospital?",
+      "respuesta": "Depende del caudal, filtración, presión diferencial y clasificación de áreas."
+    },
+    {
+      "pregunta": "¿Qué diferencia existe entre un minisplit y una UMA?",
+      "respuesta": "La UMA maneja grandes volúmenes de aire y puede integrarse a sistemas centralizados."
+    },
+    {
+      "pregunta": "¿Se puede integrar al sistema MULTICONFORT IA?",
+      "respuesta": "Sí, mediante protocolos BACnet, Modbus o soluciones IoT."
+    }
+  ],
+
+  "keywords_seo": [
+    "aire acondicionado industrial",
+    "aire acondicionado hospitalario",
+    "sistemas HVAC",
+    "HVAC México",
+    "chillers industriales",
+    "automatización HVAC",
+    "BMS hospitalario",
+    "monitoreo HVAC",
+    "Carrier México",
+    "YORK México",
+    "Daikin México"
+    
+  ],
+
+  "vectores_busqueda": [
+    "equipo para hospital",
+    "aire acondicionado industrial",
+    "solución HVAC para laboratorio",
+    "sistema de agua helada",
+    "control de temperatura y humedad",
+    "presión diferencial hospitalaria",
+    "automatización de aire acondicionado",
+    "retrofit HVAC",
+    "mantenimiento de chiller",
+    "integración BACnet"
+  ],
+
+  "productos": [
+    "Minisplits",
+    "Multisplits",
+    "VRF VRV",
+    "AHU UMA",
+    "Fan Coil",
+    "Rooftops",
+    "Unidades paquete",
+    "Chillers",
+    "Sistemas agua helada",
+    "Equipos especiales HVAC"
+  ],
+
+  "casos_uso": [
+    {
+      "sector": "Hospital",
+      "descripcion": "Control de temperatura, humedad y presión diferencial."
+    },
+    {
+      "sector": "Laboratorio",
+      "descripcion": "Monitoreo ambiental continuo y trazabilidad."
+    }
+  ],
+
+  "normativas": [
+    "ASHRAE",
+    "ISO 14644",
+    "FDA 21 CFR Part 11",
+    "COFEPRIS",
+    "NOM"
+  ],
+
+  "indicadores_kpi": [
+    "COP",
+    "EER",
+    "kW/TR",
+    "Disponibilidad",
+    "Consumo energético"
+  ],
+
+  "protocolos_comunicacion": [
+    "BACnet",
+    "Modbus RTU",
+    "Modbus TCP",
+    "MQTT",
+    "SNMP"
+  ],
+
+  "variables_controladas": [
+    "Temperatura",
+    "Humedad",
+    "Presión diferencial",
+    "CO2",
+    "Caudal de aire",
+    "Consumo energético",
+    "Estado operativo"
+  ],
+
+  "integracion_ia": {
+    "motor_busqueda": true,
+    "cotizacion_automatica": true,
+    "soporte_whatsapp": true,
+    "recomendacion_equipo": true,
+    "diagnostico_predictivo": true
+  },
+
+  "metadata": {
+    "version": "1.0",
+    "ultima_actualizacion": "2026-07-22",
+    "activo": true
+  }
+}

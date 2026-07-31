@@ -1,0 +1,405 @@
+{
+  "id": 2,
+  "codigo": "REF-001",
+  "titulo": "Refrigeración Comercial e Industrial",
+  "categoria": "Refrigeracion",
+  "tipo": "Familia",
+
+
+  "sinonimos": [
+    "refrigeracion",
+    "refrigeración industrial",
+    "refrigeración comercial",
+    "cadena fría",
+    "cold chain",
+    "cold room",
+    "cuarto frío",
+    "cámara frigorífica",
+    "congelación industrial",
+    "sistema frigorífico",
+    "sistemas frigoríficos",
+    "climatización de baja temperatura"
+  ],
+
+
+  "palabras": [
+    "refrigeracion",
+    "cuarto frio",
+    "camara frigorifica",
+    "cadena fria",
+    "congelacion",
+    "evaporador",
+    "condensador",
+    "unidad condensadora",
+    "rack",
+    "compresor",
+    "refrigerante",
+    "valvula expansion",
+    "control temperatura",
+    "deshielo"
+  ],
+
+
+  "subfamilias": [
+    "Cuartos fríos",
+    "Cámaras frigoríficas",
+    "Refrigeración comercial",
+    "Refrigeración industrial",
+    "Sistemas de congelación",
+    "Unidades condensadoras",
+    "Racks de refrigeración",
+    "Evaporadores",
+    "Condensadores",
+    "Sistemas transcríticos CO2"
+  ],
+
+
+  "marcas": [
+    "Copeland",
+    "Bitzer",
+    "Frigus Bohn",
+    "Danfoss",
+    "Embraco",
+    "Tecumseh",
+    "Heatcraft",
+    "LU-VE",
+    "Güntner",
+    "Dorin",
+    "Carel",
+    "Emerson"
+  ],
+
+
+  "modelos": [
+    "Copeland Scroll ZB",
+    "Copeland Discus",
+    "Bitzer 4NES",
+    "Bitzer 6GE",
+    "Danfoss Optyma",
+    "Frigus Bohn BZT",
+    "Embraco NT",
+    "Tecumseh TAG"
+  ],
+
+
+  "intenciones": [
+    "comprar",
+    "cotizar",
+    "reparar",
+    "mantenimiento",
+    "diagnostico",
+    "refaccion",
+    "automatizacion",
+    "monitoreo"
+  ],
+
+
+  "descripcion": "Sistemas de refrigeración comercial e industrial diseñados para conservación, congelación y control preciso de temperatura en aplicaciones críticas como alimentos, farmacéutica, hospitales y cadena fría.",
+
+
+  "aplicaciones": [
+    "Industria alimentaria",
+    "Farmacéutica",
+    "Hospitales",
+    "Laboratorios",
+    "Centros de distribución",
+    "Supermercados",
+    "Procesamiento de alimentos",
+    "Almacenamiento refrigerado",
+    "Cadena fría",
+    "Logística refrigerada"
+  ],
+
+
+  "servicios_multiconfort": [
+    "Ingeniería de refrigeración",
+    "Diseño y cálculo de sistemas frigoríficos",
+    "Diseño de cámaras frigoríficas",
+    "Mantenimiento preventivo",
+    "Mantenimiento correctivo",
+    "Diagnóstico especializado",
+    "Reparación de sistemas frigoríficos",
+    "Cambio de compresores",
+    "Retrofit de refrigerantes",
+    "Optimización energética",
+    "Automatización industrial",
+    "Monitoreo remoto",
+    "Integración IoT",
+    "Puesta en marcha",
+    "Validación de temperatura"
+  ],
+
+
+  "compatibilidades": [
+    "BACnet",
+    "Modbus RTU",
+    "Modbus TCP",
+    "MQTT",
+    "SCADA",
+    "BMS",
+    "PLC Delta",
+    "PLC Siemens",
+    "Niagara",
+    "multiIntelliAllConfort"
+  ],
+
+
+  "preguntas_frecuentes": [
+    {
+      "pregunta": "¿Qué temperatura debe tener un cuarto frío?",
+      "respuesta": "Depende del producto almacenado. Puede variar desde refrigeración positiva entre 2 y 8 °C hasta congelación profunda por debajo de -18 °C."
+    },
+    {
+      "pregunta": "¿Qué diferencia existe entre refrigeración comercial e industrial?",
+      "respuesta": "La refrigeración industrial maneja mayores capacidades, sistemas centralizados, procesos críticos y mayores requerimientos de confiabilidad."
+    },
+    {
+      "pregunta": "¿Se puede monitorear remotamente una cámara frigorífica?",
+      "respuesta": "Sí. Puede integrarse mediante sensores, IoT, Modbus, BACnet, SCADA o MULTICONFORT IA."
+    },
+    {
+      "pregunta": "¿Qué mantenimiento requiere un sistema de refrigeración?",
+      "respuesta": "Incluye revisión de presiones, temperaturas, compresores, ventiladores, condensadores, evaporadores, refrigerante, controles y eficiencia energética."
+    }
+  ],
+
+
+  "keywords_seo": [
+    "refrigeración industrial México",
+    "refrigeración comercial México",
+    "cuartos fríos industriales",
+    "cámaras frigoríficas",
+    "cadena fría farmacéutica",
+    "sistemas frigoríficos",
+    "compresores Copeland México",
+    "Bitzer México",
+    "mantenimiento refrigeración industrial",
+    "automatización refrigeración",
+    "monitoreo temperatura remoto"
+  ],
+
+
+  "vectores_busqueda": [
+    "cuarto frio para alimentos",
+    "camara frigorifica industrial",
+    "cadena fria farmaceutica",
+    "congelacion industrial",
+    "compresor copeland",
+    "equipo bitzer",
+    "unidad condensadora",
+    "evaporador industrial",
+    "control temperatura",
+    "monitoreo refrigeracion",
+    "automatizacion refrigeracion"
+  ],
+
+
+  "productos": [
+    "Cuartos fríos",
+    "Cámaras frigoríficas",
+    "Evaporadores",
+    "Condensadores",
+    "Compresores",
+    "Racks de refrigeración",
+    "Unidades condensadoras",
+    "Sistemas de congelación",
+    "Controles electrónicos",
+    "Válvulas de expansión",
+    "Refrigerantes"
+  ],
+
+
+  "casos_uso": [
+    {
+      "sector": "Alimentos",
+      "descripcion": "Conservación, refrigeración y congelación para mantener la cadena fría."
+    },
+    {
+      "sector": "Farmacéutica",
+      "descripcion": "Almacenamiento controlado de medicamentos, vacunas y productos sensibles a temperatura."
+    },
+    {
+      "sector": "Hospitales",
+      "descripcion": "Sistemas críticos para laboratorios, bancos de sangre y áreas especiales."
+    }
+  ],
+
+
+  "normativas": [
+    "ASHRAE",
+    "NOM",
+    "COFEPRIS",
+    "FDA 21 CFR Part 11",
+    "Buenas Prácticas de Almacenamiento",
+    "Buenas Prácticas de Manufactura"
+  ],
+
+
+  "indicadores_kpi": [
+    "Temperatura promedio",
+    "Tiempo fuera de rango",
+    "Consumo energético",
+    "Disponibilidad del sistema",
+    "COP",
+    "Presión de succión",
+    "Presión de descarga",
+    "Horas operación compresores"
+  ],
+
+
+  "protocolos_comunicacion": [
+    "BACnet",
+    "Modbus RTU",
+    "Modbus TCP",
+    "MQTT",
+    "SNMP"
+  ],
+
+
+  "variables_controladas": [
+    "Temperatura",
+    "Humedad",
+    "Presión",
+    "Estado de compresores",
+    "Estado de ventiladores",
+    "Consumo energético",
+    "Nivel de refrigerante",
+    "Alarmas del sistema"
+  ],
+
+
+
+  "atributos_tecnicos": {
+
+    "capacidad": "",
+
+    "unidad_capacidad": "BTU/h",
+
+    "voltaje": "",
+
+    "fases": "",
+
+    "frecuencia": "60 Hz",
+
+    "refrigerante": [
+      "R404A",
+      "R507A",
+      "R134a",
+      "R407C",
+      "R410A",
+      "R290",
+      "CO2"
+    ],
+
+    "eficiencia": "",
+
+    "temperatura_operacion": "",
+
+    "humedad_operacion": "",
+
+    "caudal_aire": "",
+
+    "presion_succion": "",
+
+    "presion_descarga": "",
+
+    "tipo_compresor": [
+      "Scroll",
+      "Reciprocante",
+      "Semihermético",
+      "Tornillo"
+    ],
+
+    "tipo_control": [
+      "Control electrónico",
+      "PLC",
+      "Termostato",
+      "BMS"
+    ]
+  },
+
+
+
+  "relaciones": [
+
+    {
+      "tipo": "usa_refrigerante",
+      "elemento": "R404A"
+    },
+
+    {
+      "tipo": "usa_refrigerante",
+      "elemento": "R507A"
+    },
+
+    {
+      "tipo": "usa_refrigerante",
+      "elemento": "R290"
+    },
+
+    {
+      "tipo": "compatible_con",
+      "elemento": "Compresores Copeland"
+    },
+
+    {
+      "tipo": "compatible_con",
+      "elemento": "Compresores Bitzer"
+    },
+
+    {
+      "tipo": "integra_con",
+      "elemento": "BMS"
+    },
+
+    {
+      "tipo": "monitoreado_por",
+      "elemento": "multiIntelliAllConfort"
+    },
+
+    {
+      "tipo": "controla_variable",
+      "elemento": "Temperatura"
+    },
+
+    {
+      "tipo": "controla_variable",
+      "elemento": "Presión"
+    },
+
+    {
+      "tipo": "requiere_mantenimiento",
+      "elemento": "Filtros y limpieza de condensadores"
+    }
+
+  ],
+
+
+
+  "integracion_ia": {
+
+    "motor_busqueda": true,
+
+    "cotizacion_automatica": true,
+
+    "soporte_whatsapp": true,
+
+    "recomendacion_equipo": true,
+
+    "diagnostico_predictivo": true
+
+  },
+
+
+
+  "metadata": {
+
+    "version": "1.0",
+
+    "ultima_actualizacion": "2026-07-22",
+
+    "activo": true
+
+  }
+
+}

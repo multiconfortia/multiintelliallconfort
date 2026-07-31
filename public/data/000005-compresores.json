@@ -1,0 +1,226 @@
+{
+  "id": 5,
+  "codigo": "CMP-001",
+  "titulo": "Compresores HVACR",
+  "categoria": "Componentes",
+  "tipo": "Familia",
+
+  "sinonimos": [
+    "compresor HVAC",
+    "compresor refrigeracion",
+    "compressor",
+    "compresor frigorifico",
+    "unidad compresora",
+    "compresor industrial",
+    "compresor comercial",
+    "compresor hermetico",
+    "compresor semihermetico",
+    "compresor scroll"
+  ],
+
+  "palabras": [
+    "scroll",
+    "tornillo",
+    "hermetico",
+    "semihermetico",
+    "reciprocante",
+    "centrifugo",
+    "abierto",
+    "fraccionario",
+    "compresor",
+    "refrigeracion"
+  ],
+
+  "marcas": [
+    "Bitzer",
+    "Copeland",
+    "Carlyle",
+    "Danfoss",
+    "Emerson",
+    "Maneurop",
+    "Frigus Bohn",
+    "Tecumseh",
+    "Embraco",
+    "Carrier"
+  ],
+
+  "modelos": [
+    "Copeland ZB",
+    "Copeland ZR",
+    "Copeland Discus",
+    "Bitzer 4NES",
+    "Bitzer 6GE",
+    "Carlyle 06E",
+    "Maneurop MT",
+    "Maneurop NTZ",
+    "Danfoss Performer",
+    "Danfoss Turbocor"
+  ],
+
+  "intenciones": [
+    "comprar",
+    "cotizar",
+    "reparar",
+    "mantenimiento",
+    "diagnostico",
+    "refaccion",
+    "reemplazar",
+    "monitoreo"
+  ],
+
+  "descripcion": "Compresores HVACR para aplicaciones comerciales, industriales, hospitalarias y de refrigeración, utilizados en sistemas de aire acondicionado, agua helada y cadena fría.",
+
+  "aplicaciones": [
+    "Aire acondicionado",
+    "Refrigeración comercial",
+    "Refrigeración industrial",
+    "Hospitales",
+    "Laboratorios",
+    "Industria alimentaria",
+    "Cadena fría",
+    "Data Centers",
+    "Farmacéutica"
+  ],
+
+  "servicios_multiconfort": [
+    "Diagnóstico de compresores",
+    "Mantenimiento preventivo",
+    "Mantenimiento correctivo",
+    "Análisis de falla",
+    "Cambio de compresor",
+    "Retrofit HVACR",
+    "Monitoreo remoto",
+    "Análisis energético",
+    "Puesta en marcha",
+    "Suministro de refacciones",
+    "Automatización HVACR"
+  ],
+
+  "compatibilidades": [
+    "Chillers",
+    "Sistemas DX",
+    "Cuartos fríos",
+    "Cámaras frigoríficas",
+    "Evaporadores",
+    "Condensadores",
+    "BACnet",
+    "Modbus",
+    "multiIntelliAllConfort"
+  ],
+
+  "preguntas_frecuentes": [
+    {
+      "pregunta": "¿Qué tipo de compresor debo utilizar?",
+      "respuesta": "Depende de la capacidad, refrigerante, aplicación y condiciones de operación."
+    },
+    {
+      "pregunta": "¿Qué diferencia existe entre un compresor hermético y semihermético?",
+      "respuesta": "El hermético está completamente sellado, mientras que el semihermético permite mantenimiento interno."
+    },
+    {
+      "pregunta": "¿Pueden diagnosticar fallas de compresores?",
+      "respuesta": "Sí, mediante análisis eléctrico, mecánico, térmico y monitoreo de variables de operación."
+    }
+  ],
+
+  "keywords_seo": [
+    "compresores HVAC",
+    "compresores refrigeracion",
+    "compresor Copeland",
+    "compresor Bitzer",
+    "compresor Carlyle",
+    "compresor Danfoss",
+    "compresor scroll",
+    "compresor semihermetico",
+    "compresor industrial",
+    "compresor para chiller"
+  ],
+
+  "vectores_busqueda": [
+    "compresor copeland",
+    "compresor bitzer",
+    "compresor para cuarto frio",
+    "compresor para chiller",
+    "compresor scroll",
+    "compresor semihermetico",
+    "compresor refrigeracion industrial",
+    "cambio de compresor",
+    "diagnostico de compresor",
+    "refacciones para compresor"
+  ],
+
+  "productos": [
+    "Compresores abiertos",
+    "Compresores scroll",
+    "Compresores reciprocantes",
+    "Compresores fraccionarios",
+    "Compresores herméticos",
+    "Compresores semiherméticos",
+    "Compresores de tornillo",
+    "Compresores centrífugos"
+  ],
+
+  "casos_uso": [
+    {
+      "sector": "Refrigeración",
+      "descripcion": "Compresión de refrigerante para cuartos fríos y cámaras frigoríficas."
+    },
+    {
+      "sector": "HVAC",
+      "descripcion": "Compresores para sistemas de aire acondicionado y agua helada."
+    },
+    {
+      "sector": "Industria",
+      "descripcion": "Aplicaciones de proceso y control térmico industrial."
+    }
+  ],
+
+  "normativas": [
+    "ASHRAE",
+    "AHRI",
+    "ISO 9001",
+    "NOM",
+    "COFEPRIS"
+  ],
+
+  "indicadores_kpi": [
+    "COP",
+    "EER",
+    "Consumo energético",
+    "Horas de operación",
+    "Temperatura de descarga",
+    "Presión de succión",
+    "Presión de descarga",
+    "Disponibilidad"
+  ],
+
+  "protocolos_comunicacion": [
+    "BACnet",
+    "Modbus RTU",
+    "Modbus TCP",
+    "MQTT"
+  ],
+
+  "variables_controladas": [
+    "Temperatura de descarga",
+    "Temperatura de succión",
+    "Presión de alta",
+    "Presión de baja",
+    "Corriente eléctrica",
+    "Voltaje",
+    "Frecuencia",
+    "Horas de operación"
+  ],
+
+  "integracion_ia": {
+    "motor_busqueda": true,
+    "cotizacion_automatica": true,
+    "soporte_whatsapp": true
+  },
+
+  "metadata": {
+    "version": "1.0",
+    "ultima_actualizacion": "2026-07-22",
+    "activo": true
+  }
+}

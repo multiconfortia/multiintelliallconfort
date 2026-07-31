@@ -1,0 +1,227 @@
+{
+  "id": 4,
+  "codigo": "FAB-001",
+  "titulo": "Serpentines e Intercambiadores de Calor",
+  "categoria": "Fabricacion",
+  "tipo": "Familia",
+
+  "sinonimos": [
+    "serpentin",
+    "serpentín",
+    "coil",
+    "bobina térmica",
+    "heat exchanger",
+    "intercambiador de calor",
+    "evaporador",
+    "condensador",
+    "thermal coil",
+    "cooling coil"
+  ],
+
+  "palabras": [
+    "serpentin",
+    "coil",
+    "evaporador",
+    "condensador",
+    "heat exchanger",
+    "intercambiador",
+    "aletas",
+    "tubos de cobre",
+    "tubos de acero inoxidable",
+    "casco y tubos",
+    "recuperador térmico"
+  ],
+
+  "marcas": [
+    "Carrier",
+    "Trane",
+    "York",
+    "Daikin",
+    "McQuay",
+    "Luvata",
+    "Heatcraft",
+    "Frigus Bohn",
+    "LU-VE",
+    "Güntner"
+  ],
+
+  "modelos": [
+    "Serpentín evaporador",
+    "Serpentín condensador",
+    "Coil HVAC",
+    "Intercambiador casco y tubos",
+    "Intercambiador doble tubo",
+    "Recuperador térmico",
+    "Serpentín de agua helada",
+    "Serpentín de expansión directa"
+  ],
+
+  "intenciones": [
+    "fabricar",
+    "cotizar",
+    "reparar",
+    "mantenimiento",
+    "diagnostico",
+    "reemplazar",
+    "automatizacion",
+    "monitoreo"
+  ],
+
+  "descripcion": "Fabricación, reparación y suministro de serpentines, evaporadores, condensadores e intercambiadores de calor para aplicaciones HVACR, industriales y hospitalarias.",
+
+  "aplicaciones": [
+    "Hospitales",
+    "Laboratorios",
+    "Industria",
+    "Farmacéutica",
+    "Alimentos",
+    "Centros comerciales",
+    "Hoteles",
+    "Data Centers",
+    "Procesos industriales"
+  ],
+
+  "servicios_multiconfort": [
+    "Fabricación de serpentines",
+    "Fabricación de serpentines especiales",
+    "Reparación de serpentines",
+    "Reingeniería de intercambiadores",
+    "Limpieza química",
+    "Pruebas de hermeticidad",
+    "Cambio de tubos",
+    "Reconstrucción de aletas",
+    "Diagnóstico térmico",
+    "Retrofit HVACR",
+    "Diseño térmico especializado",
+    "Comisionamiento"
+  ],
+
+  "compatibilidades": [
+    "Chillers",
+    "AHU",
+    "UMA",
+    "Fan Coil",
+    "Sistemas DX",
+    "Torres de enfriamiento",
+    "Plantas de agua helada",
+    "BMS",
+    "multiIntelliAllConfort"
+  ],
+
+  "preguntas_frecuentes": [
+    {
+      "pregunta": "¿Se puede reparar un serpentín dañado?",
+      "respuesta": "Sí, dependiendo del daño se pueden reemplazar tubos, aletas o reconstruir secciones completas."
+    },
+    {
+      "pregunta": "¿Fabrican serpentines especiales sobre muestra?",
+      "respuesta": "Sí, es posible fabricar serpentines a partir de planos, especificaciones o muestra física."
+    },
+    {
+      "pregunta": "¿Qué materiales utilizan?",
+      "respuesta": "Se fabrican en cobre, aluminio, acero inoxidable y materiales especiales según la aplicación."
+    }
+  ],
+
+  "keywords_seo": [
+    "fabricación de serpentines",
+    "reparación de serpentines",
+    "intercambiadores de calor",
+    "serpentines HVACR",
+    "evaporadores industriales",
+    "condensadores industriales",
+    "coils HVAC",
+    "intercambiadores casco y tubos",
+    "fabricación HVAC México",
+    "reconstrucción de serpentines"
+  ],
+
+  "vectores_busqueda": [
+    "fabricar serpentin especial",
+    "reparacion de evaporador",
+    "condensador dañado",
+    "intercambiador casco y tubos",
+    "serpentin para UMA",
+    "coil para aire acondicionado",
+    "recuperador de calor",
+    "intercambiador industrial",
+    "serpentin de agua helada",
+    "fabricacion sobre muestra"
+  ],
+
+  "productos": [
+    "Serpentines evaporadores",
+    "Serpentines condensadores",
+    "Serpentines HVACR",
+    "Bobinas térmicas (Coils)",
+    "Evaporadores",
+    "Condensadores",
+    "Intercambiadores de calor",
+    "Intercambiadores casco y tubos",
+    "Intercambiadores tubo y tubo",
+    "Recuperadores térmicos",
+    "Fabricación de serpentines especiales"
+  ],
+
+  "casos_uso": [
+    {
+      "sector": "Hospital",
+      "descripcion": "Reposición y fabricación de serpentines para UMA y sistemas críticos."
+    },
+    {
+      "sector": "Industria",
+      "descripcion": "Intercambiadores de calor para procesos térmicos y recuperación energética."
+    },
+    {
+      "sector": "HVACR",
+      "descripcion": "Fabricación y reparación de evaporadores y condensadores para sistemas de climatización."
+    }
+  ],
+
+  "normativas": [
+    "ASHRAE",
+    "AHRI",
+    "ASME",
+    "ISO 9001",
+    "FDA 21 CFR Part 11",
+    "COFEPRIS",
+    "NOM"
+  ],
+
+  "indicadores_kpi": [
+    "Eficiencia térmica",
+    "Transferencia de calor",
+    "Caída de presión",
+    "Temperatura de entrada",
+    "Temperatura de salida",
+    "Capacidad térmica",
+    "Disponibilidad"
+  ],
+
+  "protocolos_comunicacion": [
+    "BACnet",
+    "Modbus RTU",
+    "Modbus TCP"
+  ],
+
+  "variables_controladas": [
+    "Temperatura",
+    "Caudal",
+    "Presión",
+    "Diferencial de temperatura",
+    "Transferencia térmica",
+    "Consumo energético"
+  ],
+
+  "integracion_ia": {
+    "motor_busqueda": true,
+    "cotizacion_automatica": true,
+    "soporte_whatsapp": true
+  },
+
+  "metadata": {
+    "version": "1.0",
+    "ultima_actualizacion": "2026-07-22",
+    "activo": true
+  }
+}

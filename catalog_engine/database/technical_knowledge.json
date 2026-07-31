@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "motor": "MULTICONFORT_IA_TECHNICAL_KNOWLEDGE",
+    "version": "1.0",
+    "descripcion": "Base inicial de conocimiento HVACR",
+    "fecha": "2026-07-26"
+  },
+
+
+  "refrigerantes": {
+
+    "R22": {
+      "nombre": "Clorodifluorometano",
+      "tipo": "HCFC",
+      "aplicacion": [
+        "Refrigeracion comercial",
+        "Aire acondicionado"
+      ],
+      "aceites_asociados": [
+        "Mineral",
+        "Alquilbenceno"
+      ]
+    },
+
+
+    "R404A": {
+      "nombre": "Mezcla HFC",
+      "tipo": "HFC",
+      "aplicacion": [
+        "Refrigeracion comercial",
+        "Congelacion"
+      ],
+      "aceites_asociados": [
+        "POE"
+      ]
+    },
+
+
+    "R410A": {
+      "nombre": "Mezcla HFC",
+      "tipo": "HFC",
+      "aplicacion": [
+        "Aire acondicionado",
+        "Bombas de calor"
+      ],
+      "aceites_asociados": [
+        "POE"
+      ]
+    },
+
+
+    "R134A": {
+      "nombre": "Tetrafluoroetano",
+      "tipo": "HFC",
+      "aplicacion": [
+        "Refrigeracion comercial",
+        "Automotriz"
+      ],
+      "aceites_asociados": [
+        "POE"
+      ]
+    },
+
+
+    "R32": {
+      "nombre": "Difluorometano",
+      "tipo": "HFC",
+      "clasificacion_seguridad": "A2L",
+      "aplicacion": [
+        "Aire acondicionado moderno"
+      ],
+      "aceites_asociados": [
+        "POE"
+      ]
+    },
+
+
+    "R290": {
+      "nombre": "Propano",
+      "tipo": "Refrigerante natural HC",
+      "clasificacion_seguridad": "A3",
+      "aplicacion": [
+        "Refrigeracion comercial",
+        "Equipos compactos"
+      ],
+      "aceites_asociados": [
+        "Consultar fabricante"
+      ]
+    },
+
+
+    "R744": {
+      "nombre": "Dioxido de carbono",
+      "tipo": "Refrigerante natural",
+      "clasificacion_seguridad": "A1",
+      "aplicacion": [
+        "Sistemas transcriticos",
+        "Supermercados"
+      ]
+    }
+
+  },
+
+
+  "aceites": {
+
+
+    "MINERAL": {
+      "nombre": "Aceite mineral",
+      "tipo": "Lubricante tradicional",
+      "uso": [
+        "HCFC",
+        "Sistemas antiguos"
+      ]
+    },
+
+
+    "AB": {
+      "nombre": "Alquilbenceno",
+      "tipo": "Sintetico",
+      "uso": [
+        "R22",
+        "Sistemas retrofit"
+      ]
+    },
+
+
+    "POE": {
+      "nombre": "Polyol Ester",
+      "tipo": "Sintetico",
+      "uso": [
+        "HFC",
+        "HFO"
+      ],
+      "caracteristicas": [
+        "Alta absorcion de humedad",
+        "Requiere cuidado durante instalacion"
+      ]
+    },
+
+
+    "PAG": {
+      "nombre": "Polyalkylene Glycol",
+      "uso": [
+        "Aplicaciones automotrices"
+      ]
+    },
+
+
+    "PVE": {
+      "nombre": "Polyvinyl Ether",
+      "uso": [
+        "Compresores modernos"
+      ]
+    }
+
+  },
+
+
+  "equipos": {
+
+    "COMPRESOR": {
+      "tipos": [
+        "Reciprocante",
+        "Scroll",
+        "Tornillo",
+        "Rotativo"
+      ]
+    },
+
+
+    "CONTROLADOR": {
+      "protocolos": [
+        "MODBUS",
+        "BACNET"
+      ]
+    },
+
+
+    "UMA": {
+      "nombre": "Unidad Manejadora de Aire",
+      "abreviatura": "AHU"
+    }
+
+  },
+
+
+  "protocolos": {
+
+    "MODBUS": {
+      "tipo": "Comunicacion industrial",
+      "variantes": [
+        "RTU",
+        "TCP"
+      ]
+    },
+
+
+    "BACNET": {
+      "tipo": "Automatizacion de edificios"
+    }
+
+  }
+
+}

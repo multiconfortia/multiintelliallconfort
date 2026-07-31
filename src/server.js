@@ -12,6 +12,12 @@ const publicacionesRoute = require("../routes/publicaciones");
 
 const systemRoute = require("../routes/system");
 
+const assistant =
+require("../catalog_engine/ai_query/assistant");
+
+
+
+
 // se agrega para tren
 const railsenseRoute = require("../routes/railsense");
 
@@ -25,7 +31,29 @@ module.exports = function () {
     app.use(express.json());
     app.use(express.urlencoded({ extended: true }));
 
+
+// =========================
+// API MULTICONFORT IA
+// =========================
+
+app.post("/api/consulta",(req,res)=>{
+
+    const consulta =
+        req.body.consulta;
+
+
+    const respuesta =
+        assistant.consultar(
+            consulta
+        );
+
+
+    res.json(respuesta);
+
+});
     
+
+
 
     // =========================
     // FRONTEND (PLATAFORMA)
@@ -226,7 +254,7 @@ app.post("/cotizacion", (req, res) => {
     // PUBLICACIONES MULTICONFORT
     // =========================
 
-    app.use("/publicaciones", publicacionesRoute);
+    app.use("/knowhow", publicacionesRoute);
 
 
     // =========================

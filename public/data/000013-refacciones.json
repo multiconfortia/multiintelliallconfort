@@ -1,0 +1,563 @@
+{
+  "id": 13,
+  "codigo": "REF-001",
+  "titulo": "Refacciones, Retrofit y Continuidad Operativa HVACR",
+  "categoria": "Refacciones",
+  "tipo": "Familia",
+
+
+  "sinonimos": [
+    "refaccion",
+    "repuesto",
+    "pieza de reemplazo",
+    "componente sustituto",
+    "spare parts",
+    "replacement parts",
+    "continuidad operativa",
+    "soporte tecnico",
+    "modernizacion hvacr",
+    "ingenieria de reemplazo",
+    "recuperacion tecnologica"
+  ],
+
+
+  "palabras": [
+    "refaccion hvacr",
+    "refaccion aire acondicionado",
+    "refaccion refrigeracion",
+    "refaccion chiller",
+    "refaccion compresor",
+    "refaccion minisplit",
+    "refaccion rooftop",
+    "refaccion paquete",
+    "refaccion sistema dividido",
+    "pieza original",
+    "pieza compatible",
+    "equivalencia tecnica",
+    "fabricacion de refacciones",
+    "manufactura de componentes",
+    "retrofit",
+    "modernizacion",
+    "equipo obsoleto",
+    "componente discontinuado",
+    "tarjeta electronica",
+    "gateway hvacr",
+    "modbus hvacr",
+    "integracion bms",
+    "continuidad operativa"
+  ],
+
+
+  "subfamilias": [
+
+    "Refacciones HVACR",
+
+    "Refacciones para compresores",
+
+    "Refacciones para chillers",
+
+    "Refacciones para minisplits",
+
+    "Refacciones para unidades paquete",
+
+    "Refacciones para sistemas divididos",
+
+    "Refacciones para equipos VRF/VRV",
+
+    "Componentes electrónicos HVACR",
+
+    "Tarjetas electrónicas",
+
+    "Gateways de comunicación",
+
+    "Fabricación especial de componentes",
+
+    "Retrofit HVACR",
+
+    "Modernización tecnológica",
+
+    "Kits de mantenimiento"
+
+  ],
+
+
+  "tipos_componentes": [
+
+    "Compresores",
+
+    "Bobinas",
+
+    "Terminales",
+
+    "Protectores térmicos",
+
+    "Válvulas internas",
+
+    "Motores eléctricos",
+
+    "Motores BLDC",
+
+    "Aspas de ventilador",
+
+    "Turbinas",
+
+    "Rotores",
+
+    "Ventiladores",
+
+    "Tarjetas electrónicas PCB",
+
+    "Tarjetas de control",
+
+    "Controladores",
+
+    "Sensores",
+
+    "Actuadores",
+
+    "Contactores",
+
+    "Capacitores",
+
+    "Relés",
+
+    "Válvulas de expansión",
+
+    "Filtros secadores",
+
+    "Bombas",
+
+    "Intercambiadores de calor"
+
+  ],
+
+
+  "fabricacion_multiconfort": [
+
+    "Fabricación de aspas HVACR",
+
+    "Fabricación de turbinas para manejadoras",
+
+    "Fabricación de impulsores",
+
+    "Fabricación de componentes mecánicos especiales",
+
+    "Tarjetas electrónicas de reemplazo",
+
+    "Controladores personalizados",
+
+    "Gateways de comunicación HVACR",
+
+    "Conversores Modbus RTU/TCP",
+
+    "Integración BACnet",
+
+    "Módulos IoT",
+
+    "Adaptación de equipos antiguos",
+
+    "Desarrollo electrónico especial"
+
+  ],
+
+
+  "equipos_relacionados": [
+
+    "Minisplit",
+
+    "Multisplit",
+
+    "Sistema dividido",
+
+    "Unidad paquete",
+
+    "Rooftop",
+
+    "VRF/VRV",
+
+    "Chiller",
+
+    "Unidad manejadora AHU",
+
+    "Fan Coil",
+
+    "Torre de enfriamiento",
+
+    "Sistema agua helada",
+
+    "Equipos industriales HVACR"
+
+  ],
+
+
+  "marcas_relacionadas": [
+
+    "Carrier",
+
+    "Trane",
+
+    "York",
+
+    "Daikin",
+
+    "Mitsubishi Electric",
+
+    "LG",
+
+    "McQuay",
+
+    "Copeland",
+
+    "Bitzer",
+
+    "Danfoss",
+
+    "Emerson",
+
+    "Honeywell",
+
+    "Schneider Electric"
+
+  ],
+
+
+  "intenciones": [
+
+    "comprar",
+
+    "cotizar",
+
+    "buscar refaccion",
+
+    "buscar equivalente",
+
+    "sustituir componente",
+
+    "fabricar componente",
+
+    "reparar",
+
+    "modernizar",
+
+    "hacer retrofit",
+
+    "integrar comunicacion",
+
+    "evitar paro operativo"
+
+  ],
+
+
+  "servicios_multiconfort": [
+
+    "Identificación de refacciones",
+
+    "Búsqueda por modelo",
+
+    "Búsqueda por imagen",
+
+    "Ingeniería inversa",
+
+    "Diseño de reemplazos",
+
+    "Fabricación de componentes",
+
+    "Equivalencia técnica",
+
+    "Retrofit HVACR",
+
+    "Modernización electrónica",
+
+    "Integración de comunicación",
+
+    "Diagnóstico especializado",
+
+    "Continuidad operativa",
+
+    "Gestión de activos HVACR"
+
+  ],
+
+
+  "aplicaciones_criticas": [
+
+    "Hospitales",
+
+    "Laboratorios",
+
+    "Industria farmacéutica",
+
+    "Centros de datos",
+
+    "Industria alimentaria",
+
+    "Procesos industriales",
+
+    "Edificios inteligentes"
+
+  ],
+
+
+  "compatibilidades": [
+
+    "Modbus RTU",
+
+    "Modbus TCP",
+
+    "BACnet",
+
+    "MQTT",
+
+    "SCADA",
+
+    "BMS",
+
+    "PLC",
+
+    "multiIntelliAllConfort"
+
+  ],
+
+
+  "preguntas_frecuentes": [
+
+    {
+      "pregunta": "¿Pueden reemplazar una refacción que ya no existe?",
+      "respuesta": "Sí. MULTICONFORT realiza búsqueda técnica, equivalencia, fabricación especial o sustitución tecnológica."
+    },
+
+    {
+      "pregunta": "¿Fabrican componentes HVACR?",
+      "respuesta": "Sí. Se desarrollan aspas, turbinas, tarjetas electrónicas, gateways y componentes especiales."
+    },
+
+    {
+      "pregunta": "¿Se pueden integrar equipos antiguos a sistemas modernos?",
+      "respuesta": "Sí. Mediante gateways, conversores y protocolos industriales como Modbus, BACnet o MQTT."
+    }
+
+  ],
+
+
+  "keywords_seo": [
+
+    "refacciones HVACR México",
+
+    "fabricación refacciones aire acondicionado",
+
+    "tarjetas electrónicas HVAC",
+
+    "retrofit HVACR",
+
+    "modernización chiller",
+
+    "gateway Modbus HVAC",
+
+    "reparación equipos obsoletos",
+
+    "continuidad operativa HVAC",
+
+    "ingeniería de reemplazo HVAC"
+
+  ],
+
+
+  "vectores_busqueda": [
+
+    "tarjeta aire acondicionado dañada",
+
+    "fabricar aspa ventilador",
+
+    "turbina manejadora aire",
+
+    "controlador chiller reemplazo",
+
+    "convertir equipo antiguo a Modbus",
+
+    "integración BMS equipo existente",
+
+    "refaccion Copeland",
+
+    "refaccion Carrier",
+
+    "retrofit sistema HVAC"
+
+  ],
+
+
+  "productos": [
+
+    "Tarjetas electrónicas",
+
+    "Gateways HVACR",
+
+    "Aspas",
+
+    "Turbinas",
+
+    "Motores",
+
+    "Sensores",
+
+    "Controladores",
+
+    "Actuadores",
+
+    "Contactores",
+
+    "Capacitores",
+
+    "Componentes mecánicos",
+
+    "Componentes eléctricos",
+
+    "Kits mantenimiento"
+
+  ],
+
+
+  "casos_uso": [
+
+    {
+      "sector": "Hospitales",
+      "descripcion": "Recuperación de equipos críticos evitando paro operativo por falta de refacciones."
+    },
+
+    {
+      "sector": "Industria",
+      "descripcion": "Extensión de vida útil y modernización de equipos existentes."
+    },
+
+    {
+      "sector": "Edificios inteligentes",
+      "descripcion": "Integración de equipos antiguos a plataformas modernas de supervisión."
+    }
+
+  ],
+
+
+  "indicadores_kpi": [
+
+    "Tiempo de recuperación",
+
+    "Disponibilidad del equipo",
+
+    "Reducción de paro operativo",
+
+    "Vida útil extendida",
+
+    "Ahorro contra sustitución total",
+
+    "Equipos integrados"
+
+  ],
+
+
+  "variables_controladas": [
+
+    "Estado del equipo",
+
+    "Temperatura",
+
+    "Presión",
+
+    "Alarmas",
+
+    "Consumo energético",
+
+    "Comunicación"
+
+  ],
+
+
+  "atributos_tecnicos": {
+
+    "tipo_componente": "",
+
+    "marca_original": "",
+
+    "modelo_original": "",
+
+    "equivalencia": "",
+
+    "fabricacion_especial": "",
+
+    "protocolo_comunicacion": "",
+
+    "voltaje": "",
+
+    "capacidad": ""
+
+  },
+
+
+  "relaciones": [
+
+    {
+      "tipo": "aplica_en",
+      "elemento": "Equipos HVACR existentes"
+    },
+
+    {
+      "tipo": "sustituye",
+      "elemento": "Componentes discontinuados"
+    },
+
+    {
+      "tipo": "moderniza",
+      "elemento": "Equipos obsoletos"
+    },
+
+    {
+      "tipo": "integra_con",
+      "elemento": "BMS y SCADA"
+    },
+
+    {
+      "tipo": "comunica_mediante",
+      "elemento": "Modbus/BACnet/MQTT"
+    },
+
+    {
+      "tipo": "fabricado_por",
+      "elemento": "MULTICONFORT Ingeniería Ambiental"
+    },
+
+    {
+      "tipo": "monitoreado_por",
+      "elemento": "multiIntelliAllConfort"
+    }
+
+  ],
+
+
+  "integracion_ia": {
+
+    "busqueda_por_modelo": true,
+
+    "busqueda_por_imagen": true,
+
+    "equivalencia_automatica": true,
+
+    "recomendacion_retrofit": true,
+
+    "alerta_stock_critico": true,
+
+    "diagnostico_predictivo": true,
+
+    "generacion_de_ingenieria": true
+
+  },
+
+
+  "metadata": {
+
+    "version": "1.3",
+
+    "ultima_actualizacion": "2026-07-22",
+
+    "activo": true
+
+  }
+
+}

@@ -1,0 +1,1892 @@
+{
+  "metadata": {
+    "motor": "MULTICONFORT_IA_TECHNICAL_MEMORY",
+    "version": "1.0",
+    "fecha": "2026-07-26T23:22:00.924Z"
+  },
+  "productos": [
+    {
+      "id": 1,
+      "descripcion": "HARRYS SOLDADURA  PLANA 0%",
+      "marca": "HARRYS",
+      "familia": "Soldadura",
+      "subfamilia": "Material de unión",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 2,
+      "descripcion": "HARRYS SOLDADURA PLATA HARRYS 15%",
+      "marca": "HARRYS",
+      "familia": "Soldadura",
+      "subfamilia": "Material de unión",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 3,
+      "descripcion": "HARRYS SOLDADURA  PLANA 5%",
+      "marca": "HARRYS",
+      "familia": "Soldadura",
+      "subfamilia": "Material de unión",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 4,
+      "descripcion": "GEFRIEREN REFRIGERANTE 404A 10.89KGS",
+      "marca": "GEFRIEREN",
+      "familia": "Refrigerantes",
+      "subfamilia": "Gases refrigerantes",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 5,
+      "descripcion": "FULL GAUGE CONTROLADOR MEDIA TEMP. 12/24V 1 SEN 1SAL(512iL)",
+      "marca": "FULL GAUGE",
+      "familia": "Controladores electrónicos",
+      "subfamilia": "Control temperatura",
+      "entidades": {
+        "tipos": [
+          "CONTROLADOR"
+        ],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 6,
+      "descripcion": "KASON METRO DE RESISTENCIA 3.5 OHM 1/32 W",
+      "marca": "KASON",
+      "familia": "Resistencias y calefacción",
+      "subfamilia": "Elementos calefactores",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 7,
+      "descripcion": "ACEITE TEXAS POE SW32 GALON",
+      "marca": "",
+      "familia": "Aceites refrigeración",
+      "subfamilia": "Aceite POE / Mineral",
+      "entidades": {
+        "tipos": [
+          "ACEITE"
+        ],
+        "tecnologias": [
+          "POE"
+        ],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 8,
+      "descripcion": "BRONCE PIVOTE DE REPUESTO PARA VALVULA PIVOTE",
+      "marca": "",
+      "familia": "Conexiones",
+      "subfamilia": "Conexiones de bronce",
+      "entidades": {
+        "tipos": [
+          "VALVULA"
+        ],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 9,
+      "descripcion": "NORCUL BBJ ABRAZADERAS ASIENTO DE GOMA DE 3 1/8",
+      "marca": "",
+      "familia": "Herrajes",
+      "subfamilia": "Abrazaderas",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 10,
+      "descripcion": "SIKAFLEX SELLADOR BLANCO 1A CARTUCHO 0.408GM",
+      "marca": "SIKA",
+      "familia": "Material aislante",
+      "subfamilia": "Adhesivos y espumas",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [
+          "UMA"
+        ],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 11,
+      "descripcion": "EMPAQUE CEJA STANDAR GRIS  #3",
+      "marca": "",
+      "familia": "Sellos y empaques",
+      "subfamilia": "Empaques refrigeración",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 12,
+      "descripcion": "CINTA PVC REFRITAPE   2mm X 48mm X 7 mts",
+      "marca": "",
+      "familia": "Cintas técnicas",
+      "subfamilia": "Sellado y aislamiento",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 13,
+      "descripcion": "COBRE CODO 1 5/8 X 90ø",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 14,
+      "descripcion": "FREON REFRIGERANTE 22 DE 13.610Kg",
+      "marca": "",
+      "familia": "Refrigerantes",
+      "subfamilia": "Gases refrigerantes",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 15,
+      "descripcion": "BRONCE TAPON MACHO 1/4 FLARE  ( 639 F04  )",
+      "marca": "",
+      "familia": "Conexiones",
+      "subfamilia": "Conexiones de bronce",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 16,
+      "descripcion": "MCMILLAN MOTOBOMBA PG-3000 A 220V.",
+      "marca": "MCMILLAN",
+      "familia": "Motores eléctricos",
+      "subfamilia": "Motores ventilador",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 17,
+      "descripcion": "ADESA FOAM CLEANER GALON ROSA",
+      "marca": "",
+      "familia": "Limpieza",
+      "subfamilia": "Limpiadores de serpentín",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 18,
+      "descripcion": "INSULTUBE 1/2 X 1/2 1.80 MTS.",
+      "marca": "",
+      "familia": "Aislamiento y selladores",
+      "subfamilia": "Espumas y adhesivos",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [
+          "UMA"
+        ],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 19,
+      "descripcion": "VALVULA DE SERVICIO PIVOTE",
+      "marca": "",
+      "familia": "Válvulas",
+      "subfamilia": "Válvulas de servicio",
+      "entidades": {
+        "tipos": [
+          "VALVULA"
+        ],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 20,
+      "descripcion": "AKO CABLE CALEF DREN 30W/MT 220V AISLADO",
+      "marca": "",
+      "familia": "Resistencias y calefacción",
+      "subfamilia": "Elementos calefactores",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 21,
+      "descripcion": "SIKAFLEX SELLADOR GRIS 1A CARTUCHO 0.411KG",
+      "marca": "SIKA",
+      "familia": "Material aislante",
+      "subfamilia": "Adhesivos y espumas",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [
+          "UMA"
+        ],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 22,
+      "descripcion": "FREON REFRIGERANTE  404A 10.89 KGS",
+      "marca": "",
+      "familia": "Refrigerantes",
+      "subfamilia": "Gases refrigerantes",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 23,
+      "descripcion": "COPELAND ACEITE ULTRA ALKILBENCENO GALON",
+      "marca": "",
+      "familia": "Aceites refrigeración",
+      "subfamilia": "Aceite POE / Mineral",
+      "entidades": {
+        "tipos": [
+          "ACEITE"
+        ],
+        "tecnologias": [
+          "POE"
+        ],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 24,
+      "descripcion": "INSULTUBE 5/8 X 1/2 1.80 MTS.",
+      "marca": "",
+      "familia": "Aislamiento y selladores",
+      "subfamilia": "Espumas y adhesivos",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [
+          "UMA"
+        ],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 25,
+      "descripcion": "COBRE CODO 3/8 X 90ø",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 26,
+      "descripcion": "COBRE CODO 7/8 X 90ø RADIO LARGO",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 27,
+      "descripcion": "COBRE CODO 7/8 X 90ø",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 28,
+      "descripcion": "EMPAQUE CEJA STANDAR BLANCO #3",
+      "marca": "",
+      "familia": "Sellos y empaques",
+      "subfamilia": "Empaques refrigeración",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 29,
+      "descripcion": "EMERSON FILTRO DESHIDRATADOR COBRE PUNTAS LARGAS",
+      "marca": "",
+      "familia": "Filtración",
+      "subfamilia": "Filtros deshidratadores",
+      "entidades": {
+        "tipos": [
+          "FILTRO"
+        ],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 30,
+      "descripcion": "EMPAQUE IMAN",
+      "marca": "",
+      "familia": "Sellos y empaques",
+      "subfamilia": "Empaques refrigeración",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 31,
+      "descripcion": "INSULTUBE 7/8 X 1/2    1.80 MTS.",
+      "marca": "",
+      "familia": "Aislamiento y selladores",
+      "subfamilia": "Espumas y adhesivos",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [
+          "UMA"
+        ],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 32,
+      "descripcion": "COBRE CODO 1/2 X 90ø",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 33,
+      "descripcion": "INSULTUBE 1 1/8 X 1/2 ESPESOR 1.80 MTS CERRADO",
+      "marca": "",
+      "familia": "Aislamiento y selladores",
+      "subfamilia": "Espumas y adhesivos",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [
+          "UMA"
+        ],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 34,
+      "descripcion": "AKO CABLE CALEF PUERTA 30W/MT.230V + TR",
+      "marca": "",
+      "familia": "Resistencias y calefacción",
+      "subfamilia": "Elementos calefactores",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 35,
+      "descripcion": "EMPAQUE CEJA ANGOSTA BLANCO",
+      "marca": "",
+      "familia": "Sellos y empaques",
+      "subfamilia": "Empaques refrigeración",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 36,
+      "descripcion": "COBRE COPLE 1/2",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 37,
+      "descripcion": "EMERSON PIEDRA DESECANTE D-48 PULG. LIQUIDO Y SUCC.",
+      "marca": "",
+      "familia": "Filtración",
+      "subfamilia": "Filtros deshidratadores",
+      "entidades": {
+        "tipos": [
+          "FILTRO"
+        ],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 38,
+      "descripcion": "COBRE CODO 5/8 X 90ø",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 39,
+      "descripcion": "INSULTUBE 1 3/8 X 1/2 1.80 MTS.",
+      "marca": "",
+      "familia": "Aislamiento y selladores",
+      "subfamilia": "Espumas y adhesivos",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [
+          "UMA"
+        ],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 40,
+      "descripcion": "HONEYWELL GUARDA PARA TERM UNIV 6 1/2",
+      "marca": "",
+      "familia": "Accesorios de control",
+      "subfamilia": "Termostatos y accesorios",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 41,
+      "descripcion": "ADESA COIL CLEANER ECOLOGICO MORADO LITRO",
+      "marca": "",
+      "familia": "Limpieza",
+      "subfamilia": "Limpiadores de serpentín",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 42,
+      "descripcion": "BARRETO TANQUE GAS CLEARN BURN NEGRO CB-1000",
+      "marca": "",
+      "familia": "Carga de refrigerante",
+      "subfamilia": "Tanques y cilindros",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 43,
+      "descripcion": "BARRETO ESPUMA DE POLIURETANO LATA 340GR",
+      "marca": "",
+      "familia": "Aislamiento y selladores",
+      "subfamilia": "Espumas y adhesivos",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [
+          "UMA"
+        ],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 44,
+      "descripcion": "AEROCEL CM-170 ADHESIVO LITRO NEGRO",
+      "marca": "",
+      "familia": "Aislamiento y selladores",
+      "subfamilia": "Espumas y adhesivos",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [
+          "UMA"
+        ],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 45,
+      "descripcion": "EMERSON TERMOMETRO SOLAR PANEL NEGRO",
+      "marca": "",
+      "familia": "Medición",
+      "subfamilia": "Termómetros",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 46,
+      "descripcion": "INSULTUBE 3/4 X 1/2\"  ESPESOR X 1.80 MTS",
+      "marca": "",
+      "familia": "Aislamiento y selladores",
+      "subfamilia": "Espumas y adhesivos",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [
+          "UMA"
+        ],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 47,
+      "descripcion": "COBRE BUSHING 7/8 X 1/2",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 48,
+      "descripcion": "COBRE CODO 3/8 X 90ø RADIO LARGO",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 49,
+      "descripcion": "COBRE CODO 5/8 X 45ø",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 50,
+      "descripcion": "COBRE CONECTOR CUERDA INTERIOR 7/8 ( 3/4\" INT )",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 51,
+      "descripcion": "COBRE COPLE 3/4",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 52,
+      "descripcion": "EMERSON PIEDRA DESECANTE LIMPIEZA X QUEMADURA SUST. A  W48HH",
+      "marca": "",
+      "familia": "Filtración",
+      "subfamilia": "Filtros deshidratadores",
+      "entidades": {
+        "tipos": [
+          "FILTRO"
+        ],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 53,
+      "descripcion": "FREON REFRIGERANTE 134A KILO",
+      "marca": "",
+      "familia": "Refrigerantes",
+      "subfamilia": "Gases refrigerantes",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 54,
+      "descripcion": "FREON REFRIGERANTE  22 DE 1 Kg.",
+      "marca": "",
+      "familia": "Refrigerantes",
+      "subfamilia": "Gases refrigerantes",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 55,
+      "descripcion": "EMPAQUE TIPO ARPON CEJA LARGA",
+      "marca": "",
+      "familia": "Sellos y empaques",
+      "subfamilia": "Empaques refrigeración",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 56,
+      "descripcion": "BRONCE TUERCA 3/8  ( 641FS-06 )",
+      "marca": "",
+      "familia": "Conexiones",
+      "subfamilia": "Conexiones de bronce",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 57,
+      "descripcion": "FASCO MOTOR 9W 115V CW",
+      "marca": "",
+      "familia": "Motores eléctricos",
+      "subfamilia": "Motores ventilador",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 58,
+      "descripcion": "BRONCE TUERCA 3/4 ( 641FS-12 )",
+      "marca": "",
+      "familia": "Conexiones",
+      "subfamilia": "Conexiones de bronce",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 59,
+      "descripcion": "COPELAND ACEITE POLIOLESTER RL32 GALON",
+      "marca": "",
+      "familia": "Aceites refrigeración",
+      "subfamilia": "Aceite POE / Mineral",
+      "entidades": {
+        "tipos": [
+          "ACEITE"
+        ],
+        "tecnologias": [
+          "POE"
+        ],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 60,
+      "descripcion": "COBRE COPLE 3/8",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 61,
+      "descripcion": "COBRE CODO 1/2 X 90ø RADIO LARGO",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 62,
+      "descripcion": "HARRYS SOLDADURA PLATA 35% BARRA",
+      "marca": "HARRYS",
+      "familia": "Soldadura",
+      "subfamilia": "Material de unión",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 63,
+      "descripcion": "YELLOW JAKET JUEGO DE EMPAQUES PARA MANGUERAS 19020",
+      "marca": "",
+      "familia": "Mangueras",
+      "subfamilia": "Accesorios y repuestos",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 64,
+      "descripcion": "COBRE CAMPANA 1 1/8 X 5/8",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 65,
+      "descripcion": "TAYLOR TERMOMETRO BOLSILLO ANALOGICO (-40+70)",
+      "marca": "",
+      "familia": "Medición",
+      "subfamilia": "Termómetros",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 66,
+      "descripcion": "COBRE CAMPANA 7/8 X 1/2",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 67,
+      "descripcion": "COBRE CODO 3/4 X 90ø RADIO LARGO",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 68,
+      "descripcion": "BRONCE TEE DE 1/4FX 1/4F X 1/4T ( 51F-04-04 )",
+      "marca": "",
+      "familia": "Conexiones",
+      "subfamilia": "Conexiones de bronce",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 69,
+      "descripcion": "COBRE CAMPANA 7/8 X 3/8",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 70,
+      "descripcion": "COBRE CODO 1 1/8 X 90ø",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 71,
+      "descripcion": "FASCO  MOTOR 1/12 A 1/20 HP 1550 RPM 115/ 230V REV",
+      "marca": "",
+      "familia": "Motores eléctricos",
+      "subfamilia": "Motores ventilador",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 72,
+      "descripcion": "FULL GAUGE CONTROLADOR 115/230V MEDIA TEMP. 1 SEN",
+      "marca": "FULL GAUGE",
+      "familia": "Controladores electrónicos",
+      "subfamilia": "Control temperatura",
+      "entidades": {
+        "tipos": [
+          "CONTROLADOR"
+        ],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 73,
+      "descripcion": "COBRE BUSHING 7/8 X 5/8",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 74,
+      "descripcion": "BRONCE CODO DE 1/4  ( 55F-04 )",
+      "marca": "",
+      "familia": "Conexiones",
+      "subfamilia": "Conexiones de bronce",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 75,
+      "descripcion": "BRONCE TUERCA 5/16  ( 641FS-05 )",
+      "marca": "",
+      "familia": "Conexiones",
+      "subfamilia": "Conexiones de bronce",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 76,
+      "descripcion": "FREON REFRIGERANTE  410A 11.35KGS",
+      "marca": "",
+      "familia": "Refrigerantes",
+      "subfamilia": "Gases refrigerantes",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 77,
+      "descripcion": "TRUCA CINTA ALUMINIO 2 LISA (820652101) .038mm X 2\" X 45 mts",
+      "marca": "",
+      "familia": "Cintas técnicas",
+      "subfamilia": "Sellado y aislamiento",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 78,
+      "descripcion": "AKO CABLE CALEF 30W/ 127V SILICON",
+      "marca": "",
+      "familia": "Resistencias y calefacción",
+      "subfamilia": "Elementos calefactores",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 79,
+      "descripcion": "COBRE CODO 1/2 X 45ø",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 80,
+      "descripcion": "COBRE CODO 2 1/8 X 90ø",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 81,
+      "descripcion": "INSULTUBE 1 3/8 X 34 1.80 MTS",
+      "marca": "",
+      "familia": "Aislamiento y selladores",
+      "subfamilia": "Espumas y adhesivos",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [
+          "UMA"
+        ],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 82,
+      "descripcion": "RANCO CONTROL DOMESTICO",
+      "marca": "",
+      "familia": "Controladores electrónicos",
+      "subfamilia": "Control temperatura",
+      "entidades": {
+        "tipos": [
+          "CONTROLADOR"
+        ],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 83,
+      "descripcion": "BARRETO ESPUMA DE POLIURETANO 566GR",
+      "marca": "",
+      "familia": "Aislamiento y selladores",
+      "subfamilia": "Espumas y adhesivos",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [
+          "UMA"
+        ],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 84,
+      "descripcion": "COBRE CAMPANA 58 X 1/2",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 85,
+      "descripcion": "COBRE CAMPANA 1 3/8 X 5/8",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 86,
+      "descripcion": "COBRE BUSHING 7/8 X 3/8",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 87,
+      "descripcion": "CINTA DE PVC PARA AIRE ACONDICIONADO MOM48",
+      "marca": "",
+      "familia": "Cintas técnicas",
+      "subfamilia": "Sellado y aislamiento",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 88,
+      "descripcion": "GEFRIEREN REFRIGERANTE 410A LATA 650GR",
+      "marca": "GEFRIEREN",
+      "familia": "Refrigerantes",
+      "subfamilia": "Gases refrigerantes",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 89,
+      "descripcion": "CINTA PARA DUCTO NEGRA I-17 ( 815152112 ) .19mm X 4 X 55 MTS",
+      "marca": "",
+      "familia": "Cintas técnicas",
+      "subfamilia": "Sellado y aislamiento",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 90,
+      "descripcion": "COBRE CODO 1 3/8 X 90ø",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 91,
+      "descripcion": "INSULTUBE 1 5/8 X 1/2 1.80 MTS.",
+      "marca": "",
+      "familia": "Aislamiento y selladores",
+      "subfamilia": "Espumas y adhesivos",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [
+          "UMA"
+        ],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 92,
+      "descripcion": "ASPA ALUMINIO 8 3/4",
+      "marca": "",
+      "familia": "Ventilación",
+      "subfamilia": "Aspas y hélices",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 93,
+      "descripcion": "COBRE BUSHING 1 1/8 X 1/2",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 94,
+      "descripcion": "BRONCE TUERCA 1/ ( 641FS-08)",
+      "marca": "",
+      "familia": "Conexiones",
+      "subfamilia": "Conexiones de bronce",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 95,
+      "descripcion": "COBRE COPLE 7/8",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 96,
+      "descripcion": "FULL GAUGE SENSOR DE TEMP NTC 10K 2 MTS -50 A 150C",
+      "marca": "FULL GAUGE",
+      "familia": "Controladores electrónicos",
+      "subfamilia": "Control temperatura",
+      "entidades": {
+        "tipos": [
+          "CONTROLADOR",
+          "SENSOR"
+        ],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 97,
+      "descripcion": "RANCO CONTROL ENFRIADOR AGUA",
+      "marca": "",
+      "familia": "Controladores electrónicos",
+      "subfamilia": "Control temperatura",
+      "entidades": {
+        "tipos": [
+          "CONTROLADOR"
+        ],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 98,
+      "descripcion": "ADESA COIL CLEANER ECOLOGICO MORADO GALON",
+      "marca": "",
+      "familia": "Limpieza",
+      "subfamilia": "Limpiadores de serpentín",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 99,
+      "descripcion": "CINTA AISLANTE DE CORCHO VCT-1  ( 810532301 )",
+      "marca": "",
+      "familia": "Cintas técnicas",
+      "subfamilia": "Sellado y aislamiento",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 100,
+      "descripcion": "EMERSON FILTRO DESHIDRATADOR DOMESTICO HASTA 1/4 HP",
+      "marca": "",
+      "familia": "Filtración",
+      "subfamilia": "Filtros deshidratadores",
+      "entidades": {
+        "tipos": [
+          "FILTRO"
+        ],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 101,
+      "descripcion": "SILVER FLUX FUNDENTE 200GR AMARILLO",
+      "marca": "",
+      "familia": "Soldadura",
+      "subfamilia": "Fundentes",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 102,
+      "descripcion": "INSULTUBE 78 X 3/4 ESPESOR 1.80 MTS",
+      "marca": "",
+      "familia": "Aislamiento y selladores",
+      "subfamilia": "Espumas y adhesivos",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [
+          "UMA"
+        ],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 103,
+      "descripcion": "COBRE CODO 1 3/8 X 45ø",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 104,
+      "descripcion": "NORCUL BBJ ABRAZADERAS POSICIONAMIENTO QUICK CLIP PLASTI 7/8",
+      "marca": "",
+      "familia": "Herrajes",
+      "subfamilia": "Clips y fijaciones",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 105,
+      "descripcion": "INSULTUBE 3/8 X 1/2 1.80 MTS.",
+      "marca": "",
+      "familia": "Aislamiento y selladores",
+      "subfamilia": "Espumas y adhesivos",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [
+          "UMA"
+        ],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 106,
+      "descripcion": "ASPA ALUMINIO 8\" 5 HOJAS S/BUJE   VA-8-315 CW",
+      "marca": "",
+      "familia": "Ventilación",
+      "subfamilia": "Aspas y hélices",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 107,
+      "descripcion": "COBRE CAMPANA 1 5/8 X 5/8",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 108,
+      "descripcion": "COBRE TUERCA UNION DE 5/8",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 109,
+      "descripcion": "COBRE CODO 1 1/8 X 90ø RADIO LARGO",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 110,
+      "descripcion": "ADESA COIL CLEANER ECOLOGICO MORADO PORRON",
+      "marca": "",
+      "familia": "Limpieza",
+      "subfamilia": "Limpiadores de serpentín",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 111,
+      "descripcion": "FREON REFRIGERANTE  404A LATA 425 GR.",
+      "marca": "",
+      "familia": "Refrigerantes",
+      "subfamilia": "Gases refrigerantes",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 112,
+      "descripcion": "HONEYWELL CONTROLADOR SPYDER PROGRAMABLE",
+      "marca": "",
+      "familia": "Accesorios de control",
+      "subfamilia": "Termostatos y accesorios",
+      "entidades": {
+        "tipos": [
+          "CONTROLADOR"
+        ],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 113,
+      "descripcion": "COBRE CODO 1 3/8 X 90ø RADIO LARGO",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 114,
+      "descripcion": "COBRE COPLE 5/8",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 115,
+      "descripcion": "FREON REFRIGERANTE R134A 13.62 KILOS",
+      "marca": "",
+      "familia": "Refrigerantes",
+      "subfamilia": "Gases refrigerantes",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": [
+          "R134A"
+        ]
+      }
+    },
+    {
+      "id": 116,
+      "descripcion": "RANCO CONTROL CONGELADOR",
+      "marca": "",
+      "familia": "Controladores electrónicos",
+      "subfamilia": "Control temperatura",
+      "entidades": {
+        "tipos": [
+          "CONTROLADOR"
+        ],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 117,
+      "descripcion": "COBRE CAMPANA 1 1/8 X 1/2",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 118,
+      "descripcion": "INSULTUBE 2 1/8 X 1/2 1.80 MTS.",
+      "marca": "",
+      "familia": "Aislamiento y selladores",
+      "subfamilia": "Espumas y adhesivos",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [
+          "UMA"
+        ],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 119,
+      "descripcion": "CINTA PARA DUCTO GRIS 2 ( 815152109 ) .19mm X 2 X 55 MTS",
+      "marca": "",
+      "familia": "Cintas técnicas",
+      "subfamilia": "Sellado y aislamiento",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 120,
+      "descripcion": "EMERSON FILTRO DESHIDRATADOR DE COBRE LINEA DOMESTICA",
+      "marca": "",
+      "familia": "Filtración",
+      "subfamilia": "Filtros deshidratadores",
+      "entidades": {
+        "tipos": [
+          "FILTRO"
+        ],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 121,
+      "descripcion": "EMERSON MOTOR 1/70 HP.C/BALERO 10W. 127V CCW",
+      "marca": "",
+      "familia": "Motores eléctricos",
+      "subfamilia": "Motores ventilador",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 122,
+      "descripcion": "COBRE TUBO RIGIDO TIPO L 1/2",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 123,
+      "descripcion": "BRONCE NIPLE UNION 1/2 X 3/8 FLARE  ( 656F-08-06 )",
+      "marca": "",
+      "familia": "Conexiones",
+      "subfamilia": "Conexiones de bronce",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 124,
+      "descripcion": "COBRE CAMPANA 1 3/8 X 7/8",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 125,
+      "descripcion": "FULL GAUGE GUARDA PARA INTERRUPTOR ( 2 APAGADORES )",
+      "marca": "",
+      "familia": "Accesorios de control",
+      "subfamilia": "Protecciones y guardas",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 126,
+      "descripcion": "ASPA ALUMINIO 7 3/4",
+      "marca": "",
+      "familia": "Ventilación",
+      "subfamilia": "Aspas y hélices",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 127,
+      "descripcion": "NIPLE TERMINAL 3/8F X 1/2T",
+      "marca": "",
+      "familia": "Conexiones",
+      "subfamilia": "Conexiones de bronce",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 128,
+      "descripcion": "BRONCE TUERCA 1/4 ( 641FS-04 )",
+      "marca": "",
+      "familia": "Conexiones",
+      "subfamilia": "Conexiones de bronce",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 129,
+      "descripcion": "FULL GAUGE CONT TEMP. POWER 115/220V BAJ TEMP. 2 SENS",
+      "marca": "",
+      "familia": "Controladores electrónicos",
+      "subfamilia": "Control temperatura",
+      "entidades": {
+        "tipos": [
+          "CONTROLADOR"
+        ],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 130,
+      "descripcion": "EMERSON ADAPTADOR 3/8 SOLDAR PARA VALVULA UNF",
+      "marca": "",
+      "familia": "Conexiones",
+      "subfamilia": "Adaptadores de válvula",
+      "entidades": {
+        "tipos": [
+          "VALVULA"
+        ],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 131,
+      "descripcion": "COBRE CAMPANA 5/8 X 3/8",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 132,
+      "descripcion": "COBRE CODO 3/4 X 90 ESPECIAL(3/4 OD SR 90 ELL  16mmm)",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 133,
+      "descripcion": "COBRE BUSHING 5/8 X 3/8",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 134,
+      "descripcion": "COBRE CAMPANA 2 1/8 X 7/8",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 135,
+      "descripcion": "COBRE TEE DE    3/8",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 136,
+      "descripcion": "EMERSON FILTRO DESHIDRATADOR SELLADO(2)1/4 SOLDAR",
+      "marca": "",
+      "familia": "Filtración",
+      "subfamilia": "Filtros deshidratadores",
+      "entidades": {
+        "tipos": [
+          "FILTRO"
+        ],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 137,
+      "descripcion": "KELVIN RELAY 1/6 -1/8 RP- 4218 C/CAP.",
+      "marca": "",
+      "familia": "Control eléctrico",
+      "subfamilia": "Relevadores",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 138,
+      "descripcion": "COBRE TUBO FLEXIBLE 3/8",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 139,
+      "descripcion": "FULL GAUGE CAJA DE INSTALACION SIN TECLAS",
+      "marca": "",
+      "familia": "Accesorios de control",
+      "subfamilia": "Cajas de instalación",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 140,
+      "descripcion": "EMPAQUE CEJA ANCHA BLANCO  #2",
+      "marca": "",
+      "familia": "Sellos y empaques",
+      "subfamilia": "Empaques refrigeración",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 141,
+      "descripcion": "COBRE TEE DE    5/8",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 142,
+      "descripcion": "COBRE TEE DE     1/2",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 143,
+      "descripcion": "HONEYWELL BASE PARA TERMOSTATO WS8",
+      "marca": "",
+      "familia": "Accesorios de control",
+      "subfamilia": "Termostatos y accesorios",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 144,
+      "descripcion": "BRONCE NIPLE TERMINAL HEMBRA  1/4F X 1/8  ( 46F-04-02 )",
+      "marca": "",
+      "familia": "Conexiones",
+      "subfamilia": "Conexiones de bronce",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 145,
+      "descripcion": "COBRE BUSHING 5/8 X 1/2",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 146,
+      "descripcion": "COBRE COPLE 1 1/8",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 147,
+      "descripcion": "EMERSON CARTUCHO DE REPUESTO P/FILTRO BTAS",
+      "marca": "",
+      "familia": "Filtración",
+      "subfamilia": "Filtros deshidratadores",
+      "entidades": {
+        "tipos": [
+          "FILTRO"
+        ],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 148,
+      "descripcion": "GEFRIEREN TANQUE GAS RED BURN NEGRO",
+      "marca": "",
+      "familia": "Carga de refrigerante",
+      "subfamilia": "Tanques y cilindros",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 149,
+      "descripcion": "COBRE TUBO FLEXIBLE 3/4",
+      "marca": "",
+      "familia": "Tubería y conexiones",
+      "subfamilia": "Cobre",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    },
+    {
+      "id": 150,
+      "descripcion": "BRONCE NIPLE UNION 5/16 FLARE  ( 42F-05 )",
+      "marca": "",
+      "familia": "Conexiones",
+      "subfamilia": "Conexiones de bronce",
+      "entidades": {
+        "tipos": [],
+        "tecnologias": [],
+        "refrigerantes": []
+      }
+    }
+  ]
+}

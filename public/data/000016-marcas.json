@@ -1,0 +1,498 @@
+{
+  "id": 16,
+  "codigo": "BRD-001",
+  "titulo": "Fabricantes HVACR y Marcas",
+  "categoria": "Marcas",
+  "tipo": "Catalogo",
+
+
+  "sinonimos": [
+    "fabricantes hvacr",
+    "marcas hvacr",
+    "proveedores hvacr",
+    "fabricantes aire acondicionado",
+    "fabricantes refrigeracion",
+    "marcas de climatizacion",
+    "marcas de automatizacion HVACR"
+  ],
+
+
+  "palabras": [
+    "carrier",
+    "trane",
+    "york",
+    "daikin",
+    "mitsubishi",
+    "lg",
+    "ge",
+    "whirlpool",
+    "master cool",
+    "arctic circle",
+    "mirage",
+    "mcquay",
+    "s&p",
+    "danfoss",
+    "honeywell",
+    "emerson",
+    "robertshaw",
+    "copeland",
+    "bitzer",
+    "frigus bohn",
+    "saginomiya",
+    "schneider electric"
+  ],
+
+
+  "subfamilias": [
+
+    "Fabricantes de aire acondicionado y climatización",
+
+    "Fabricantes de refrigeración comercial e industrial",
+
+    "Fabricantes de compresores",
+
+    "Fabricantes de controles HVACR",
+
+    "Fabricantes de automatización industrial",
+
+    "Fabricantes de equipos residenciales",
+
+    "Fabricantes industriales",
+
+    "Marcas de refacciones compatibles"
+
+  ],
+
+
+  "marcas": [
+
+    "Carrier",
+
+    "Trane",
+
+    "York",
+
+    "Daikin",
+
+    "Mitsubishi Electric",
+
+    "LG",
+
+    "GE",
+
+    "Whirlpool",
+
+    "Master Cool",
+
+    "Arctic Circle",
+
+    "Mirage",
+
+    "McQuay",
+
+    "S&P",
+
+    "Danfoss",
+
+    "Honeywell",
+
+    "Emerson",
+
+    "Robertshaw",
+
+    "Copeland",
+
+    "Bitzer",
+
+    "Frigus Bohn",
+
+    "Saginomiya",
+
+    "Schneider Electric"
+
+  ],
+
+
+  "modelos": [],
+
+
+
+  "intenciones": [
+
+    "comprar",
+
+    "cotizar",
+
+    "seleccionar_equipo",
+
+    "buscar_refaccion",
+
+    "comparar_marcas",
+
+    "compatibilidad",
+
+    "mantenimiento",
+
+    "reparacion"
+
+  ],
+
+
+
+  "descripcion": "Catálogo inteligente de fabricantes y marcas relacionadas con sistemas HVACR, refrigeración comercial e industrial, controles, automatización y componentes compatibles.",
+
+
+
+  "aplicaciones": [
+
+    "Aire acondicionado residencial",
+
+    "Aire acondicionado comercial",
+
+    "HVAC industrial",
+
+    "Refrigeración comercial",
+
+    "Refrigeración industrial",
+
+    "Automatización HVACR",
+
+    "Controles electrónicos",
+
+    "Sistemas críticos",
+
+    "Edificios inteligentes"
+
+  ],
+
+
+
+  "servicios_multiconfort": [
+
+    "Selección de equipos",
+
+    "Ingeniería de aplicación",
+
+    "Comparativo técnico de marcas",
+
+    "Suministro de equipos",
+
+    "Suministro de refacciones",
+
+    "Compatibilidad entre componentes",
+
+    "Diagnóstico de equipos existentes",
+
+    "Retrofit tecnológico",
+
+    "Integración con automatización"
+
+  ],
+
+
+
+  "compatibilidades": [
+
+    "HVAC",
+
+    "Refrigeración comercial",
+
+    "Refrigeración industrial",
+
+    "BMS",
+
+    "SCADA",
+
+    "PLC",
+
+    "Modbus",
+
+    "BACnet",
+
+    "MQTT",
+
+    "multiIntelliAllConfort"
+
+  ],
+
+
+
+  "preguntas_frecuentes": [
+
+    {
+      "pregunta": "¿Qué marcas HVACR maneja MULTICONFORT?",
+      "respuesta": "MULTICONFORT trabaja con fabricantes reconocidos de climatización, refrigeración, controles y automatización."
+    },
+
+    {
+      "pregunta": "¿Una refacción de una marca puede ser compatible con otra?",
+      "respuesta": "Sí. La compatibilidad depende de especificaciones técnicas, modelo, capacidad, refrigerante, comunicación y aplicación."
+    },
+
+    {
+      "pregunta": "¿Qué marca es mejor para un proyecto HVACR?",
+      "respuesta": "La selección depende de capacidad, eficiencia, disponibilidad, aplicación, criticidad y requerimientos del usuario."
+    }
+
+  ],
+
+
+
+  "keywords_seo": [
+
+    "marcas HVAC México",
+
+    "fabricantes aire acondicionado",
+
+    "equipos Carrier México",
+
+    "equipos Trane México",
+
+    "refrigeración Bitzer",
+
+    "compresores Copeland",
+
+    "automatización Schneider Electric",
+
+    "controles Danfoss HVAC",
+
+    "refacciones HVACR"
+
+  ],
+
+
+
+  "vectores_busqueda": [
+
+    "equipo carrier",
+
+    "aire acondicionado trane",
+
+    "minisplit daikin",
+
+    "compresor copeland",
+
+    "compresor bitzer",
+
+    "control danfoss",
+
+    "automatizacion schneider",
+
+    "refaccion compatible HVAC",
+
+    "marca refrigeracion industrial"
+
+  ],
+
+
+
+  "productos": [
+
+    "Equipos de aire acondicionado",
+
+    "Chillers",
+
+    "Unidades manejadoras de aire",
+
+    "Minisplits",
+
+    "Compresores",
+
+    "Evaporadores",
+
+    "Condensadores",
+
+    "Controles electrónicos",
+
+    "Sensores",
+
+    "Actuadores",
+
+    "PLC",
+
+    "Variadores de frecuencia"
+
+  ],
+
+
+
+  "casos_uso": [
+
+    {
+      "sector": "Hospitales",
+      "descripcion": "Selección de marcas para sistemas HVAC críticos con alta confiabilidad."
+    },
+
+    {
+      "sector": "Industria",
+      "descripcion": "Integración de equipos industriales, controles y automatización."
+    },
+
+    {
+      "sector": "Comercial",
+      "descripcion": "Aplicaciones HVACR para edificios, hoteles y centros comerciales."
+    }
+
+  ],
+
+
+
+  "normativas": [
+
+    "ASHRAE",
+
+    "NOM",
+
+    "UL",
+
+    "ISO",
+
+    "IEC"
+
+  ],
+
+
+
+  "indicadores_kpi": [
+
+    "Disponibilidad de refacciones",
+
+    "Eficiencia energética",
+
+    "Compatibilidad técnica",
+
+    "Tiempo de respuesta",
+
+    "Costo de ciclo de vida",
+
+    "Confiabilidad del fabricante"
+
+  ],
+
+
+
+  "protocolos_comunicacion": [
+
+    "BACnet",
+
+    "Modbus RTU",
+
+    "Modbus TCP",
+
+    "MQTT",
+
+    "LonWorks",
+
+    "OPC UA"
+
+  ],
+
+
+
+  "variables_controladas": [
+
+    "Temperatura",
+
+    "Presión",
+
+    "Humedad",
+
+    "Consumo energético",
+
+    "Estado operativo",
+
+    "Alarmas",
+
+    "Comunicación"
+
+  ],
+
+
+
+  "atributos_tecnicos": {
+
+    "tipo_fabricante": "",
+
+    "especialidad": "",
+
+    "pais_origen": "",
+
+    "linea_producto": "",
+
+    "refrigerantes_compatibles": "",
+
+    "protocolos": "",
+
+    "disponibilidad_refacciones": "",
+
+    "nivel_aplicacion": ""
+
+  },
+
+
+
+  "relaciones": [
+
+    {
+      "tipo": "fabrica",
+      "elemento": "Equipos HVAC"
+    },
+
+    {
+      "tipo": "fabrica",
+      "elemento": "Sistemas de refrigeración"
+    },
+
+    {
+      "tipo": "fabrica",
+      "elemento": "Compresores"
+    },
+
+    {
+      "tipo": "fabrica",
+      "elemento": "Controles electrónicos"
+    },
+
+    {
+      "tipo": "compatible_con",
+      "elemento": "multiIntelliAllConfort"
+    },
+
+    {
+      "tipo": "integra_con",
+      "elemento": "BMS"
+    }
+
+  ],
+
+
+
+  "integracion_ia": {
+
+    "motor_busqueda": true,
+
+    "cotizacion_automatica": true,
+
+    "soporte_whatsapp": true,
+
+    "recomendacion_equipo": true,
+
+    "comparacion_marcas": true,
+
+    "diagnostico_predictivo": true
+
+  },
+
+
+
+  "metadata": {
+
+    "version": "1.0",
+
+    "ultima_actualizacion": "2026-07-22",
+
+    "activo": true
+
+  }
+
+}

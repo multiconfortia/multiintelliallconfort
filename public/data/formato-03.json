@@ -1,0 +1,102 @@
+{
+  "id": 1,
+  "codigo": "",
+  "titulo": "",
+  "categoria": "",
+  "tipo": "Familia",
+
+  "sinonimos": [],
+  "palabras": [],
+  "subfamilias": [],
+  "marcas": [],
+  "modelos": [],
+
+  "intenciones": [
+    "comprar",
+    "cotizar",
+    "reparar",
+    "mantenimiento",
+    "diagnostico",
+    "refaccion",
+    "automatizacion",
+    "monitoreo"
+  ],
+
+  "descripcion": "",
+
+  "aplicaciones": [],
+  "servicios_multiconfort": [],
+  "compatibilidades": [],
+  "preguntas_frecuentes": [],
+  "keywords_seo": [],
+  "vectores_busqueda": [],
+  "productos": [],
+  "casos_uso": [],
+  "normativas": [],
+  "indicadores_kpi": [],
+  "protocolos_comunicacion": [],
+  "variables_controladas": [],
+
+  "atributos_tecnicos": {
+    "capacidad": "",
+    "unidad_capacidad": "BTU/h",
+    "voltaje": "",
+    "fases": "",
+    "frecuencia": "",
+    "refrigerante": "",
+    "eficiencia": "",
+    "SEER": "",
+    "EER": "",
+    "temperatura_operacion": "",
+    "humedad_operacion": "",
+    "caudal_aire": "",
+    "presion_estatica": "",
+    "tipo_compresor": "",
+    "tipo_control": ""
+  },
+
+  "relaciones": [
+    {
+      "tipo": "usa_refrigerante",
+      "elemento": "R410A"
+    },
+    {
+      "tipo": "compatible_con",
+      "elemento": "Compresores Scroll"
+    },
+    {
+      "tipo": "integra_con",
+      "elemento": "BMS"
+    },
+    {
+      "tipo": "monitoreado_por",
+      "elemento": "multiIntelliAllConfort"
+    },
+    {
+      "tipo": "requiere_mantenimiento",
+      "elemento": "Filtros de aire"
+    },
+    {
+      "tipo": "controla_variable",
+      "elemento": "Temperatura"
+    },
+    {
+      "tipo": "controla_variable",
+      "elemento": "Humedad"
+    }
+  ],
+
+  "integracion_ia": {
+    "motor_busqueda": true,
+    "cotizacion_automatica": true,
+    "soporte_whatsapp": true,
+    "recomendacion_equipo": true,
+    "diagnostico_predictivo": true
+  },
+
+  "metadata": {
+    "version": "1.0",
+    "ultima_actualizacion": "",
+    "activo": true
+  }
+}

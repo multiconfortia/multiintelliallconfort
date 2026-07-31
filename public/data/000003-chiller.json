@@ -1,0 +1,237 @@
+{
+  "id": 3,
+  "codigo": "CHW-001",
+  "titulo": "Chillers y Sistemas de Agua Helada",
+  "categoria": "HVACR",
+  "tipo": "Familia",
+
+  "sinonimos": [
+    "chiller",
+    "enfriador de agua",
+    "agua helada",
+    "planta de agua helada",
+    "central de agua helada",
+    "sistema chilled water",
+    "water chiller",
+    "industrial chiller",
+    "commercial chiller",
+    "cooling plant"
+  ],
+
+  "palabras": [
+    "chiller",
+    "agua helada",
+    "cooling tower",
+    "torre de enfriamiento",
+    "intercambiador",
+    "bomba",
+    "evaporador",
+    "condensador",
+    "compresor",
+    "planta central",
+    "controlador",
+    "agua enfriada"
+  ],
+
+  "marcas": [
+    "Carrier",
+    "York",
+    "Trane",
+    "McQuay",
+    "Daikin",
+    "Mitsubishi Electric",
+    "Johnson Controls",
+    "Dunham Bush",
+    "Smardt",
+    "LG"
+  ],
+
+  "modelos": [
+    "Carrier 30XA",
+    "Carrier 30RB",
+    "Carrier AquaEdge",
+    "York YCAL",
+    "York YVAA",
+    "Trane RTAA",
+    "Trane CGAM",
+    "McQuay AGZ",
+    "Daikin EWAD",
+    "Daikin EWAQ"
+  ],
+
+  "intenciones": [
+    "comprar",
+    "cotizar",
+    "reparar",
+    "mantenimiento",
+    "diagnostico",
+    "refaccion",
+    "automatizacion",
+    "monitoreo"
+  ],
+
+  "descripcion": "Equipos y componentes para sistemas de agua helada utilizados en climatización comercial, industrial, hospitalaria y procesos críticos.",
+
+  "aplicaciones": [
+    "Hospitales",
+    "Industria",
+    "Edificios inteligentes",
+    "Laboratorios",
+    "Farmacéutica",
+    "Hoteles",
+    "Centros comerciales",
+    "Data Centers",
+    "Procesos industriales"
+  ],
+
+  "servicios_multiconfort": [
+    "Ingeniería de agua helada",
+    "Diseño de plantas centrales",
+    "Diagnóstico de chillers",
+    "Mantenimiento preventivo",
+    "Mantenimiento correctivo",
+    "Retrofit de chillers",
+    "Automatización BMS",
+    "Monitoreo remoto",
+    "Análisis energético",
+    "Balance hidráulico",
+    "Comisionamiento",
+    "Validación hospitalaria"
+  ],
+
+  "compatibilidades": [
+    "BACnet",
+    "Modbus RTU",
+    "Modbus TCP",
+    "MQTT",
+    "SCADA",
+    "BMS",
+    "PLC Siemens",
+    "PLC Delta",
+   
+    "multiIntelliAllConfort"
+  ],
+
+  "preguntas_frecuentes": [
+    {
+      "pregunta": "¿Qué es un chiller?",
+      "respuesta": "Es un equipo que enfría agua para distribuirla a sistemas HVAC mediante una red hidráulica."
+    },
+    {
+      "pregunta": "¿Qué diferencia existe entre un chiller enfriado por aire y uno enfriado por agua?",
+      "respuesta": "Los chillers enfriados por agua utilizan torres de enfriamiento y suelen ofrecer mayor eficiencia energética."
+    },
+    {
+      "pregunta": "¿Se puede integrar un chiller a MULTICONFORT IA?",
+      "respuesta": "Sí, mediante BACnet, Modbus u otros protocolos de automatización industrial."
+    }
+  ],
+
+  "keywords_seo": [
+    "chillers industriales",
+    "chillers comerciales",
+    "sistema de agua helada",
+    "planta de agua helada",
+    "torres de enfriamiento",
+    "mantenimiento de chillers",
+    "automatización HVAC",
+    "Carrier chiller",
+    "Trane chiller",
+    "York chiller"
+  ],
+
+  "vectores_busqueda": [
+    "chiller para hospital",
+    "sistema de agua helada",
+    "planta central de enfriamiento",
+    "mantenimiento de chiller",
+    "torre de enfriamiento",
+    "bomba de agua helada",
+    "intercambiador de calor",
+    "automatización de chiller",
+    "diagnóstico de chiller",
+    "control de agua helada"
+  ],
+
+  "productos": [
+    "Chillers enfriadores de agua",
+    "Chillers comerciales",
+    "Chillers industriales",
+    "Plantas de agua helada",
+    "Evaporadores de chillers",
+    "Condensadores de chillers",
+    "Intercambiadores de calor",
+    "Bombas de agua helada",
+    "Torres de enfriamiento",
+    "Controladores de chillers",
+    "Refacciones para chillers"
+  ],
+
+  "casos_uso": [
+    {
+      "sector": "Hospital",
+      "descripcion": "Climatización de áreas críticas, quirófanos y laboratorios."
+    },
+    {
+      "sector": "Industria",
+      "descripcion": "Control térmico para procesos industriales y manufactura."
+    },
+    {
+      "sector": "Data Center",
+      "descripcion": "Disipación de calor y control ambiental continuo."
+    }
+  ],
+
+  "normativas": [
+    "ASHRAE",
+    "AHRI",
+    "ISO 50001",
+    "ISO 14644",
+    "FDA 21 CFR Part 11",
+    "COFEPRIS",
+    "NOM"
+  ],
+
+  "indicadores_kpi": [
+    "COP",
+    "EER",
+    "kW/TR",
+    "Consumo energético",
+    "Temperatura de suministro",
+    "Temperatura de retorno",
+    "ΔT agua helada",
+    "Disponibilidad"
+  ],
+
+  "protocolos_comunicacion": [
+    "BACnet",
+    "Modbus RTU",
+    "Modbus TCP",
+    "MQTT",
+    "SNMP"
+  ],
+
+  "variables_controladas": [
+    "Temperatura de suministro",
+    "Temperatura de retorno",
+    "Flujo de agua",
+    "Presión diferencial",
+    "Consumo energético",
+    "Estado de compresores",
+    "Estado de bombas",
+    "Estado de torres",
+    "Alarmas"
+  ],
+
+  "integracion_ia": {
+    "motor_busqueda": true,
+    "cotizacion_automatica": true,
+    "soporte_whatsapp": true
+  },
+
+  "metadata": {
+    "version": "1.0",
+    "ultima_actualizacion": "2026-07-22",
+    "activo": true
+  }
+}

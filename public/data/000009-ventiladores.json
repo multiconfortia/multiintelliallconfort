@@ -1,0 +1,546 @@
+{
+  "id": 9,
+  "codigo": "MEC-FAN-001",
+  "titulo": "Motores, Ventiladores y Movimiento de Aire",
+  "categoria": "Mecanica",
+  "tipo": "Familia",
+
+
+  "sinonimos": [
+    "movimiento de aire",
+    "generacion de flujo de aire",
+    "sistema de ventilacion",
+    "accionamiento mecanico",
+    "sistema rotativo HVACR",
+    "air movement",
+    "air handling components"
+  ],
+
+
+  "palabras": [
+
+    "motor",
+
+    "motor electrico",
+
+    "motor ventilador",
+
+    "motor HVACR",
+
+    "ventilador",
+
+    "abanico",
+
+    "extractor",
+
+    "impulsor",
+
+    "turbina",
+
+    "aspa",
+
+    "alabe",
+
+    "rodete",
+
+    "rotor",
+
+    "estator",
+
+    "ventilador centrifugo",
+
+    "ventilador axial",
+
+    "blower",
+
+    "soplador",
+
+    "movimiento de aire",
+
+    "flujo de aire",
+
+    "ventilacion industrial"
+
+  ],
+
+
+  "subfamilias": [
+
+    "Motores eléctricos HVACR",
+
+    "Motores ventiladores",
+
+    "Motores BLDC",
+
+    "Motores EC alta eficiencia",
+
+    "Ventiladores centrífugos",
+
+    "Ventiladores axiales",
+
+    "Extractores industriales",
+
+    "Blowers y sopladores",
+
+    "Aspas y hélices",
+
+    "Turbinas",
+
+    "Impulsores",
+
+    "Componentes rotativos",
+
+    "Sistemas de transmisión"
+
+  ],
+
+
+  "tipos_componentes": [
+
+    "Motores eléctricos",
+
+    "Motores monofásicos",
+
+    "Motores trifásicos",
+
+    "Motores EC",
+
+    "Motores BLDC",
+
+    "Ventiladores axiales",
+
+    "Ventiladores centrífugos",
+
+    "Aspas",
+
+    "Hélices",
+
+    "Turbinas",
+
+    "Rodetes",
+
+    "Impulsores",
+
+    "Rotores",
+
+    "Flechas",
+
+    "Rodamientos",
+
+    "Poleas",
+
+    "Bandas",
+
+    "Acoplamientos"
+
+  ],
+
+
+  "aplicaciones": [
+
+    "Aire acondicionado",
+
+    "Refrigeración comercial",
+
+    "Refrigeración industrial",
+
+    "Unidades manejadoras AHU",
+
+    "Fan Coil",
+
+    "Rooftop",
+
+    "Chillers",
+
+    "Torres de enfriamiento",
+
+    "Extractores industriales",
+
+    "Procesos industriales",
+
+    "Centros de datos",
+
+    "Hospitales",
+
+    "Laboratorios"
+
+  ],
+
+
+  "equipos_relacionados": [
+
+    "Unidad manejadora AHU",
+
+    "Fan Coil",
+
+    "Chiller",
+
+    "Torre de enfriamiento",
+
+    "Sistema dividido",
+
+    "Minisplit",
+
+    "Rooftop",
+
+    "Sistema VRF",
+
+    "Equipos industriales HVACR"
+
+  ],
+
+
+  "marcas_relacionadas": [
+
+    "Ziehl-Abegg",
+
+    "EBM Papst",
+
+    "Ziehl",
+
+    "Siemens",
+
+    "ABB",
+
+    "WEG",
+
+    "Baldor",
+
+    "Emerson",
+
+    "Copeland",
+
+    "Carrier",
+
+    "Trane",
+
+    "York",
+
+    "Daikin"
+
+  ],
+
+
+  "intenciones": [
+
+    "comprar",
+
+    "cotizar",
+
+    "reemplazar",
+
+    "fabricar componente",
+
+    "reparar",
+
+    "balancear",
+
+    "optimizar consumo",
+
+    "diagnosticar",
+
+    "modernizar",
+
+    "automatizar"
+
+  ],
+
+
+  "descripcion": "Familia especializada en motores eléctricos, ventiladores, impulsores, turbinas y componentes rotativos utilizados para generación y control del movimiento de aire en sistemas HVACR comerciales, industriales y aplicaciones críticas.",
+
+
+  "servicios_multiconfort": [
+
+    "Selección de motores",
+
+    "Diagnóstico de fallas mecánicas",
+
+    "Diagnóstico eléctrico",
+
+    "Balanceo de ventiladores",
+
+    "Cambio de motores",
+
+    "Fabricación de aspas especiales",
+
+    "Fabricación de turbinas",
+
+    "Ingeniería inversa",
+
+    "Optimización aerodinámica",
+
+    "Migración a motores EC/BLDC",
+
+    "Integración con control inteligente"
+
+  ],
+
+
+  "fabricacion_multiconfort": [
+
+    "Aspas HVACR",
+
+    "Hélices especiales",
+
+    "Turbinas",
+
+    "Impulsores",
+
+    "Adaptadores mecánicos",
+
+    "Componentes rotativos",
+
+    "Reemplazos para equipos obsoletos"
+
+  ],
+
+
+  "variables_controladas": [
+
+    "Velocidad RPM",
+
+    "Caudal de aire",
+
+    "Presión estática",
+
+    "Consumo eléctrico",
+
+    "Corriente del motor",
+
+    "Temperatura motor",
+
+    "Vibración",
+
+    "Estado de operación"
+
+  ],
+
+
+  "atributos_tecnicos": {
+
+    "tipo_motor": "",
+
+    "potencia": "",
+
+    "voltaje": "",
+
+    "fases": "",
+
+    "frecuencia": "",
+
+    "RPM": "",
+
+    "caudal_aire": "",
+
+    "presion_estatica": "",
+
+    "diametro_impulsor": "",
+
+    "material": "",
+
+    "eficiencia": ""
+
+  },
+
+
+  "compatibilidades": [
+
+    "Variadores de frecuencia VFD",
+
+    "Control EC",
+
+    "Modbus",
+
+    "BACnet",
+
+    "BMS",
+
+    "PLC",
+
+    "multiIntelliAllConfort"
+
+  ],
+
+
+  "protocolos_comunicacion": [
+
+    "Modbus RTU",
+
+    "Modbus TCP",
+
+    "BACnet",
+
+    "MQTT",
+
+    "IoT"
+
+  ],
+
+
+  "casos_uso": [
+
+    {
+      "sector": "Hospitales",
+      "descripcion": "Ventilación confiable para áreas críticas mediante monitoreo de motores y flujo de aire."
+    },
+
+    {
+      "sector": "Industria",
+      "descripcion": "Extracción, enfriamiento de procesos y movimiento de aire industrial."
+    },
+
+    {
+      "sector": "Centros de datos",
+      "descripcion": "Control de flujo de aire y eficiencia energética HVAC."
+    },
+
+    {
+      "sector": "Equipos obsoletos",
+      "descripcion": "Fabricación y sustitución de componentes rotativos discontinuados."
+    }
+
+  ],
+
+
+  "preguntas_frecuentes": [
+
+    {
+      "pregunta": "¿MULTICONFORT puede fabricar aspas o turbinas especiales?",
+      "respuesta": "Sí. Se pueden desarrollar componentes mediante ingeniería inversa, medición, diseño y fabricación."
+    },
+
+    {
+      "pregunta": "¿Se puede mejorar la eficiencia de un ventilador existente?",
+      "respuesta": "Sí. Mediante selección adecuada, motores eficientes, variadores y optimización del sistema."
+    },
+
+    {
+      "pregunta": "¿Se pueden monitorear motores HVACR?",
+      "respuesta": "Sí. Es posible integrar corriente, temperatura, vibración, velocidad y alarmas."
+    }
+
+  ],
+
+
+  "keywords_seo": [
+
+    "motores HVAC México",
+
+    "ventiladores industriales",
+
+    "fabricación aspas ventilador",
+
+    "turbinas HVAC",
+
+    "impulsores industriales",
+
+    "motor EC HVAC",
+
+    "ventilador centrífugo",
+
+    "ventilador axial"
+
+  ],
+
+
+  "vectores_busqueda": [
+
+    "fabricar aspa ventilador",
+
+    "turbina manejadora aire",
+
+    "motor evaporador reemplazo",
+
+    "ventilador chiller",
+
+    "impulsor bomba aire",
+
+    "ventilador industrial",
+
+    "motor BLDC HVAC"
+
+  ],
+
+
+  "indicadores_kpi": [
+
+    "RPM",
+
+    "Caudal generado",
+
+    "Eficiencia energética",
+
+    "Consumo eléctrico",
+
+    "Vibración",
+
+    "Temperatura motor",
+
+    "Disponibilidad operacional"
+
+  ],
+
+
+  "relaciones": [
+
+    {
+      "tipo": "mueve",
+      "elemento": "Aire en sistemas HVACR"
+    },
+
+    {
+      "tipo": "integra_con",
+      "elemento": "Variadores VFD y controles inteligentes"
+    },
+
+    {
+      "tipo": "requiere_mantenimiento",
+      "elemento": "Rodamientos y balanceo"
+    },
+
+    {
+      "tipo": "fabricado_por",
+      "elemento": "MULTICONFORT Ingeniería Ambiental"
+    },
+
+    {
+      "tipo": "monitoreado_por",
+      "elemento": "multiIntelliAllConfort"
+    },
+
+    {
+      "tipo": "sustituye",
+      "elemento": "Componentes rotativos obsoletos"
+    }
+
+  ],
+
+
+  "integracion_ia": {
+
+    "diagnostico_predictivo": true,
+
+    "analisis_vibracion": true,
+
+    "deteccion_desbalance": true,
+
+    "optimizacion_consumo": true,
+
+    "mantenimiento_predictivo": true,
+
+    "recomendacion_equipo": true
+
+  },
+
+
+  "metadata": {
+
+    "version": "1.1",
+
+    "ultima_actualizacion": "2026-07-22",
+
+    "activo": true
+
+  }
+
+}
