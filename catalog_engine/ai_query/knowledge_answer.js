@@ -69,14 +69,16 @@ function esPreguntaTecnica(texto){
 
     const palabras = [
 
-        "QUE ACEITE",
-        "USA",
-        "UTILIZA",
-        "COMPATIBLE",
-        "RECOMENDADO",
-        "APLICACION"
+    "QUE ACEITE",
+    "ACEITE",
+    "USA",
+    "UTILIZA",
+    "COMPATIBLE",
+    "RECOMENDADO",
+    "APLICACION",
+    "REFRIGERANTE"
 
-    ];
+];
 
 
     return palabras.some(p =>
@@ -125,15 +127,13 @@ function buscarRelacionTecnica(consulta){
 
         const textoProducto =
 
-        limpiar(
+limpiar(
 
-            producto.descripcion +
-            " " +
-            JSON.stringify(producto.sinonimos || []) +
-            " " +
-            JSON.stringify(producto.relaciones_ia || [])
+    producto.descripcion +
+    " " +
+    JSON.stringify(producto.sinonimos || [])
 
-        );
+);
 
 
 

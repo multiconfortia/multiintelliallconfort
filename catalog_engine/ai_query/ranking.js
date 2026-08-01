@@ -3,13 +3,38 @@
 // MOTOR DE RANKING HVACR
 // ======================================
 
+
 const { construirIndice } =
 require("./index_builder");
 
 
+
+// ======================================
+// NORMALIZAR TEXTO
+// ======================================
+
+function limpiar(texto){
+
+    return (texto || "")
+    .toString()
+    .toUpperCase()
+    .normalize("NFD")
+    .replace(
+        /[\u0300-\u036f]/g,
+        ""
+    );
+
+}
+
+
+
+// ======================================
+// CALCULAR RANKING
+// ======================================
+
 function calcularRanking(
     producto,
-    consulta,
+    busqueda,
     entidadesConsulta
 ){
 
@@ -18,19 +43,86 @@ function calcularRanking(
 
 
 
+    // ==================================
+// VALIDACION REFRIGERANTE HVACR
+// ==================================
+
+const textoProductoBase =
+limpiar(
+
+    producto.descripcion +
+    " " +
+    producto.marca +
+    " " +
+    producto.familia +
+    " " +
+    producto.subfamilia
+
+);
+
+
+
+const refrigerantes = [
+
+    "22",
+    "404A",
+    "410A",
+    "134A",
+    "507",
+    "407C"
+
+];
+
+
+
+const consultaLimpia =
+limpiar(busqueda);
+
+
+
+const refrigeranteSolicitado =
+refrigerantes.find(r =>
+
+    consultaLimpia.includes(r)
+
+);
+
+
+
+if(refrigeranteSolicitado){
+
+
+    if(
+        !textoProductoBase.includes(
+            refrigeranteSolicitado
+        )
+    ){
+
+        return 0;
+
+    }
+
+}
+
+
+    // ==================================
+    // CONSTRUCCION TEXTO IA
+    // ==================================
+
     const textoProducto =
     construirIndice(producto);
 
 
 
-    // ==============================
+
+    // ==================================
     // COINCIDENCIA TEXTO
-    // ==============================
+    // ==================================
 
     const palabras =
-    consulta
-    .toUpperCase()
-    .replace(/[-_]/g,"")
+
+    consultaLimpia
+    .replace(/[-_]/g," ")
     .split(" ");
 
 
@@ -39,6 +131,7 @@ function calcularRanking(
 
 
         if(
+            palabra.length > 2 &&
             textoProducto.includes(palabra)
         ){
 
@@ -53,11 +146,12 @@ function calcularRanking(
 
 
 
-    // ==============================
+    // ==================================
     // MARCAS
-    // ==============================
+    // ==================================
 
     if(
+        entidadesConsulta &&
         entidadesConsulta.marcas
     ){
 
@@ -68,6 +162,7 @@ function calcularRanking(
             if(
 
                 producto.entidades_ia &&
+                producto.entidades_ia.marcas &&
                 producto.entidades_ia.marcas.includes(marca)
 
             ){
@@ -86,11 +181,12 @@ function calcularRanking(
 
 
 
-    // ==============================
+    // ==================================
     // TECNOLOGIAS
-    // ==============================
+    // ==================================
 
     if(
+        entidadesConsulta &&
         entidadesConsulta.tecnologias
     ){
 
@@ -101,6 +197,7 @@ function calcularRanking(
             if(
 
                 producto.entidades_ia &&
+                producto.entidades_ia.tecnologias &&
                 producto.entidades_ia.tecnologias.includes(tecnologia)
 
             ){
@@ -119,11 +216,12 @@ function calcularRanking(
 
 
 
-    // ==============================
-    // TIPO DE PRODUCTO
-    // ==============================
+    // ==================================
+    // TIPO PRODUCTO
+    // ==================================
 
     if(
+        entidadesConsulta &&
         entidadesConsulta.tipos
     ){
 
@@ -134,6 +232,7 @@ function calcularRanking(
             if(
 
                 producto.entidades_ia &&
+                producto.entidades_ia.tipos &&
                 producto.entidades_ia.tipos.includes(tipo)
 
             ){
@@ -152,9 +251,9 @@ function calcularRanking(
 
 
 
-    // ==============================
+    // ==================================
     // CONOCIMIENTO IA
-    // ==============================
+    // ==================================
 
     if(
         producto.conocimiento_ia
@@ -165,93 +264,105 @@ function calcularRanking(
     }
 
 
-// ==============================
-// RELACIONES IA HVACR
-// ==============================
-
-
-if(producto.relaciones_ia){
-
-
-    producto.relaciones_ia.forEach(relacion=>{
-
-
-        const textoRelacion =
-
-        JSON.stringify(relacion)
-        .toUpperCase();
 
 
 
-        const consultaNormalizada =
+    // ==================================
+    // RELACIONES IA HVACR
+    // ==================================
 
-        consulta.toUpperCase();
-
-
-
-        if(
-            textoRelacion.includes(
-                consultaNormalizada
-            )
-        ){
-
-            puntos += 40;
-
-        }
+    if(
+        producto.relaciones_ia
+    ){
 
 
-
-        // Preguntas de aceite
-
-        if(
-
-            consultaNormalizada.includes("ACEITE")
-            &&
-            relacion.tipo === "aceite_recomendado"
-
-        ){
-
-            puntos += 50;
-
-        }
+        producto.relaciones_ia.forEach(relacion=>{
 
 
-    });
+            const textoRelacion =
 
-
-}
+            JSON.stringify(relacion)
+            .toUpperCase();
 
 
 
-// ==============================
-// SINONIMOS IA
-// ==============================
+            if(
 
-if(producto.sinonimos){
+                textoRelacion.includes(
+                    consultaLimpia
+                )
 
-    producto.sinonimos.forEach(sinonimo=>{
+            ){
 
-        if(
-            JSON.stringify(sinonimo)
-            .toUpperCase()
-            .includes(
-                consulta.toUpperCase()
-            )
-        ){
+                puntos += 40;
 
-            puntos += 30;
+            }
 
-        }
 
-    });
 
-}
+
+            // Preguntas de aceite
+
+            if(
+
+                consultaLimpia.includes("ACEITE")
+                &&
+                relacion.tipo === "aceite_recomendado"
+
+            ){
+
+                puntos += 50;
+
+            }
+
+
+        });
+
+
+    }
+
+
+
+
+
+    // ==================================
+    // SINONIMOS IA
+    // ==================================
+
+    if(
+        producto.sinonimos
+    ){
+
+
+        producto.sinonimos.forEach(sinonimo=>{
+
+
+            if(
+
+                JSON.stringify(sinonimo)
+                .toUpperCase()
+                .includes(
+                    consultaLimpia
+                )
+
+            ){
+
+                puntos += 30;
+
+            }
+
+
+        });
+
+
+    }
 
 
 
 
 
     return puntos;
+
 
 }
 
@@ -264,4 +375,3 @@ module.exports = {
     calcularRanking
 
 };
-

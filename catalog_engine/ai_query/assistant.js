@@ -73,15 +73,14 @@ function consultar(consulta){
 
         return {
 
-        consulta,
+    consulta,
 
-        respuesta:
-        "Se encontró un producto recomendado.",
+    respuesta:
+        `Se encontraron ${recomendacion.total} coincidencias relacionadas con su consulta.`,
 
-        recomendacion
+    recomendacion
 
-    };
-
+};
 }
 
 
@@ -91,3 +90,20 @@ module.exports = {
     consultar
 
 };
+
+// ======================================
+// PRUEBA DIRECTA
+// ======================================
+
+if(require.main === module){
+
+    const consulta =
+        process.argv
+        .slice(2)
+        .join(" ");
+
+    console.log(
+        consultar(consulta)
+    );
+
+}

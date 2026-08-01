@@ -32,11 +32,14 @@ function recomendar(resultados) {
 
     let nivel = "bajo";
 
-    if (principal.puntaje >= 90)
-        nivel = "alto";
+    if (principal.puntaje >= 60)
+    nivel = "alto";
 
-    else if (principal.puntaje >= 70)
-        nivel = "medio";
+else if (principal.puntaje >= 35)
+    nivel = "medio";
+
+else
+    nivel = "bajo";
 
     return {
 
