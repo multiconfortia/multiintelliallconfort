@@ -1,112 +1,356 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>
-<%= title %>
+<%= title %> | MULTICONFORT Ingeniería Ambiental
 </title>
 
 
-<link rel="stylesheet" 
-href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="/css/style.css">
 
 
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+
+
 <style>
 
 #map{
+
 height:500px;
-width:70%;
-float:left;
+width:100%;
+
 }
 
 
 .panel{
 
-width:25%;
-float:right;
 padding:20px;
 font-family:Arial;
 
 }
 
+
+.control-btn{
+
+margin:4px;
+width:100%;
+
+}
+
+
 </style>
 
+
 </head>
+
 
 
 <body>
 
 
+<%- include('../partials/navbar') %>
+
+
+
+
+<section class="page-hero">
+
+<div class="container">
+
+
 <h1>
-MULTICONFORT RailSense EDGE™
+
+🚆 MULTICONFORT RailSense EDGE™
+
 </h1>
 
-<h2>
-Simulación Inteligente de Transporte Ferroviario
-</h2>
 
+<p>
+
+Simulación Inteligente de Transporte Ferroviario
+
+</p>
+
+
+</div>
+
+</section>
+
+
+
+
+
+
+<section class="section-light">
+
+
+<div class="container">
+
+
+<div class="row">
+
+
+<!-- MAPA -->
+
+<div class="col-lg-8 mb-4">
 
 
 <div id="map"></div>
-
-
-<div class="panel">
-
-<h3>
-🚆 Tren 001
-</h3>
-
-
-<p>
-Línea:
-MX-01 Experimental
-</p>
-
-
-<p>
-Estación:
-<span id="station">
-Horizonte
-</span>
-</p>
-
-
-<p>
-Velocidad:
-<span id="speed">
-0
-</span>
-km/h
-</p>
-
-
-<p>
-Curvatura:
-<span id="curve">
----
-</span>
-</p>
-
-
-<p>
-Estado:
-<span id="status">
-Preparado
-</span>
-</p>
 
 
 </div>
 
 
 
+
+
+<!-- PANEL CONTROL -->
+
+<div class="col-lg-4">
+
+
+<div class="feature-card panel">
+
+
+
+<h3>
+
+🚆 Tren 001
+
+</h3>
+
+
+<hr>
+
+
+
+<p>
+
+<strong>Línea:</strong><br>
+
+MX-01 Experimental
+
+</p>
+
+
+
+
+<h4>
+🎮 Control
+</h4>
+
+
+
+<button 
+class="btn-primary control-btn"
+onclick="startTrain()">
+
+▶ Iniciar
+
+</button>
+
+
+
+<button 
+class="btn-primary control-btn"
+onclick="pauseTrain()">
+
+⏸ Pausa
+
+</button>
+
+
+
+<button 
+class="btn-primary control-btn"
+onclick="stopTrain()">
+
+⏹ Detener
+
+</button>
+
+
+
+<button 
+class="btn-primary control-btn"
+onclick="resetTrain()">
+
+🔄 Reset
+
+</button>
+
+
+
+<hr>
+
+
+
+<h4>
+
+⚙ Velocidad
+
+</h4>
+
+
+
+<input 
+type="range"
+id="speedControl"
+min="0"
+max="160"
+value="0"
+style="width:100%"
+oninput="changeSpeed(this.value)">
+
+
+
+<p>
+
+Velocidad:
+
+<strong>
+
+<span id="speed">
+
+0
+
+</span>
+
+km/h
+
+</strong>
+
+</p>
+
+
+
+<hr>
+
+
+
+
+<h4>
+
+📡 Estado
+
+</h4>
+
+
+
+<p>
+
+<strong>
+
+Estación:
+
+</strong>
+
+<br>
+
+
+<span id="station">
+
+Horizonte
+
+</span>
+
+
+</p>
+
+
+
+
+<p>
+
+<strong>
+
+Curvatura:
+
+</strong>
+
+<br>
+
+
+<span id="curve">
+
+---
+
+</span>
+
+
+</p>
+
+
+
+
+<p>
+
+<strong>
+
+Estado:
+
+</strong>
+
+<br>
+
+
+<span id="status">
+
+Preparado
+
+</span>
+
+
+</p>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<%- include('../partials/footer') %>
+
+
+<%- include('../partials/whatsapp') %>
+
+
+
+
+
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
+
 <script src="/js/railsense.js"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
 
 
 </body>
