@@ -1,0 +1,97 @@
+{
+  "device": {
+
+    "manufacturer": "Danfoss",
+    "model": "VLT FC102",
+    "type": "variable_frequency_drive",
+    "category": "HVACR",
+    "version": "1.0"
+
+  },
+
+
+  "communication": {
+
+    "protocol": "ModbusRTU",
+    "baudrate": 9600,
+    "dataBits": 8,
+    "parity": "none",
+    "stopBits": 1,
+    "slaveId": 1
+
+  },
+
+
+  "variables": [
+
+    {
+      "id": "run_status",
+      "name": "Estado variador",
+      "type": "digital",
+      "unit": "state",
+      "access": "read",
+      "historian": true,
+      "alarm": true
+    },
+
+
+    {
+      "id": "frequency_output",
+      "name": "Frecuencia salida",
+      "type": "frequency",
+      "unit": "Hz",
+      "access": "read",
+      "historian": true
+    },
+
+
+    {
+      "id": "motor_current",
+      "name": "Corriente motor",
+      "type": "current",
+      "unit": "A",
+      "access": "read",
+      "historian": true,
+      "alarm": true
+    },
+
+
+    {
+      "id": "motor_power",
+      "name": "Potencia motor",
+      "type": "power",
+      "unit": "kW",
+      "access": "read",
+      "historian": true
+    },
+
+
+    {
+      "id": "motor_speed",
+      "name": "Velocidad motor",
+      "type": "speed",
+      "unit": "RPM",
+      "access": "read",
+      "historian": true
+    },
+
+
+    {
+      "id": "speed_reference",
+      "name": "Referencia velocidad",
+      "type": "setpoint",
+      "unit": "Hz",
+      "access": "read_write"
+    },
+
+
+    {
+      "id": "start_stop",
+      "name": "Comando marcha paro",
+      "type": "command",
+      "access": "write"
+    }
+
+  ]
+
+}

@@ -8,6 +8,12 @@ const { construirIndice } =
 require("./index_builder");
 
 
+const {
+    detectarSinonimos
+} =
+require("../ai_enrichment/synonym_engine");
+
+
 
 // ======================================
 // NORMALIZAR TEXTO
@@ -40,6 +46,29 @@ function calcularRanking(
 
 
     let puntos = 0;
+
+
+// ==================================
+// EXPANSION CONOCIMIENTO SINONIMOS
+// ==================================
+
+
+
+
+// ==================================
+// EXPANSION SINONIMOS HVACR
+// ==================================
+
+const datosSinonimos =
+detectarSinonimos(
+    busqueda
+);
+
+
+const conceptosSinonimos =
+datosSinonimos.sinonimos.map(s =>
+    s.concepto
+);
 
 
 
@@ -111,6 +140,27 @@ if(refrigeranteSolicitado){
 
     const textoProducto =
     construirIndice(producto);
+
+
+// ==================================
+// COINCIDENCIA POR CONCEPTO IA
+// ==================================
+
+conceptosSinonimos.forEach(concepto=>{
+
+
+    if(
+        textoProducto.includes(
+            concepto
+        )
+    ){
+
+        puntos += 25;
+
+    }
+
+
+});
 
 
 

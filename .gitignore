@@ -141,3 +141,59 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+
+
+
+# ======================================
+# MULTICONFORT IA - ARCHIVOS INTERNOS
+# ======================================
+
+# Bases de datos locales
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Logs del sistema
+logs/
+
+# Datos generados por IA
+catalog_engine/database/
+catalog_builder/output/
+
+# Datos temporales
+uploads/
+temp/
+tmp/
+
+# Respaldos
+*_backup.*
+*_backup*/
+
+# Archivos de estructura interna
+estructura*.txt
+archivos_*.txt
+
+# Información personal
+*correo*
+*usuario*
+*password*
+*secret*
+
+# Pruebas locales
+test_output/
+
+backups/
+
+# Archivos temporales de consola
+cd
+git
+hola
+node
+tree
+
+
+# Copias manuales de archivos
+*.old
+*.orig
+*.bak

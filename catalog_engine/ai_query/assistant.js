@@ -22,67 +22,75 @@ function consultar(consulta){
     // =========================
 
     const respuestaTecnica =
-        generarRespuestaTecnica(
-            consulta
-        );
+    generarRespuestaTecnica(
+        consulta
+    );
 
 
-    if(respuestaTecnica.encontrada){
+// =========================
+// BUSQUEDA PRODUCTOS
+// =========================
 
-        return {
+const resultados =
+    buscar(consulta);
 
-            consulta,
 
-            ...respuestaTecnica
+const recomendacion =
+    recomendar(resultados);
 
-        };
 
-    }
 
+// =========================
+// RESPUESTA COMBINADA
+// =========================
+
+return {
+
+    consulta,
+
+
+    respuestaTecnica:
+        respuestaTecnica.encontrada
+        ? respuestaTecnica
+        : null,
+
+
+    recomendacion:
+        recomendacion.encontrado
+        ? recomendacion
+        : null,
+
+
+    resumen:
+
+        recomendacion.encontrado
+
+        ?
+
+        `Se encontraron ${recomendacion.total} coincidencias relacionadas con su consulta.`
+
+        :
+
+        respuestaTecnica.encontrada
+
+        ?
+
+        "Se encontró información técnica relacionada."
+
+        :
+
+        "No encontré información relacionada."
+
+};
+
+}
 
 
     // =========================
     // SEGUNDO: BUSQUEDA PRODUCTOS
     // =========================
 
-    const resultados =
-        buscar(consulta);
-
-
-    const recomendacion =
-        recomendar(resultados);
-
-
-
-    if(!recomendacion.encontrado){
-
-        return {
-
-            consulta,
-
-            respuesta:
-            "No encontré información relacionada.",
-
-            resultados:[]
-
-        };
-
-    }
-
-
-
-        return {
-
-    consulta,
-
-    respuesta:
-        `Se encontraron ${recomendacion.total} coincidencias relacionadas con su consulta.`,
-
-    recomendacion
-
-};
-}
-
+   
 
 
 module.exports = {

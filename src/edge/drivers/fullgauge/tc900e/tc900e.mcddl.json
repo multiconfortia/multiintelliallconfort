@@ -1,0 +1,52 @@
+{
+  "device": {
+    "manufacturer": "Full Gauge",
+    "model": "TC900E",
+    "type": "refrigeration_controller",
+    "category": "HVACR",
+    "version": "1.0"
+  },
+
+  "communication": {
+    "protocol": "ModbusRTU",
+    "baudrate": 9600,
+    "dataBits": 8,
+    "parity": "none",
+    "stopBits": 1,
+    "slaveId": 1
+  },
+
+  "variables": [
+    {
+      "id": "temperature_room",
+      "name": "Temperatura cámara",
+      "type": "temperature",
+      "unit": "°C",
+      "register": 101,
+      "access": "read",
+      "historian": true,
+      "alarm": true
+    },
+
+    {
+      "id": "setpoint",
+      "name": "Punto de ajuste",
+      "type": "setpoint",
+      "unit": "°C",
+      "register": 31,
+      "access": "read_write",
+      "historian": true
+    },
+
+    {
+      "id": "compressor_status",
+      "name": "Estado compresor",
+      "type": "digital",
+      "unit": "state",
+      "register": 200,
+      "access": "read",
+      "historian": true,
+      "alarm": true
+    }
+  ]
+}

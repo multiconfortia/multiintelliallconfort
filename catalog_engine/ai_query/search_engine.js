@@ -82,36 +82,6 @@ function calcularPuntaje(
 
     let puntaje = 0;
 
-const refrigerantes = [
-    "R22",
-    "R404A",
-    "R410A",
-    "R134A",
-    "R507",
-    "R407C"
-];
-
-
-const consultaLimpia =
-    limpiar(busqueda);
-
-
-const refrigeranteSolicitado =
-    refrigerantes.find(r =>
-        consultaLimpia.includes(r)
-    );
-
-
-if(refrigeranteSolicitado){
-
-    if(!texto.includes(refrigeranteSolicitado)){
-
-        return 0;
-
-    }
-
-}
-
 
     const palabras =
         limpiar(busqueda)
