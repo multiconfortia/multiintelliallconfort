@@ -158,7 +158,7 @@ function calcularPuntaje(
 
 
 const { calcularRanking } =
-require("./ranking");
+require("./ranking_v243");
 
 const { reconocerEntidades } =
 require("../ai_enrichment/entity_recognition");
