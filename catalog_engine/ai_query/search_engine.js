@@ -1,4 +1,4 @@
-// ======================================
+﻿// ======================================
 // MULTICONFORT IA
 // MOTOR DE BUSQUEDA INTELIGENTE HVACR
 // ======================================
@@ -16,7 +16,7 @@ const DATABASE =
         __dirname,
         "..",
         "database",
-        "catalog_enriquecido.json"
+        "catalog_ia_v2.1_operator_v14.json"
     );
 
 
@@ -345,3 +345,4 @@ function generarTextoBusqueda(producto){
     .toUpperCase();
 
 }
+
