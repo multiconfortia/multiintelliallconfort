@@ -16,7 +16,7 @@ const DATABASE =
         __dirname,
         "..",
         "database",
-        "catalog_ia_v2.1_operator_v14.json"
+        "catalog_ia_v2.1_operator_v14_PUBLIC.json"
     );
 
 
