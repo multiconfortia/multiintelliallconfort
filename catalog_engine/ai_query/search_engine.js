@@ -196,6 +196,16 @@ function buscar(consulta){
 
         if(puntaje > 0){
 
+            const esMereti = [
+                producto.fuente,
+                producto.dominio,
+                producto.id_multiconfort,
+                producto.url_producto
+            ].some(v => String(v || "").toUpperCase().includes("MERETI"));
+
+            if(esMereti) return;
+
+
 
             resultados.push({
 
