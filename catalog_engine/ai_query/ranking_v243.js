@@ -624,6 +624,30 @@ conceptosSinonimos.forEach(concepto=>{
 
 
     // ==================================
+    // PRIORIDAD FAMILIA / SUBFAMILIA - V2.4.4
+    // Consultas genericas de una sola palabra
+    // ==================================
+
+    const palabrasConsultaFamilia = consultaLimpia
+        .split(/\s+/)
+        .filter(p => p.length > 2);
+
+    if (palabrasConsultaFamilia.length === 1) {
+
+        const terminoGenerico = palabrasConsultaFamilia[0];
+        const familiaProducto = limpiar(producto.familia || "");
+        const subfamiliaProducto = limpiar(producto.subfamilia || "");
+        const descripcionProducto = limpiar(producto.descripcion || "");
+
+        if (familiaProducto.split(/\s+/).includes(terminoGenerico)) {
+            puntos += 100;
+        } else if (subfamiliaProducto.split(/\s+/).includes(terminoGenerico)) {
+            puntos += 70;
+        } else if (descripcionProducto.split(/\s+/).slice(0,12).includes(terminoGenerico)) {
+            puntos += 50;
+        }
+    }
+
     // COINCIDENCIA TEXTO
     // ==================================
 
