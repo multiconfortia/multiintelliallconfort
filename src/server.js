@@ -14,6 +14,7 @@ const systemRoute = require("../routes/system");
 
 const assistant =
 require("../catalog_engine/ai_query/assistant");
+const { resolverPublico } = require("../seo_comercial/public_gate/resolver_publico");
 
 
 
@@ -37,19 +38,15 @@ module.exports = function () {
 // =========================
 
 app.post("/api/consulta",(req,res)=>{
-
-    const consulta =
-        req.body.consulta;
-
-
-    const respuesta =
-        assistant.consultar(
-            consulta
-        );
-
-
-    res.json(respuesta);
-
+    const consulta = req.body.consulta;
+    const resultado = resolverPublico(consulta);
+    if (!resultado.permitido) {
+        return res.status(403).json(resultado);
+    }
+    if (!resultado.solucion) {
+        return res.status(404).json(resultado);
+    }
+    return res.json(resultado);
 });
     
 
@@ -142,6 +139,18 @@ app.get("/productos", (req, res) => {
 
 });
 
+
+app.get("/solucion/:vocablo", (req, res) => {
+    const resultado = resolverPublico(req.params.vocablo);
+    const { obtenerRelaciones } = require("../seo_comercial/public_gate/relaciones_publicas");
+    const relaciones = resultado.solucion ? obtenerRelaciones(resultado.solucion, 10) : [];
+    if (!resultado.permitido || !resultado.solucion) return res.status(404).send("Solución no disponible");
+    return res.render("pages/producto_publico", {
+        title: resultado.solucion.titulo,
+        solucion: resultado.solucion,
+        relaciones
+    });
+});
 
 app.get("/soluciones", (req, res) => {
 
