@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /solucion/
-Sitemap: https://multiconfort.com.mx/sitemap.xml
+Sitemap: https://www.multiconfort.com.mx/sitemap.xml
 Allow: /seo2/
-Sitemap: https://multiconfort.com.mx/sitemap_seo2.xml
+Sitemap: https://www.multiconfort.com.mx/sitemap_seo2.xml

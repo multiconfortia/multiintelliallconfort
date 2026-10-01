@@ -108,7 +108,7 @@ app.get("/hvacr", (req, res) => {
 app.get("/bms", (req, res) => {
 
     res.render("pages/bms", {
-        title: "BMS Automatización"
+        title: "BMS AutomatizaciÃƒÆ’Ã‚Â³n"
     });
 
 });
@@ -147,7 +147,7 @@ app.get("/seo2/:vocablo", (req, res) => {
     const resultado = resolverSEO2(vocablo);
 
     if (!resultado.permitido || !resultado.solucion) {
-        return res.status(404).send("Solución SEO2 no disponible");
+        return res.status(404).send("SoluciÃ³n SEO2 no disponible");
     }
 
     const slugificar = texto =>
@@ -169,7 +169,7 @@ app.get("/seo2/:vocablo", (req, res) => {
     }
 
     const canonical =
-        "https://multiconfort.com.mx/seo2/" + slugSolucion;
+        "https://www.multiconfort.com.mx/seo2/" + slugSolucion;
 
     return res.render("pages/seo2_publico", {
         title: resultado.solucion.titulo,
@@ -182,7 +182,7 @@ app.get("/solucion/:vocablo", (req, res) => {
     const resultado = resolverPublico(req.params.vocablo);
     const { obtenerRelaciones } = require("../seo_comercial/public_gate/relaciones_publicas");
     const relaciones = resultado.solucion ? obtenerRelaciones(resultado.solucion, 10) : [];
-    if (!resultado.permitido || !resultado.solucion) return res.status(404).send("Solución no disponible");
+    if (!resultado.permitido || !resultado.solucion) return res.status(404).send("SoluciÃƒÆ’Ã‚Â³n no disponible");
     return res.render("pages/producto_publico", {
         title: resultado.solucion.titulo,
         solucion: resultado.solucion,
@@ -202,7 +202,7 @@ app.get("/soluciones", (req, res) => {
 app.get("/tecnologia", (req, res) => {
 
     res.render("pages/tecnologia", {
-        title: "Tecnología MULTICONFORT IA"
+        title: "TecnologÃƒÆ’Ã‚Â­a MULTICONFORT IA"
     });
 
 });
@@ -229,7 +229,7 @@ app.get("/contacto", (req, res) => {
 app.get("/cotizacion", (req, res) => {
 
     res.render("pages/cotizacion", {
-        title: "Solicitar Cotización MULTICONFORT IA"
+        title: "Solicitar CotizaciÃƒÆ’Ã‚Â³n MULTICONFORT IA"
     });
 });   // <-- ESTE faltaba
 
@@ -244,11 +244,11 @@ app.post("/cotizacion", (req, res) => {
 
 
     console.log("================================");
-    console.log("NUEVA SOLICITUD DE COTIZACIÓN");
+    console.log("NUEVA SOLICITUD DE COTIZACIÃƒÆ’Ã¢â‚¬Å“N");
     console.log("================================");
 
     console.log("Nombre:", nombre);
-    console.log("Teléfono:", telefono);
+    console.log("TelÃƒÆ’Ã‚Â©fono:", telefono);
     console.log("Correo:", correo);
     console.log("Mensaje:", mensaje);
 
@@ -265,11 +265,11 @@ app.post("/cotizacion", (req, res) => {
         <h1>Gracias ${nombre}</h1>
 
         <p>
-        Hemos recibido tu solicitud de cotización.
+        Hemos recibido tu solicitud de cotizaciÃƒÆ’Ã‚Â³n.
         </p>
 
         <p>
-        El equipo MULTICONFORT IA se pondrá en contacto contigo.
+        El equipo MULTICONFORT IA se pondrÃƒÆ’Ã‚Â¡ en contacto contigo.
         </p>
 
         <br>
