@@ -15,6 +15,7 @@ const systemRoute = require("../routes/system");
 const assistant =
 require("../catalog_engine/ai_query/assistant");
 const { resolverPublico } = require("../seo_comercial/public_gate/resolver_publico");
+const { resolverSEO2 } = require("../seo_comercial/public_gate/resolver_seo2_test");
 
 
 
@@ -140,6 +141,43 @@ app.get("/productos", (req, res) => {
 });
 
 
+
+app.get("/seo2/:vocablo", (req, res) => {
+    const vocablo = req.params.vocablo;
+    const resultado = resolverSEO2(vocablo);
+
+    if (!resultado.permitido || !resultado.solucion) {
+        return res.status(404).send("Solución SEO2 no disponible");
+    }
+
+    const slugificar = texto =>
+        String(texto || "")
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase()
+            .trim()
+            .replace(/\s+/g, "-")
+            .replace(/[^a-z0-9-]/g, "")
+            .replace(/-+/g, "-")
+            .replace(/^-|-$/g, "");
+
+    const slugEntrada = slugificar(vocablo);
+    const slugSolucion = slugificar(resultado.vocablo_solucion);
+
+    if (slugEntrada !== slugSolucion) {
+        return res.redirect(301, "/seo2/" + slugSolucion);
+    }
+
+    const canonical =
+        "https://multiconfort.com.mx/seo2/" + slugSolucion;
+
+    return res.render("pages/seo2_publico", {
+        title: resultado.solucion.titulo,
+        solucion: resultado.solucion,
+        canonical,
+        indexable: true
+    });
+});
 app.get("/solucion/:vocablo", (req, res) => {
     const resultado = resolverPublico(req.params.vocablo);
     const { obtenerRelaciones } = require("../seo_comercial/public_gate/relaciones_publicas");

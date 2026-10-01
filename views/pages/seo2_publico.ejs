@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title><%= solucion.titulo %> | MULTICONFORT</title>
+
+  <meta
+    name="description"
+    content="<%= solucion.descripcion %>"
+  >
+
+  <meta name="robots" content="<%= indexable ? 'index,follow' : 'noindex,follow' %>">
+
+  <link rel="canonical" href="<%= canonical %>">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="<%= solucion.titulo %> | MULTICONFORT">
+  <meta property="og:description" content="<%= solucion.descripcion %>">
+  <meta property="og:url" content="<%= canonical %>">
+</head>
+
+<body>
+  <main>
+
+    <header>
+      <p><strong>MULTICONFORT</strong></p>
+    </header>
+
+    <article>
+
+      <h1><%= solucion.titulo %></h1>
+
+      <p><%= solucion.descripcion %></p>
+
+      <h2>Soluci&oacute;n MULTICONFORT</h2>
+
+      <p>
+        MULTICONFORT identifica necesidades t&eacute;cnicas y las relaciona
+        con soluciones orientadas a aplicaciones de climatizaci&oacute;n,
+        refrigeraci&oacute;n y automatizaci&oacute;n.
+      </p>
+
+      <section>
+        <h2>Aplicaci&oacute;n</h2>
+
+        <p>
+          Esta p&aacute;gina presenta una soluci&oacute;n MULTICONFORT
+          asociada a la consulta t&eacute;cnica identificada.
+        </p>
+      </section>
+
+      <section>
+        <h2>Identidad MULTICONFORT</h2>
+
+        <p>
+          <strong><%= solucion.codigo_solucion_multiconfort_base20 %></strong>
+        </p>
+      </section>
+
+      <section>
+        <h2>Conozca m&aacute;s de MULTICONFORT</h2>
+
+        <p>
+          Consulte otras soluciones t&eacute;cnicas disponibles en la
+          plataforma MULTICONFORT.
+        </p>
+
+        <p>
+          <a href="/soluciones">Ver soluciones MULTICONFORT</a>
+        </p>
+      </section>
+
+    </article>
+
+  </main>
+</body>
+</html>
