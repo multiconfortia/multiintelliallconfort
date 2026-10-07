@@ -1,4 +1,5 @@
 const express = require("express");
+const fs = require("fs");
 
 const path = require("path");
 
@@ -142,6 +143,13 @@ app.get("/productos", (req, res) => {
 
 
 
+app.get("/producto/:slug", (req, res) => {
+    const catalogoPath = path.join(__dirname, "..", "seo_comercial", "seo_catalogo", "CATALOGO_SEO_PUBLICABLE_V4_TEST.json");
+    const catalogo = JSON.parse(fs.readFileSync(catalogoPath, "utf8"));
+    const producto = catalogo.find(x => x.slugSEO === req.params.slug);
+    if (!producto) return res.status(404).send("Producto no disponible");
+    return res.render("pages/producto_V4", { title: producto.descripcion || "Solución MULTICONFORT", producto });
+});
 app.get("/seo2/:vocablo", (req, res) => {
     const vocablo = req.params.vocablo;
     const resultado = resolverSEO2(vocablo);

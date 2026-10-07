@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title><%= producto.descripcion %> | MULTICONFORT</title>
+<meta name="description" content="<%= producto.descripcion %> | MULTICONFORT">
+</head>
+<body>
+<nav>
+  MULTICONFORT |
+  <a href="/">Inicio</a> |
+  <a href="/soluciones">Soluciones</a> |
+  <a href="/contacto">Contacto</a>
+</nav>
+
+<main>
+  <p>Solución MULTICONFORT</p>
+  <h1><%= producto.descripcion %></h1>
+
+  <p><%= producto.descripcion %></p>
+
+  <% if (producto.marca) { %>
+    <p>Marca: <%= producto.marca %></p>
+  <% } %>
+
+  <% if (producto.familia) { %>
+    <p>Familia: <%= producto.familia %></p>
+  <% } %>
+
+  <% if (producto.subfamilia) { %>
+    <p>Especialidad: <%= producto.subfamilia %></p>
+  <% } %>
+
+  <p>Suministro según identificación y disponibilidad.</p>
+
+  <p>
+    <a href="/contacto">Solicitar información</a>
+  </p>
+</main>
+
+<footer>
+  MULTICONFORT - Soluciones para climatización, control y automatización.
+</footer>
+</body>
+</html>
