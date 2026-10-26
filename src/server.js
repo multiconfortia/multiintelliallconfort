@@ -317,6 +317,15 @@ app.post("/cotizacion", (req, res) => {
     // =========================
     app.use("/railsense", railsenseRoute);
 
+    // MULTICONFORT RUBIK TOUCH
+    app.get("/rubik", (req, res) => {
+        res.render("rubik");
+    });
+    app.use(
+        "/rubik",
+        express.static(path.join(__dirname, "../rubik/public"))
+    );
+
     // =========================
     // SERVER START
     // =========================
